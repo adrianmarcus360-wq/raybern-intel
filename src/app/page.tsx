@@ -2,9 +2,12 @@
 
 import { useState, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
-import leadsData from '@/data/leads_final.json'
+import leadsData from '@/data/leads_v4.json'
+import { ScoreLegend } from '@/components/ScoreLegend'
 
 const leads = leadsData as any[]
+
+const TIER_ORDER: Record<string, number> = { 'Tier 1': 0, 'Tier 2': 1, 'Tier 3': 2, 'Watch': 3 }
 
 const TIER_STYLE: Record<string, string> = {
   'Tier 1': 'tier-hot',
@@ -14,44 +17,31 @@ const TIER_STYLE: Record<string, string> = {
 }
 
 function TechBadge({ system, type }: { system: string | null; type: 'billing' | 'ami' }) {
-  if (!system) return <span className="text-xs" style={{ color: 'var(--text-light)' }}>Unknown</span>
+  if (!system) return <span className="text-xs italic" style={{ color: 'var(--text-light)' }}>Unknown</span>
+  const lower = system.toLowerCase()
+  const isMunis  = lower.includes('munis')
+  const isSensus = lower.includes('sensus')
+  const isOracle = lower.includes('oracle') || lower.includes('peoplesoft')
+  const isItron  = lower.includes('itron')
+  const isNeptune = lower.includes('neptune')
 
-  const isMunis   = system.toLowerCase().includes('munis')
-  const isSensus  = system.toLowerCase().includes('sensus')
-  const isOracle  = system.toLowerCase().includes('oracle') || system.toLowerCase().includes('peoplesoft')
-  const isItron   = system.toLowerCase().includes('itron')
-  const isNeptune = system.toLowerCase().includes('neptune')
+  let bg = '#F3F4F6', color = '#374151', border = '#E5E7EB'
+  if (isMunis)         { bg = '#FEF3C7'; color = '#92400E'; border = '#FDE68A' }
+  else if (isSensus)   { bg = '#DBEAFE'; color = '#1E40AF'; border = '#BFDBFE' }
+  else if (isOracle)   { bg = '#FCE7F3'; color = '#9D174D'; border = '#FBCFE8' }
+  else if (isItron)    { bg = '#D1FAE5'; color = '#065F46'; border = '#A7F3D0' }
+  else if (isNeptune)  { bg = '#EDE9FE'; color = '#4C1D95'; border = '#DDD6FE' }
 
-  let bg = '#F3F4F6', color = '#374151', ring = '#E5E7EB'
-  if (isMunis)         { bg = '#FEF3C7'; color = '#92400E'; ring = '#FDE68A' }
-  else if (isSensus)   { bg = '#DBEAFE'; color = '#1E40AF'; ring = '#BFDBFE' }
-  else if (isOracle)   { bg = '#FCE7F3'; color = '#9D174D'; ring = '#FBCFE8' }
-  else if (isItron)    { bg = '#D1FAE5'; color = '#065F46'; ring = '#A7F3D0' }
-  else if (isNeptune)  { bg = '#EDE9FE'; color = '#4C1D95'; ring = '#DDD6FE' }
-
+  const short = system.split(' ').slice(0, 2).join(' ')
   return (
     <span className="inline-block px-2 py-0.5 rounded text-xs font-semibold border"
-      style={{ background: bg, color, borderColor: ring }}>
-      {system.length > 20 ? system.split(' ').slice(0, 2).join(' ') : system}
+      style={{ background: bg, color, borderColor: border }}>
+      {short.length > 18 ? short.slice(0, 18) + '…' : short}
     </span>
   )
 }
 
-function ScoreBadge({ score, boost }: { score: number; boost?: number }) {
-  const color = score >= 70 ? '#991B1B' : score >= 50 ? '#9A3412' : score >= 35 ? '#854D0E' : '#166534'
-  const bg    = score >= 70 ? '#FEE2E2' : score >= 50 ? '#FFF7ED' : score >= 35 ? '#FEFCE8' : '#F0FDF4'
-  return (
-    <div className="flex flex-col items-center">
-      <span className="inline-flex items-center justify-center w-10 h-10 rounded-full text-sm font-bold border-2"
-        style={{ color, background: bg, borderColor: color }}>
-        {score}
-      </span>
-      {boost && boost > 0 && (
-        <span className="text-xs font-medium mt-0.5" style={{ color: '#16A34A' }}>+{boost}</span>
-      )}
-    </div>
-  )
-}
+type SortCol = 'lead_score' | 'violation_count' | 'population' | 'name' | 'ami_system' | 'tier'
 
 export default function HomePage() {
   const router = useRouter()
@@ -60,19 +50,18 @@ export default function HomePage() {
   const [tierFilter, setTierFilter] = useState('All')
   const [billingFilter, setBillingFilter] = useState('All')
   const [amiFilter, setAmiFilter] = useState('All')
-  const [sortBy, setSortBy] = useState<'lead_score' | 'violation_count' | 'population' | 'name'>('lead_score')
+  const [sortBy, setSortBy] = useState<SortCol>('lead_score')
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc')
 
   const states   = useMemo(() => ['All', ...Array.from(new Set(leads.map((l: any) => l.state))).sort()], [])
-  const tiers    = ['All', 'Tier 1 – Hot', 'Tier 2 – Warm', 'Tier 3 – Lukewarm', 'Watch List']
   const billings = useMemo(() => {
     const systems = leads.map((l: any) => l.tech_intel?.billing_software).filter(Boolean)
-    const unique = Array.from(new Set(systems.map((s: string) => s.split(' ').slice(0,2).join(' '))))
+    const unique = Array.from(new Set(systems.map((s: string) => s.split(' ').slice(0, 2).join(' '))))
     return ['All', 'Unknown', ...unique.sort()]
   }, [])
   const amis = useMemo(() => {
     const systems = leads.map((l: any) => l.tech_intel?.ami_system).filter(Boolean)
-    const unique = Array.from(new Set(systems.map((s: string) => s.split(' ').slice(0,2).join(' '))))
+    const unique = Array.from(new Set(systems.map((s: string) => s.split(' ').slice(0, 2).join(' '))))
     return ['All', 'Unknown', ...unique.sort()]
   }, [])
 
@@ -81,10 +70,8 @@ export default function HomePage() {
     if (search) {
       const q = search.toLowerCase()
       out = out.filter((l: any) =>
-        l.name?.toLowerCase().includes(q) ||
-        l.city?.toLowerCase().includes(q) ||
-        l.admin_name?.toLowerCase().includes(q) ||
-        l.pwsid?.toLowerCase().includes(q) ||
+        l.name?.toLowerCase().includes(q) || l.city?.toLowerCase().includes(q) ||
+        l.admin_name?.toLowerCase().includes(q) || l.pwsid?.toLowerCase().includes(q) ||
         l.tech_intel?.billing_software?.toLowerCase().includes(q) ||
         l.tech_intel?.ami_system?.toLowerCase().includes(q)
       )
@@ -95,25 +82,31 @@ export default function HomePage() {
       out = out.filter((l: any) => l.tier?.key === key)
     }
     if (billingFilter !== 'All') {
-      if (billingFilter === 'Unknown') {
-        out = out.filter((l: any) => !l.tech_intel?.billing_software)
-      } else {
-        out = out.filter((l: any) =>
-          (l.tech_intel?.billing_software || '').toLowerCase().includes(billingFilter.toLowerCase())
-        )
-      }
+      out = billingFilter === 'Unknown'
+        ? out.filter((l: any) => !l.tech_intel?.billing_software)
+        : out.filter((l: any) => (l.tech_intel?.billing_software || '').toLowerCase().includes(billingFilter.toLowerCase()))
     }
     if (amiFilter !== 'All') {
-      if (amiFilter === 'Unknown') {
-        out = out.filter((l: any) => !l.tech_intel?.ami_system)
-      } else {
-        out = out.filter((l: any) =>
-          (l.tech_intel?.ami_system || '').toLowerCase().includes(amiFilter.toLowerCase())
-        )
-      }
+      out = amiFilter === 'Unknown'
+        ? out.filter((l: any) => !l.tech_intel?.ami_system)
+        : out.filter((l: any) => (l.tech_intel?.ami_system || '').toLowerCase().includes(amiFilter.toLowerCase()))
     }
+
     out.sort((a: any, b: any) => {
-      let av = a[sortBy], bv = b[sortBy]
+      let av: any, bv: any
+      switch (sortBy) {
+        case 'ami_system':
+          av = (a.tech_intel?.ami_system || 'zzz').toLowerCase()
+          bv = (b.tech_intel?.ami_system || 'zzz').toLowerCase()
+          break
+        case 'tier':
+          av = TIER_ORDER[a.tier?.key] ?? 99
+          bv = TIER_ORDER[b.tier?.key] ?? 99
+          break
+        default:
+          av = a[sortBy]
+          bv = b[sortBy]
+      }
       if (typeof av === 'string') av = av.toLowerCase()
       if (typeof bv === 'string') bv = bv.toLowerCase()
       if (av < bv) return sortDir === 'asc' ? -1 : 1
@@ -132,39 +125,35 @@ export default function HomePage() {
     openViol: leads.reduce((s: number, l: any) => s + (l.violations_summary?.open || 0), 0),
   }), [])
 
-  function toggleSort(col: typeof sortBy) {
+  function toggleSort(col: SortCol) {
     if (sortBy === col) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
-    else { setSortBy(col); setSortDir('desc') }
+    else { setSortBy(col); setSortDir(col === 'name' || col === 'ami_system' ? 'asc' : 'desc') }
   }
 
-  function Arrow({ col }: { col: typeof sortBy }) {
-    if (sortBy !== col) return <span className="opacity-30 ml-1">↕</span>
-    return <span className="ml-1">{sortDir === 'desc' ? '↓' : '↑'}</span>
+  function Arrow({ col }: { col: SortCol }) {
+    if (sortBy !== col) return <span className="opacity-25 ml-0.5 text-xs">↕</span>
+    return <span className="ml-0.5 text-xs">{sortDir === 'desc' ? '↓' : '↑'}</span>
   }
 
   function exportCSV() {
     const rows = [
-      ['Score','Boost','PWSID','Name','City','State','Tier','Population','Connections','Billing Software','AMI System','Open Violations','Total Violations','Admin Name','Email','Phone','Raybern Positioning'],
+      ['Score','Boost','PWSID','Name','City','State','Tier','Pop','Connections','Billing','AMI','Open Viol','Total Viol','Admin','Email','Phone','Positioning'],
       ...filtered.map((l: any) => [
-        l.lead_score, l.score_boost||0, l.pwsid, l.name, l.city, l.state, l.tier?.label,
-        l.population, l.connections,
-        l.tech_intel?.billing_software||'', l.tech_intel?.ami_system||'',
-        (l.violations_summary?.open||0), l.violation_count,
-        l.admin_name, l.email||'', l.phone_formatted||'',
-        l.tech_intel?.raybern_positioning?.headline||'',
+        l.lead_score, l.score_boost || 0, l.pwsid, l.name, l.city, l.state, l.tier?.label,
+        l.population, l.connections, l.tech_intel?.billing_software || '', l.tech_intel?.ami_system || '',
+        l.violations_summary?.open || 0, l.violation_count,
+        l.admin_name, l.email || '', l.phone_formatted || '',
+        l.tech_intel?.raybern_positioning?.headline || '',
       ])
     ]
-    const csv = rows.map(r => r.map(v => `"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n')
-    const blob = new Blob([csv], {type: 'text/csv'})
-    const a = document.createElement('a')
-    a.href = URL.createObjectURL(blob)
-    a.download = 'raybern-prospects.csv'
-    a.click()
+    const csv = rows.map(r => r.map((v: any) => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n')
+    const blob = new Blob([csv], { type: 'text/csv' })
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob)
+    a.download = 'raybern-prospects.csv'; a.click()
   }
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg)' }}>
-      {/* Nav */}
       <header style={{ background: 'var(--navy)', borderBottom: '1px solid #0D1E30' }}>
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -172,11 +161,11 @@ export default function HomePage() {
               style={{ background: '#2B5080' }}>R</div>
             <div>
               <div className="text-white font-semibold text-base leading-tight">Raybern Prospect Intelligence</div>
-              <div className="text-xs" style={{ color: '#7EA4C4' }}>EPA SDWIS · Technology Stack · Decision Makers · {leads.length} utilities</div>
+              <div className="text-xs" style={{ color: '#7EA4C4' }}>EPA SDWIS · Tech Stack · Vendors · Decision Makers · {leads.length} utilities</div>
             </div>
           </div>
           <button onClick={exportCSV}
-            className="text-sm px-4 py-2 rounded-lg font-medium border transition-colors"
+            className="text-sm px-4 py-2 rounded-lg font-medium border"
             style={{ background: '#2B5080', borderColor: '#3D6FA3', color: '#D9E4EF' }}>
             ↓ Export CSV
           </button>
@@ -188,13 +177,13 @@ export default function HomePage() {
         <div className="grid grid-cols-2 md:grid-cols-6 gap-3 mb-5">
           {[
             { label: 'Total Prospects', val: stats.total, sub: '4 states', color: 'var(--navy)' },
-            { label: '🔴 Tier 1 Hot', val: stats.tier1, sub: 'active violations + tech', color: '#991B1B' },
+            { label: '🔴 Tier 1 Hot', val: stats.tier1, sub: 'violations + tech match', color: '#991B1B' },
             { label: '🟠 Tier 2 Warm', val: stats.tier2, sub: 'strong tech match', color: '#9A3412' },
-            { label: 'MUNIS Users', val: stats.munis, sub: 'Raybern\'s proven territory', color: '#92400E', highlight: true },
+            { label: 'MUNIS Users', val: stats.munis, sub: "Raybern's proven territory", color: '#92400E', highlight: true },
             { label: 'Sensus FlexNet', val: stats.sensus, sub: 'AMI audit candidates', color: '#1E40AF' },
             { label: 'Open Violations', val: stats.openViol, sub: 'active EPA issues', color: '#B45309' },
           ].map(s => (
-            <div key={s.label} className="detail-card !p-4" style={s.highlight ? {borderLeft: '3px solid #F59E0B'} : {}}>
+            <div key={s.label} className="detail-card !p-4" style={(s as any).highlight ? { borderLeft: '3px solid #F59E0B' } : {}}>
               <div className="text-2xl font-bold mb-0.5" style={{ color: s.color }}>{s.val}</div>
               <div className="text-xs font-semibold text-gray-800 leading-tight">{s.label}</div>
               <div className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{s.sub}</div>
@@ -208,11 +197,11 @@ export default function HomePage() {
             <span className="text-xl">🎯</span>
             <div>
               <div className="font-semibold text-sm" style={{ color: '#92400E' }}>
-                {stats.munis} of your {stats.total} leads are running Tyler MUNIS — Raybern's documented target system
+                {stats.munis} of {stats.total} leads run Tyler MUNIS — Raybern's documented target system
               </div>
               <div className="text-xs mt-1" style={{ color: '#78350F' }}>
-                From the KKW engagement: MUNIS module interdependencies create systemic workflow failures that are invisible to utility staff. 
-                Every MUNIS user here is a qualified candidate for a billing operations audit.
+                From the KKW engagement: MUNIS module interdependencies create systemic billing failures invisible to utility staff.
+                Every MUNIS user here is a pre-qualified candidate.
               </div>
             </div>
           </div>
@@ -221,38 +210,37 @@ export default function HomePage() {
         {/* Filters */}
         <div className="detail-card !p-4 mb-4">
           <div className="flex flex-wrap gap-3 items-center">
-            <input
-              className="border rounded-lg px-3 py-2 text-sm flex-1 min-w-[180px] focus:outline-none"
+            <input className="border rounded-lg px-3 py-2 text-sm flex-1 min-w-[180px] focus:outline-none"
               style={{ borderColor: 'var(--border)', background: 'white' }}
               placeholder="Search utility, city, contact, PWSID, software…"
-              value={search} onChange={e => setSearch(e.target.value)}
-            />
-            <select className="border rounded-lg px-3 py-2 text-sm focus:outline-none"
-              style={{ borderColor: 'var(--border)', background: 'white' }}
+              value={search} onChange={e => setSearch(e.target.value)} />
+            <select className="border rounded-lg px-3 py-2 text-sm focus:outline-none" style={{ borderColor: 'var(--border)', background: 'white' }}
               value={stateFilter} onChange={e => setStateFilter(e.target.value)}>
               {states.map(s => <option key={s}>{s}</option>)}
             </select>
-            <select className="border rounded-lg px-3 py-2 text-sm focus:outline-none"
-              style={{ borderColor: 'var(--border)', background: 'white' }}
+            <select className="border rounded-lg px-3 py-2 text-sm focus:outline-none" style={{ borderColor: 'var(--border)', background: 'white' }}
               value={tierFilter} onChange={e => setTierFilter(e.target.value)}>
-              {tiers.map(t => <option key={t}>{t}</option>)}
+              {['All', 'Tier 1 – Hot', 'Tier 2 – Warm', 'Tier 3 – Lukewarm', 'Watch List'].map(t => <option key={t}>{t}</option>)}
             </select>
-            <select className="border rounded-lg px-3 py-2 text-sm focus:outline-none"
-              style={{ borderColor: 'var(--border)', background: 'white' }}
+            <select className="border rounded-lg px-3 py-2 text-sm focus:outline-none" style={{ borderColor: 'var(--border)', background: 'white' }}
               value={billingFilter} onChange={e => setBillingFilter(e.target.value)}>
               <option value="All">All Billing Systems</option>
               {billings.filter(b => b !== 'All').map(b => <option key={b}>{b}</option>)}
             </select>
-            <select className="border rounded-lg px-3 py-2 text-sm focus:outline-none"
-              style={{ borderColor: 'var(--border)', background: 'white' }}
+            <select className="border rounded-lg px-3 py-2 text-sm focus:outline-none" style={{ borderColor: 'var(--border)', background: 'white' }}
               value={amiFilter} onChange={e => setAmiFilter(e.target.value)}>
               <option value="All">All AMI Systems</option>
               {amis.filter(a => a !== 'All').map(a => <option key={a}>{a}</option>)}
             </select>
-            <span className="text-sm whitespace-nowrap" style={{ color: 'var(--text-muted)' }}>
-              {filtered.length}/{leads.length}
-            </span>
+            <span className="text-sm whitespace-nowrap" style={{ color: 'var(--text-muted)' }}>{filtered.length}/{leads.length}</span>
           </div>
+        </div>
+
+        {/* Score system link */}
+        <div className="mb-3 flex items-center gap-2 text-xs" style={{ color: 'var(--text-muted)' }}>
+          <span>Lead scores are 0–100.</span>
+          <ScoreLegend score={0} />
+          <span className="ml-4">Click any row for the full intelligence profile.</span>
         </div>
 
         {/* Table */}
@@ -260,9 +248,11 @@ export default function HomePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr style={{ background: 'var(--tan-dark)', borderBottom: '2px solid var(--border)' }}>
-                  <th className="px-3 py-3 text-left text-xs font-semibold uppercase tracking-wide"
-                    style={{ color: 'var(--text-muted)', width: 56 }}>Score</th>
+                <tr style={{ background: 'var(--bg-subtle)', borderBottom: '2px solid var(--border)' }}>
+                  <th className="px-3 py-3 text-left text-xs font-semibold uppercase tracking-wide cursor-pointer select-none"
+                    style={{ color: 'var(--text-muted)', width: 64 }} onClick={() => toggleSort('lead_score')}>
+                    Score <Arrow col="lead_score" />
+                  </th>
                   <th className="px-3 py-3 text-left text-xs font-semibold uppercase tracking-wide cursor-pointer select-none"
                     style={{ color: 'var(--text-muted)' }} onClick={() => toggleSort('name')}>
                     Utility <Arrow col="name" />
@@ -277,31 +267,46 @@ export default function HomePage() {
                     style={{ color: 'var(--text-muted)', background: '#FFFBEB' }}>
                     💻 Billing System
                   </th>
-                  <th className="px-3 py-3 text-left text-xs font-semibold uppercase tracking-wide"
-                    style={{ color: 'var(--text-muted)', background: '#EFF6FF' }}>
-                    📡 AMI / Meter
+                  <th className="px-3 py-3 text-left text-xs font-semibold uppercase tracking-wide cursor-pointer select-none"
+                    style={{ color: 'var(--text-muted)', background: '#EFF6FF' }}
+                    onClick={() => toggleSort('ami_system')}>
+                    📡 AMI / Meter <Arrow col="ami_system" />
                   </th>
                   <th className="px-3 py-3 text-center text-xs font-semibold uppercase tracking-wide cursor-pointer select-none"
                     style={{ color: 'var(--text-muted)' }} onClick={() => toggleSort('violation_count')}>
                     Violations <Arrow col="violation_count" />
                   </th>
-                  <th className="px-3 py-3 text-left text-xs font-semibold uppercase tracking-wide"
-                    style={{ color: 'var(--text-muted)' }}>Tier</th>
-                  <th className="px-3 py-3" style={{ width: 32 }}></th>
+                  <th className="px-3 py-3 text-left text-xs font-semibold uppercase tracking-wide cursor-pointer select-none"
+                    style={{ color: 'var(--text-muted)' }} onClick={() => toggleSort('tier')}>
+                    Tier <Arrow col="tier" />
+                  </th>
+                  <th className="px-3 py-3" style={{ width: 28 }}></th>
                 </tr>
               </thead>
               <tbody>
                 {filtered.map((lead: any, i: number) => {
-                  const openCount = (lead.violations_summary?.open || 0) + 
+                  const openCount = (lead.violations_summary?.open || 0) +
                     (lead.violations_detail?.filter((v: any) => v.status === 'Active')?.length || 0)
                   const isMunis = (lead.tech_intel?.billing_software || '').toLowerCase().includes('munis')
                   return (
                     <tr key={lead.pwsid}
                       className="lead-row border-b"
-                      style={{ borderColor: 'var(--border)', background: i % 2 === 0 ? 'white' : 'var(--tan)' }}
+                      style={{ borderColor: 'var(--border)', background: i % 2 === 0 ? 'white' : 'var(--bg)' }}
                       onClick={() => router.push(`/lead/${lead.pwsid}`)}>
                       <td className="px-3 py-3">
-                        <ScoreBadge score={lead.lead_score} boost={lead.score_boost} />
+                        <div className="flex flex-col items-center">
+                          <div className="w-10 h-10 rounded-full border-2 flex items-center justify-center text-sm font-bold"
+                            style={{
+                              borderColor: lead.lead_score >= 70 ? '#EF4444' : lead.lead_score >= 50 ? '#F97316' : '#EAB308',
+                              color: lead.lead_score >= 70 ? '#991B1B' : lead.lead_score >= 50 ? '#9A3412' : '#854D0E',
+                              background: lead.lead_score >= 70 ? '#FEE2E2' : lead.lead_score >= 50 ? '#FFF7ED' : '#FEFCE8',
+                            }}>
+                            {lead.lead_score}
+                          </div>
+                          {lead.score_boost > 0 && (
+                            <span className="text-xs font-semibold mt-0.5" style={{ color: '#16A34A' }}>+{lead.score_boost}</span>
+                          )}
+                        </div>
                       </td>
                       <td className="px-3 py-3">
                         <div className="font-semibold text-sm leading-tight" style={{ color: 'var(--navy)' }}>
@@ -319,29 +324,21 @@ export default function HomePage() {
                       <td className="px-3 py-3">
                         <div className="font-medium text-sm">{lead.admin_name}</div>
                         {lead.email && (
-                          <div className="text-xs truncate max-w-[160px]" style={{ color: '#2B5080' }}>
-                            {lead.email.toLowerCase()}
-                          </div>
+                          <div className="text-xs truncate max-w-[160px]" style={{ color: '#2B5080' }}>{lead.email.toLowerCase()}</div>
                         )}
                         {lead.tech_intel?.additional_contacts?.length > 0 && (
                           <div className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-                            +{lead.tech_intel.additional_contacts.length} more contacts
+                            +{lead.tech_intel.additional_contacts.length} more
                           </div>
                         )}
                       </td>
                       <td className="px-3 py-3 text-center">
                         <div className="font-medium text-sm">{lead.population?.toLocaleString()}</div>
-                        <div className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                          {lead.connections?.toLocaleString()}
-                        </div>
+                        <div className="text-xs" style={{ color: 'var(--text-muted)' }}>{lead.connections?.toLocaleString()} conn.</div>
                       </td>
-                      <td className="px-3 py-3" style={{ background: isMunis ? '#FFFBEB' : undefined }}>
+                      <td className="px-3 py-3" style={{ background: isMunis ? '#FFFDF5' : undefined }}>
                         <TechBadge system={lead.tech_intel?.billing_software || null} type="billing" />
-                        {isMunis && (
-                          <div className="text-xs mt-0.5 font-medium" style={{ color: '#92400E' }}>
-                            ★ Target system
-                          </div>
-                        )}
+                        {isMunis && <div className="text-xs mt-0.5 font-semibold" style={{ color: '#92400E' }}>★ Target</div>}
                       </td>
                       <td className="px-3 py-3">
                         <TechBadge system={lead.tech_intel?.ami_system || null} type="ami" />
@@ -350,9 +347,7 @@ export default function HomePage() {
                         <div className="font-bold text-sm" style={{ color: lead.violation_count > 0 ? '#B91C1C' : '#166534' }}>
                           {lead.violation_count}
                         </div>
-                        {openCount > 0 && (
-                          <div className="text-xs font-semibold" style={{ color: '#DC2626' }}>{openCount} open</div>
-                        )}
+                        {openCount > 0 && <div className="text-xs font-bold" style={{ color: '#DC2626' }}>{openCount} open</div>}
                       </td>
                       <td className="px-3 py-3">
                         <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-semibold border ${TIER_STYLE[lead.tier?.key] || 'tier-watch'}`}>
@@ -360,7 +355,7 @@ export default function HomePage() {
                         </span>
                       </td>
                       <td className="px-3 py-3">
-                        <span className="text-lg" style={{ color: '#2B5080' }}>→</span>
+                        <span style={{ color: '#2B5080' }}>→</span>
                       </td>
                     </tr>
                   )
@@ -369,14 +364,12 @@ export default function HomePage() {
             </table>
           </div>
           {filtered.length === 0 && (
-            <div className="py-12 text-center" style={{ color: 'var(--text-muted)' }}>
-              No results match your filters.
-            </div>
+            <div className="py-12 text-center" style={{ color: 'var(--text-muted)' }}>No results.</div>
           )}
         </div>
 
         <div className="mt-3 text-xs text-center" style={{ color: 'var(--text-light)' }}>
-          EPA SDWIS violation data · Web-researched technology stack · Decision maker contacts · Click any row for full intelligence profile
+          Sortable: Score · Utility · Population · AMI System · Violations · Tier · Click any row for full profile
         </div>
       </div>
     </div>

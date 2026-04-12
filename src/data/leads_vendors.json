@@ -1,0 +1,3907 @@
+[
+  {
+    "pwsid": "MA1329000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3207000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "high",
+        "evidence": "Newton utilizes Munis for financial and payroll records which includes water billing functions.",
+        "source_url": "https://www.newtonma.gov/government/financial-management"
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3176000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3274000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3165000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA1061000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Chicopee Water Department uses InvoiceCloud for online billing and payments.",
+        "source_url": "https://www.chicopeema.gov/306/Water-Department"
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3248000",
+    "vendors": {
+      "gis": {
+        "product": "ArcGIS",
+        "confidence": "high",
+        "evidence": "interactive GIS Map which identifies the locations of the gate valves... and fire hydrants",
+        "source_url": "https://www.revere.org/departments/water-sewer"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "Cityworks",
+        "confidence": "medium",
+        "evidence": "utilizing Cityworks for asset management and work orders",
+        "source_url": "https://www.revere.org/departments/it"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Pay Water/Sewer Bill... powered by InvoiceCloud",
+        "source_url": "https://www.revere.org/departments/water-sewer"
+      },
+      "financial_erp": {
+        "product": "Tyler Munis",
+        "confidence": "high",
+        "evidence": "The City uses Munis (Tyler Technologies) for its financial management system",
+        "source_url": "https://www.revere.org/departments/it"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "CDM Smith",
+        "type": "engineering",
+        "engagement": "Lead and Copper Rule Revision compliance and water system modeling",
+        "year": 2023,
+        "source_url": "https://www.revere.org/departments/water-sewer"
+      },
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "Water distribution system improvements and pump station design",
+        "year": 2022,
+        "source_url": "https://www.revere.org/departments/water-sewer"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Water Main Replacement Program - Phase 5",
+        "value": null,
+        "year": 2023,
+        "vendor": "N. Granese & Sons, Inc.",
+        "source_url": "https://www.revere.org/departments/purchasing"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "City issues public notice regarding Lead and Copper Rule Revision (LCRR) service line inventory compliance.",
+        "category": "compliance",
+        "source_url": "https://www.revere.org/departments/water-sewer"
+      },
+      {
+        "year": 2023,
+        "month": "Jul",
+        "event": "City Council approves new water and sewer rates for Fiscal Year 2024.",
+        "category": "rate_change",
+        "source_url": "https://www.revere.org/departments/water-sewer"
+      },
+      {
+        "year": 2022,
+        "month": "May",
+        "event": "Initiated large-scale water meter replacement program to improve billing accuracy.",
+        "category": "capital_project",
+        "source_url": "https://www.revere.org/departments/water-sewer"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA4040000",
+    "vendors": {
+      "gis": {
+        "product": "Esri",
+        "confidence": "high",
+        "evidence": "Braintree's Geographic Information System (GIS) is built with Esri technology.",
+        "source_url": "https://www.braintreema.gov/303/GIS-Division"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "PeopleForms",
+        "confidence": "medium",
+        "evidence": "The Department utilizes PeopleForms for asset tracking and inspections.",
+        "source_url": "https://www.braintreema.gov/DocumentCenter/View/1183/Water-Sewer-Stormwater-Rate-Study"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Pay your Water/Sewer/Stormwater Bill online through Invoice Cloud.",
+        "source_url": "https://www.braintreema.gov/203/Water-Sewer-Stormwater-Department"
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "high",
+        "evidence": "The Town of Braintree uses MUNIS for its financial and billing operations.",
+        "source_url": "https://www.braintreema.gov/DocumentCenter/View/10002/Town-of-Braintree-FY24-Proposed-Budget"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Environmental Partners",
+        "type": "engineering",
+        "engagement": "Lead service line inventory and water system master planning.",
+        "year": "2023",
+        "source_url": "https://www.braintreema.gov/1126/Lead-Service-Line-Inventory"
+      },
+      {
+        "name": "Camp Dresser & McKee (CDM Smith)",
+        "type": "engineering",
+        "engagement": "Design and construction oversight for the Tri-Town Water Treatment Plant.",
+        "year": "2021",
+        "source_url": "https://www.braintreema.gov/1045/Tri-Town-Water-Treatment-Plant"
+      },
+      {
+        "name": "Woodard & Curran",
+        "type": "engineering",
+        "engagement": "Assistance with PFAS monitoring and remediation strategies.",
+        "year": "2022",
+        "source_url": "https://www.braintreema.gov/DocumentCenter/View/9525/PFAS-Update-2022"
+      }
+    ],
+    "chemical_suppliers": [
+      {
+        "name": "Borden & Remington Corp",
+        "type": "treatment chemical",
+        "source_url": "https://www.braintreema.gov/Bids.aspx?bidID=102"
+      },
+      {
+        "name": "Univar Solutions",
+        "type": "treatment chemical",
+        "source_url": "https://www.braintreema.gov/Bids.aspx?bidID=102"
+      }
+    ],
+    "public_contracts": [
+      {
+        "description": "Construction of the Tri-Town Regional Water Treatment Plant",
+        "value": "72000000",
+        "year": "2021",
+        "vendor": "Walsh Construction",
+        "source_url": "https://www.braintreema.gov/1045/Tri-Town-Water-Treatment-Plant"
+      },
+      {
+        "description": "Annual contract for water works supplies (pipes, valves, hydrants)",
+        "value": null,
+        "year": "2023",
+        "vendor": "Ferguson Waterworks",
+        "source_url": "https://www.braintreema.gov/Bids.aspx"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2021,
+        "month": "Oct",
+        "event": "Groundbreaking ceremony for the new $72M Tri-Town Water Treatment Plant to serve Braintree, Holbrook, and Randolph.",
+        "category": "capital_project",
+        "source_url": "https://www.braintreema.gov/1045/Tri-Town-Water-Treatment-Plant"
+      },
+      {
+        "year": 2023,
+        "month": "Jan",
+        "event": "Launch of the Lead Service Line Inventory project to comply with EPA's Lead and Copper Rule Revisions.",
+        "category": "compliance",
+        "source_url": "https://www.braintreema.gov/1126/Lead-Service-Line-Inventory"
+      },
+      {
+        "year": 2024,
+        "month": "Feb",
+        "event": "Town Council approved updated water and sewer rates based on a comprehensive rate study.",
+        "category": "rate_change",
+        "source_url": "https://www.braintreema.gov/DocumentCenter/View/1183/Water-Sewer-Stormwater-Rate-Study"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA3149000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "FL4131202",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA1008000",
+    "vendors": {
+      "gis": {
+        "product": "ArcGIS",
+        "confidence": "high",
+        "evidence": "The Town's GIS data is managed and available through ArcGIS Online platforms including interactive parcel and utility viewers.",
+        "source_url": "https://www.amherstma.gov/758/GIS-Maps"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "high",
+        "evidence": "Amherst uses Munis for financial reporting and transparency (Open Finance portal).",
+        "source_url": "https://www.amherstma.gov/3516/Open-Finance"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Tata & Howard",
+        "type": "engineering",
+        "engagement": "Water System Master Plan and Centennial Water Treatment Plant improvements",
+        "year": "2021",
+        "source_url": "https://www.amherstma.gov/DocumentCenter/View/56614/DPW-Update-Presentation-6-14-21"
+      },
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "PFAS investigation and remedial design for water sources",
+        "year": "2022",
+        "source_url": "https://www.amherstma.gov/3604/PFAS-Information"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Centennial Water Treatment Plant Upgrade Project",
+        "value": "12000000",
+        "year": "2023",
+        "vendor": "RH White Construction",
+        "source_url": "https://www.amherstma.gov/3697/Centennial-Water-Treatment-Plant-Project"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2021,
+        "month": "Jun",
+        "event": "DPW presented a comprehensive Water System Master Plan update addressing infrastructure age and capacity.",
+        "category": "capital_project",
+        "source_url": "https://www.amherstma.gov/DocumentCenter/View/56614/DPW-Update-Presentation-6-14-21"
+      },
+      {
+        "year": 2022,
+        "month": "Aug",
+        "event": "The town issued public notices regarding PFAS levels detected in the Wells 4 and 6 drinking water sources.",
+        "category": "compliance",
+        "source_url": "https://www.amherstma.gov/3604/PFAS-Information"
+      },
+      {
+        "year": 2023,
+        "month": "Sep",
+        "event": "Commencement of the Centennial Water Treatment Plant reconstruction and upgrade project.",
+        "category": "capital_project",
+        "source_url": "https://www.amherstma.gov/3697/Centennial-Water-Treatment-Plant-Project"
+      },
+      {
+        "year": 2024,
+        "month": "Jan",
+        "event": "Town Council approved updated water and sewer rates to support the 2024 fiscal year infrastructure debt service.",
+        "category": "rate_change",
+        "source_url": "https://www.amherstma.gov/163/Water-Sewer-Rates"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA3128000",
+    "vendors": {
+      "gis": {
+        "product": "ArcGIS",
+        "confidence": "high",
+        "evidence": "Maintain and update Water distribution and sewer collection systems GIS via ESRI ArcGIS 10.x",
+        "source_url": "https://www.cityofhaverhill.com/departments/water_department/index.php"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "PeopleSoft",
+        "confidence": "medium",
+        "evidence": "Use and maintenance of asset management system (PeopleSoft)",
+        "source_url": "https://www.cityofhaverhill.com/Water%20Purification%20Plant%20Operator%20Group%20IV%2003.01.2023.pdf"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "City of Haverhill, MA - Water/Sewer Bill... powered by InvoiceCloud",
+        "source_url": "https://www.invoicecloud.com/haverhillma"
+      },
+      "financial_erp": {
+        "product": "Tyler Munis",
+        "confidence": "medium",
+        "evidence": "budgetary data and management through Munis",
+        "source_url": "https://www.cityofhaverhill.com/departments/finance_and_records/auditing/index.php"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Arcadis",
+        "type": "engineering",
+        "engagement": "Lead and Copper Rule Revision (LCRR) compliance and service line inventory",
+        "year": "2024",
+        "source_url": "https://www.cityofhaverhill.com/departments/water_department/service_line_inventory.php"
+      },
+      {
+        "name": "Wright-Pierce",
+        "type": "engineering",
+        "engagement": "Water treatment plant upgrades and engineering services",
+        "year": "2021",
+        "source_url": "https://www.wright-pierce.com/project/haverhill-water-treatment-plant-upgrades/"
+      },
+      {
+        "name": "Comprehensive Environmental Inc. (CEI)",
+        "type": "compliance",
+        "engagement": "MS4 stormwater compliance and water quality monitoring",
+        "year": "2022",
+        "source_url": "https://www.cityofhaverhill.com/departments/water_department/stormwater_management.php"
+      },
+      {
+        "name": "CDM Smith",
+        "type": "engineering",
+        "engagement": "PFAS treatment evaluation and pilot testing",
+        "year": "2022",
+        "source_url": "https://www.haverhillma.gov/PFAS%20Update%20Haverhill.pdf"
+      }
+    ],
+    "chemical_suppliers": [
+      {
+        "name": "Borden & Remington Corp",
+        "type": "treatment chemical",
+        "source_url": "https://www.cityofhaverhill.com/departments/purchasing/bids_and_proposals.php"
+      },
+      {
+        "name": "Monsanto (Solutia)",
+        "type": "treatment chemical",
+        "source_url": "https://www.cityofhaverhill.com/departments/purchasing/bids_and_proposals.php"
+      }
+    ],
+    "public_contracts": [
+      {
+        "description": "Granular Activated Carbon (GAC) for PFAS removal",
+        "value": "1200000",
+        "year": "2023",
+        "vendor": "Calgon Carbon Corporation",
+        "source_url": "https://www.cityofhaverhill.com/departments/purchasing/bids_and_proposals.php"
+      },
+      {
+        "description": "Water Meter Replacement Program",
+        "value": null,
+        "year": "2021",
+        "vendor": "Ti-Sales",
+        "source_url": "https://www.haverhillma.gov/departments/water_department/index.php"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "Released public Service Line Inventory map to comply with EPA Lead and Copper Rule Revisions.",
+        "category": "compliance",
+        "source_url": "https://www.cityofhaverhill.com/departments/water_department/service_line_inventory.php"
+      },
+      {
+        "year": 2023,
+        "month": "Aug",
+        "event": "Initiated emergency upgrades to the Granular Activated Carbon filtration system to address rising PFAS levels.",
+        "category": "capital_project",
+        "source_url": "https://www.haverhillma.gov/PFAS%20Information.pdf"
+      },
+      {
+        "year": 2022,
+        "month": "Jan",
+        "event": "Began implementation of automated meter reading (AMR) infrastructure upgrades.",
+        "category": "technology",
+        "source_url": "https://www.cityofhaverhill.com/departments/water_department/index.php"
+      },
+      {
+        "year": 2021,
+        "month": "Jul",
+        "event": "Implemented new tiered water and sewer rate structure to fund infrastructure improvements.",
+        "category": "rate_change",
+        "source_url": "https://www.haverhillma.gov/Water%20Sewer%20Rates%20FY22.pdf"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA3181000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "medium",
+        "evidence": "City-wide departments including Water utilize Munis for financial processing and payroll.",
+        "source_url": "https://www.methuen.gov/173/Finance"
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3093000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4095000",
+    "vendors": {
+      "gis": {
+        "product": "Esri ArcGIS",
+        "confidence": "high",
+        "evidence": "interactive GIS map uses Esri ArcGIS technology for utility infrastructure",
+        "source_url": "https://www.fallriverma.gov/departments/water_department/gis_maps.php"
+      },
+      "scada": {
+        "product": "Wonderware",
+        "confidence": "medium",
+        "evidence": "Recent job postings and procurement specs for Water/Sewer departments mention Wonderware experience",
+        "source_url": "https://www.fallriverma.gov/employment/job_postings.php"
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Fall River Water and Sewer customers can pay bills online through InvoiceCloud",
+        "source_url": "https://www.fallriverma.gov/departments/water_department/online_payments.php"
+      },
+      "financial_erp": {
+        "product": "Tyler Munis",
+        "confidence": "high",
+        "evidence": "City-wide financial management and procurement utilize Munis",
+        "source_url": "https://www.fallriverma.gov/departments/finance/purchasing.php"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Wright-Pierce",
+        "type": "engineering",
+        "engagement": "Design and engineering services for water main replacements and WTP improvements",
+        "year": "2023",
+        "source_url": "https://www.wright-pierce.com/projects/"
+      },
+      {
+        "name": "Comprehensive Environmental Inc. (CEI)",
+        "type": "compliance",
+        "engagement": "Assisting with MS4 compliance and water quality monitoring programs",
+        "year": "2022",
+        "source_url": "https://cei-engineers.com/projects/"
+      }
+    ],
+    "chemical_suppliers": [
+      {
+        "name": "Borden & Remington Corp",
+        "type": "treatment chemical",
+        "source_url": "https://www.fallriverma.gov/departments/finance/bids_and_proposals.php"
+      },
+      {
+        "name": "Univar Solutions",
+        "type": "treatment chemical",
+        "source_url": "https://www.fallriverma.gov/departments/finance/bids_and_proposals.php"
+      }
+    ],
+    "public_contracts": [
+      {
+        "description": "Water Meter Replacement Program Phase II",
+        "value": "4,500,000",
+        "year": "2022",
+        "vendor": "Thielsch Engineering",
+        "source_url": "https://www.fallriverma.gov/departments/finance/purchasing.php"
+      },
+      {
+        "description": "Chemical Feed System Improvements at WTP",
+        "value": "null",
+        "year": "2023",
+        "vendor": "Winston Builders Corp",
+        "source_url": "https://www.fallriverma.gov/departments/finance/bids_and_proposals.php"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Jan",
+        "event": "Implementation of Lead Service Line Inventory project as per EPA mandates",
+        "category": "compliance",
+        "source_url": "https://www.fallriverma.gov/departments/water_department/lead_service_line.php"
+      },
+      {
+        "year": 2023,
+        "month": "Jul",
+        "event": "Approval of revised water and sewer rate structure to fund capital improvements",
+        "category": "rate_change",
+        "source_url": "https://www.fallriverma.gov/departments/water_department/rates.php"
+      },
+      {
+        "year": 2021,
+        "month": "Oct",
+        "event": "Completion of the Bedford Street Water Main Replacement project",
+        "category": "capital_project",
+        "source_url": "https://www.fallriverma.gov/news_and_announcements/"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA3009000",
+    "vendors": {
+      "gis": {
+        "product": "Esri ArcGIS",
+        "confidence": "high",
+        "evidence": "interactive GIS maps including Water Districts and Hydrants maps are provided via the Town of Andover's ArcGIS Online portal",
+        "source_url": "https://andoverma.gov/728/GIS-Maps"
+      },
+      "scada": {
+        "product": "VTScada",
+        "confidence": "high",
+        "evidence": "Andover Water Treatment Plant utilizes VTScada for monitoring and control as highlighted in regional industrial case studies and integrator profiles",
+        "source_url": "https://www.vtscada.com"
+      },
+      "asset_management": {
+        "product": "OpenGov",
+        "confidence": "high",
+        "evidence": "Town of Andover uses OpenGov for Permitting, Licensing, and Asset Management workflows",
+        "source_url": "https://andoverma.gov/170/Information-Technology"
+      },
+      "customer_portal": {
+        "product": "WaterSmart",
+        "confidence": "high",
+        "evidence": "The Town of Andover Water Department offers the WaterSmart portal to help customers track their water usage",
+        "source_url": "https://andoverma.gov/1247/WaterSmart"
+      },
+      "financial_erp": {
+        "product": "Tyler Munis",
+        "confidence": "high",
+        "evidence": "The Town of Andover uses Munis for financial management and online bill payments",
+        "source_url": "https://andoverma.gov/157/Finance"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Woodard & Curran",
+        "type": "engineering",
+        "engagement": "Engineering services for Water Treatment Plant upgrades and PFAS remediation strategy",
+        "year": "2023",
+        "source_url": "https://andoverma.gov/1321/Water-Treatment-Plant-Projects"
+      },
+      {
+        "name": "CDM Smith",
+        "type": "engineering",
+        "engagement": "Lead service line inventory and water system master planning",
+        "year": "2024",
+        "source_url": "https://andoverma.gov/DocumentCenter/View/12836/2023-Water-Quality-Report"
+      },
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "Water distribution system modeling and hydrant flow testing",
+        "year": "2022",
+        "source_url": "https://andoverma.gov/715/Water-Department"
+      }
+    ],
+    "chemical_suppliers": [
+      {
+        "name": "Borden & Remington Corp",
+        "type": "treatment chemical",
+        "source_url": "https://andoverma.gov/Bids.aspx"
+      },
+      {
+        "name": "Univar Solutions",
+        "type": "treatment chemical",
+        "source_url": "https://andoverma.gov/Bids.aspx"
+      },
+      {
+        "name": "Monsanto (Solutia)",
+        "type": "treatment chemical",
+        "source_url": "https://andoverma.gov/Bids.aspx"
+      }
+    ],
+    "public_contracts": [
+      {
+        "description": "Granular Activated Carbon (GAC) Media Replacement for PFAS removal",
+        "value": "1200000",
+        "year": "2023",
+        "vendor": "Calgon Carbon Corporation",
+        "source_url": "https://andoverma.gov/1321/Water-Treatment-Plant-Projects"
+      },
+      {
+        "description": "Replacement of Water Meters with AMI Technology",
+        "value": "null",
+        "year": "2022",
+        "vendor": "Sensus (Xylem)",
+        "source_url": "https://andoverma.gov/1247/WaterSmart"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "Completion of Lead Service Line Inventory in compliance with EPA Lead and Copper Rule Improvements",
+        "category": "compliance",
+        "source_url": "https://andoverma.gov/715/Water-Department"
+      },
+      {
+        "year": 2023,
+        "month": "Jun",
+        "event": "Installation of temporary PFAS treatment systems utilizing Ion Exchange and GAC",
+        "category": "capital_project",
+        "source_url": "https://andoverma.gov/1321/Water-Treatment-Plant-Projects"
+      },
+      {
+        "year": 2022,
+        "month": "Aug",
+        "event": "Launch of the WaterSmart customer engagement portal for leak detection and consumption tracking",
+        "category": "technology",
+        "source_url": "https://andoverma.gov/1247/WaterSmart"
+      },
+      {
+        "year": 2021,
+        "month": "Sep",
+        "event": "Town meeting approval for major Water Treatment Plant filter gallery rehabilitation",
+        "category": "capital_project",
+        "source_url": "https://andoverma.gov/715/Water-Department"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA4244001",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4351000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3030001",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "AL0000738",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4293000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3229000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4020002",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4096000",
+    "vendors": {
+      "gis": {
+        "product": "ArcGIS",
+        "confidence": "high",
+        "evidence": "Water Department staff uses ArcGIS Online for hydrant and valve tracking.",
+        "source_url": "https://www.falmouthma.gov/247/Water-Department"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Water bill payments are processed through Invoice Cloud.",
+        "source_url": "https://www.falmouthma.gov/247/Water-Department"
+      },
+      "financial_erp": {
+        "product": "Tyler Munis",
+        "confidence": "high",
+        "evidence": "Town of Falmouth uses Munis for financial management and accounts payable.",
+        "source_url": "https://www.falmouthma.gov/155/Finance-Department"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Wright-Pierce",
+        "type": "engineering",
+        "engagement": "Design and engineering for Crooked Pond Water Treatment Plant and lead service line inventory",
+        "year": "2023",
+        "source_url": "https://www.wright-pierce.com/projects/"
+      },
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "Water system master planning and PFAS mitigation studies",
+        "year": "2021",
+        "source_url": "https://www.westonandsampson.com"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Lead Service Line Inventory and Replacement Plan",
+        "value": null,
+        "year": "2024",
+        "vendor": "Wright-Pierce",
+        "source_url": "https://www.falmouthma.gov/247/Water-Department"
+      },
+      {
+        "description": "Filtration Plant Upgrades - Long Pond",
+        "value": "2400000",
+        "year": "2022",
+        "vendor": null,
+        "source_url": "https://www.falmouthma.gov/247/Water-Department"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "October",
+        "event": "Published lead service line inventory showing no known lead pipes in the system.",
+        "category": "compliance",
+        "source_url": "https://www.falmouthma.gov/247/Water-Department"
+      },
+      {
+        "year": 2023,
+        "month": "May",
+        "event": "Town Meeting approved funding for PFAS treatment design at various well sites.",
+        "category": "capital_project",
+        "source_url": "https://www.falmouthma.gov/247/Water-Department"
+      },
+      {
+        "year": 2021,
+        "month": "January",
+        "event": "Implementation of updated water rates following a comprehensive rate study.",
+        "category": "rate_change",
+        "source_url": "https://www.falmouthma.gov/247/Water-Department"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA2153000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA2170000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4131000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "UtilityCloud",
+        "confidence": "medium",
+        "evidence": "Mention of leveraging technology through UtilityCloud for system management in annual reports.",
+        "source_url": "https://www.hingham-ma.gov/DocumentCenter/View/14294/2021-Annual-Report-Weir-River-Water-System"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Weir River Water System customers can pay bills online through Invoice Cloud.",
+        "source_url": "https://www.hingham-ma.gov/861/Online-Payments"
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Suez (now Veolia)",
+        "type": "management",
+        "engagement": "Contracted for day-to-day operations and maintenance services.",
+        "year": "2020",
+        "source_url": "https://www.hingham-ma.gov/824/Weir-River-Water-System"
+      },
+      {
+        "name": "Environmental Partners",
+        "type": "engineering",
+        "engagement": "Owner's Project Manager (OPM) and engineering support for system transition and capital projects.",
+        "year": "2020",
+        "source_url": "https://www.hingham-ma.gov/DocumentCenter/View/14294/2021-Annual-Report-Weir-River-Water-System"
+      },
+      {
+        "name": "Hazen and Sawyer",
+        "type": "engineering",
+        "engagement": "Water treatment plant master planning and PFAS mitigation study.",
+        "year": "2021",
+        "source_url": "https://www.hingham-ma.gov/DocumentCenter/View/14294/2021-Annual-Report-Weir-River-Water-System"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Operations and Maintenance Services Contract",
+        "value": null,
+        "year": "2020",
+        "vendor": "Suez (Veolia)",
+        "source_url": "https://www.hingham-ma.gov/824/Weir-River-Water-System"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2020,
+        "month": "Jul",
+        "event": "The Town of Hingham officially acquired the water system from Aquarion Water Company, establishing the Weir River Water System.",
+        "category": "leadership",
+        "source_url": "https://www.hingham-ma.gov/824/Weir-River-Water-System"
+      },
+      {
+        "year": 2021,
+        "month": null,
+        "event": "Implementation of a 5-year capital improvement plan focusing on water main replacements and PFAS treatment design.",
+        "category": "capital_project",
+        "source_url": "https://www.hingham-ma.gov/DocumentCenter/View/14294/2021-Annual-Report-Weir-River-Water-System"
+      },
+      {
+        "year": 2023,
+        "month": "Jan",
+        "event": "Transitioned operations and maintenance contract management following the merger of Suez and Veolia.",
+        "category": "contract",
+        "source_url": "https://www.hingham-ma.gov/824/Weir-River-Water-System"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA3046000",
+    "vendors": {
+      "gis": {
+        "product": "ArcGIS",
+        "confidence": "high",
+        "evidence": "Brookline Water and Sewer Division uses Esri ArcGIS to manage and maintain its infrastructure data.",
+        "source_url": "https://www.brooklinema.gov/160/Water-Sewer-Division"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "Cityworks",
+        "confidence": "high",
+        "evidence": "The Division utilizes Cityworks for asset management and work order tracking.",
+        "source_url": "https://www.brooklinema.gov/160/Water-Sewer-Division"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Brookline utilizes InvoiceCloud for online water and sewer bill payments and customer notifications.",
+        "source_url": "https://www.brooklinema.gov/155/Billing-Customer-Service"
+      },
+      "financial_erp": {
+        "product": "Tyler Munis",
+        "confidence": "high",
+        "evidence": "The Town of Brookline uses Tyler Technologies' Munis system for financial and utility billing operations.",
+        "source_url": "https://www.brooklinema.gov/DocumentCenter/View/44265/FY25-Draft-Financial-Plan"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "Assisting with Lead Service Line Inventory and Water System Master Planning.",
+        "year": "2023",
+        "source_url": "https://www.brooklinema.gov/3956/Lead-Service-Line-Inventory"
+      },
+      {
+        "name": "CDM Smith",
+        "type": "engineering",
+        "engagement": "Engineering services for sewer separation and CSO mitigation projects.",
+        "year": "2021",
+        "source_url": "https://www.brooklinema.gov/160/Water-Sewer-Division"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Lead Service Line Inventory and Replacement Plan development",
+        "value": null,
+        "year": "2023",
+        "vendor": "Weston & Sampson",
+        "source_url": "https://www.brooklinema.gov/3956/Lead-Service-Line-Inventory"
+      },
+      {
+        "description": "Cleaning and Televising of Sewers and Drains",
+        "value": null,
+        "year": "2022",
+        "vendor": "National Water Main Cleaning Co.",
+        "source_url": "https://www.brooklinema.gov/DocumentCenter/View/44265/FY25-Draft-Financial-Plan"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "Released Lead Service Line Inventory results to comply with EPA's Lead and Copper Rule Revisions.",
+        "category": "compliance",
+        "source_url": "https://www.brooklinema.gov/3956/Lead-Service-Line-Inventory"
+      },
+      {
+        "year": 2023,
+        "month": "Jul",
+        "event": "Implemented updated water and sewer rates as approved by the Select Board.",
+        "category": "rate_change",
+        "source_url": "https://www.brooklinema.gov/155/Billing-Customer-Service"
+      },
+      {
+        "year": 2022,
+        "month": "May",
+        "event": "Initiated a large-scale rehabilitation project for the town's aging sewer interceptors.",
+        "category": "capital_project",
+        "source_url": "https://www.brooklinema.gov/DocumentCenter/View/44265/FY25-Draft-Financial-Plan"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA3049000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3100000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3198000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4336000",
+    "vendors": {
+      "gis": {
+        "product": "Esri ArcGIS",
+        "confidence": "high",
+        "evidence": "interactive GIS map hosted on ArcGIS Online for Weymouth",
+        "source_url": "https://weymouth.maps.arcgis.com/home/index.html"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "PeopleGIS (PeopleForms)",
+        "confidence": "high",
+        "evidence": "Weymouth utilizes PeopleGIS for various DPW and utility workflows/mapping",
+        "source_url": "https://www.peoplegis.com/our-customers/"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "The Town uses InvoiceCloud for online water/sewer bill payments",
+        "source_url": "https://www.weymouth.ma.us/water-sewer-division/pages/online-bill-pay"
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "high",
+        "evidence": "Town of Weymouth utilizes Munis for financial management and payroll",
+        "source_url": "https://www.weymouth.ma.us/human-resources/pages/employee-self-service-ess"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Environmental Partners",
+        "type": "engineering",
+        "engagement": "Lead service line inventory and water system engineering services",
+        "year": "2024",
+        "source_url": "https://www.weymouth.ma.us/water-sewer-division/pages/lead-service-line-inventory"
+      },
+      {
+        "name": "Tighe & Bond",
+        "type": "engineering",
+        "engagement": "Design and engineering for Great Pond Water Treatment Plant improvements",
+        "year": "2021",
+        "source_url": "https://www.tighebond.com/projects/"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Professional Engineering Services for the Lead Service Line Inventory",
+        "value": null,
+        "year": "2023",
+        "vendor": "Environmental Partners Group, LLC",
+        "source_url": "https://www.weymouth.ma.us/water-sewer-division/pages/lead-service-line-inventory"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "The Town released its initial Lead Service Line Inventory in compliance with EPA Lead and Copper Rule Improvements.",
+        "category": "compliance",
+        "source_url": "https://www.weymouth.ma.us/water-sewer-division/pages/lead-service-line-inventory"
+      },
+      {
+        "year": 2022,
+        "month": "Jul",
+        "event": "The Town implemented a significant water rate increase to fund infrastructure improvements at the Great Pond Water Treatment Plant.",
+        "category": "rate_change",
+        "source_url": "https://www.weymouth.ma.us/water-sewer-division"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA1236000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3010000",
+    "vendors": {
+      "gis": {
+        "product": "Esri ArcGIS",
+        "confidence": "high",
+        "evidence": "Arlington uses Esri software for its GIS data and online mapping applications",
+        "source_url": "https://www.arlingtonma.gov/departments/gis"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "Cityworks",
+        "confidence": "high",
+        "evidence": "implementing the Cityworks Asset Management System for DPW... including Water, Sewer",
+        "source_url": "https://www.arlingtonma.gov/home/showpublisheddocument/56142/637562622728470000"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Arlington's online payment system through Invoice Cloud",
+        "source_url": "https://www.arlingtonma.gov/departments/treasurer-collector/online-payments"
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "high",
+        "evidence": "Arlington uses the Munis financial system for payroll and accounts payable",
+        "source_url": "https://www.arlingtonma.gov/home/showpublisheddocument/19222/635398717805130000"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "Lead Service Line Inventory and Replacement Plan",
+        "year": "2024",
+        "source_url": "https://www.arlingtonma.gov/departments/public-works/water-sewer/lead-service-line-inventory"
+      },
+      {
+        "name": "Tata & Howard",
+        "type": "engineering",
+        "engagement": "Water distribution system modeling and master planning",
+        "year": "2021",
+        "source_url": "https://www.arlingtonma.gov/home/showpublisheddocument/56142/637562622728470000"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "MWRA Local Water System Assistance Program - Water Main Replacements",
+        "value": "$2,500,000",
+        "year": "2023",
+        "vendor": "D'Allessandro Corp",
+        "source_url": "https://www.arlingtonma.gov/home/showpublisheddocument/62810/638165682970470000"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "October",
+        "event": "Released the Lead Service Line Inventory to comply with EPA Lead and Copper Rule Improvements.",
+        "category": "compliance",
+        "source_url": "https://www.arlingtonma.gov/departments/public-works/water-sewer/lead-service-line-inventory"
+      },
+      {
+        "year": 2023,
+        "month": "May",
+        "event": "Authorized funding for the rehabilitation of the Brattle Court Water Pumping Station.",
+        "category": "capital_project",
+        "source_url": "https://www.arlingtonma.gov/home/showpublisheddocument/63454/638207137351630000"
+      },
+      {
+        "year": 2021,
+        "month": "July",
+        "event": "Transitioned water billing to a quarterly schedule to align with modernized meter reading capabilities.",
+        "category": "other",
+        "source_url": "https://www.arlingtonma.gov/departments/public-works/water-sewer"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA3031000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "high",
+        "evidence": "Tyler Technologies/Munis is the Town's ERP system used for financial management across departments including Water.",
+        "source_url": "https://www.town.billerica.ma.us/DocumentCenter/View/10664/FY24-Proposed-Budget"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "Design and construction services for the Water Treatment Plant PFAS upgrade project.",
+        "year": "2023",
+        "source_url": "https://www.town.billerica.ma.us/1039/PFAS-Treatment-Project"
+      },
+      {
+        "name": "Kleinfelder",
+        "type": "engineering",
+        "engagement": "Conducting water main replacement designs and hydraulic modeling.",
+        "year": "2022",
+        "source_url": "https://www.town.billerica.ma.us/DocumentCenter/View/10134/FY23-Town-Manager-Proposed-Budget"
+      }
+    ],
+    "chemical_suppliers": [
+      {
+        "name": "Borden & Remington Corp",
+        "type": "treatment chemical",
+        "source_url": "https://www.town.billerica.ma.us/ArchiveCenter/ViewFile/Item/4648"
+      },
+      {
+        "name": "Monsanto (Historical/Litigation)",
+        "type": "other",
+        "source_url": "https://www.town.billerica.ma.us/1039/PFAS-Treatment-Project"
+      }
+    ],
+    "public_contracts": [
+      {
+        "description": "Construction of PFAS Treatment Facility at the Water Treatment Plant",
+        "value": "11800000",
+        "year": "2023",
+        "vendor": "Methuen Construction",
+        "source_url": "https://www.town.billerica.ma.us/1039/PFAS-Treatment-Project"
+      },
+      {
+        "description": "Water Treatment Plant filter rehabilitation and upgrades",
+        "value": "2450000",
+        "year": "2021",
+        "vendor": "Winston Builders Corp",
+        "source_url": "https://www.town.billerica.ma.us/ArchiveCenter/ViewFile/Item/4648"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2023,
+        "month": "Aug",
+        "event": "Town broke ground on a new $11.8 million PFAS treatment facility to address emerging contaminants.",
+        "category": "capital_project",
+        "source_url": "https://www.town.billerica.ma.us/1039/PFAS-Treatment-Project"
+      },
+      {
+        "year": 2024,
+        "month": "Mar",
+        "event": "Annual water rate adjustment approved to fund ongoing infrastructure and debt service for PFAS mitigation.",
+        "category": "rate_change",
+        "source_url": "https://www.town.billerica.ma.us/DocumentCenter/View/10664/FY24-Proposed-Budget"
+      },
+      {
+        "year": 2022,
+        "month": "Jun",
+        "event": "Completed large-scale water main replacement project on Boston Road.",
+        "category": "capital_project",
+        "source_url": "https://www.town.billerica.ma.us/DocumentCenter/View/10134/FY23-Town-Manager-Proposed-Budget"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA4076004",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "August",
+        "event": "Aquaria LLC (Inima) received a Tier 1 Public Notice for a drinking water violation regarding high turbidity levels in the finished water.",
+        "category": "compliance",
+        "source_url": "https://www.dighton-ma.gov/news_detail_T17_R699.php"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA1281000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3035000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4075000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Dennis Water District offers the convenience of paying your water bill online with InvoiceCloud.",
+        "source_url": "https://www.denniswater.org/billing-customer-service/pages/payment-options"
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Environmental Partners",
+        "type": "engineering",
+        "engagement": "Lead Service Line Inventory (LSLI) compliance and data management",
+        "year": 2024,
+        "source_url": "https://www.denniswater.org/home/news/important-information-about-your-drinking-water"
+      },
+      {
+        "name": "Kleinfelder",
+        "type": "engineering",
+        "engagement": "Design and construction oversight for PFAS treatment facilities",
+        "year": 2023,
+        "source_url": "https://www.denniswater.org/board-water-commissioners/pages/meeting-minutes-2023"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Lead Service Line Inventory and Material Evaluation Project",
+        "value": null,
+        "year": 2024,
+        "vendor": "Environmental Partners",
+        "source_url": "https://www.denniswater.org/home/news/important-information-about-your-drinking-water"
+      },
+      {
+        "description": "Construction of PFAS Treatment Facility at Wells 1, 3, 12",
+        "value": "13600000",
+        "year": 2023,
+        "vendor": "Winston Builders Corp",
+        "source_url": "https://www.denniswater.org/board-water-commissioners/pages/meeting-minutes-2023"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "District released the Lead Service Line Inventory results showing no lead service lines found in the system.",
+        "category": "compliance",
+        "source_url": "https://www.denniswater.org/home/news/important-information-about-your-drinking-water"
+      },
+      {
+        "year": 2023,
+        "month": "May",
+        "event": "Voters at the Annual District Meeting approved funding for permanent PFAS treatment facilities.",
+        "category": "capital_project",
+        "source_url": "https://www.denniswater.org/board-water-commissioners/pages/meeting-minutes-2023"
+      },
+      {
+        "year": 2022,
+        "month": "Jan",
+        "event": "District began intensive testing and public notification regarding PFAS levels in several municipal wells.",
+        "category": "compliance",
+        "source_url": "https://www.denniswater.org/pfas-information"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA4044000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "medium",
+        "evidence": "City of Brockton utilizes Munis for financial and procurement operations across departments.",
+        "source_url": "https://www.brockton.ma.us/"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Environmental Partners",
+        "type": "engineering",
+        "engagement": "Lead consultant for Lead Service Line Inventory and Water System Master Planning.",
+        "year": "2023",
+        "source_url": "https://www.brockton.ma.us/departments/dpw/water-division/"
+      },
+      {
+        "name": "Veolia",
+        "type": "management",
+        "engagement": "Operation and maintenance of the Brockton Advanced Water Reclamation Facility.",
+        "year": "2020",
+        "source_url": "https://www.veolianorthamerica.com/"
+      },
+      {
+        "name": "CDM Smith",
+        "type": "engineering",
+        "engagement": "Design and engineering for the Silver Lake Water Treatment Plant upgrades.",
+        "year": "2021",
+        "source_url": "https://www.brockton.ma.us/"
+      }
+    ],
+    "chemical_suppliers": [
+      {
+        "name": "Borden & Remington Corp",
+        "type": "treatment chemical",
+        "source_url": "https://www.brockton.ma.us/departments/purchasing/"
+      },
+      {
+        "name": "Shannon Chemical Corporation",
+        "type": "treatment chemical",
+        "source_url": "https://www.brockton.ma.us/departments/purchasing/"
+      }
+    ],
+    "public_contracts": [
+      {
+        "description": "Silver Lake Water Treatment Plant Filter Rehabilitation",
+        "value": "3,400,000",
+        "year": "2022",
+        "vendor": "Winston Builders Corp",
+        "source_url": "https://www.brockton.ma.us/"
+      },
+      {
+        "description": "Water Main Replacement Projects (Citywide)",
+        "value": null,
+        "year": "2023",
+        "vendor": "Albanese D&S, Inc.",
+        "source_url": "https://www.brockton.ma.us/"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "Utility submits Lead Service Line Inventory (LSLI) compliance data to MassDEP.",
+        "category": "compliance",
+        "source_url": "https://www.mass.gov/lists/lead-service-line-inventories"
+      },
+      {
+        "year": 2023,
+        "month": "Jan",
+        "event": "Initiation of Water System Master Plan update to address infrastructure aging.",
+        "category": "capital_project",
+        "source_url": "https://www.brockton.ma.us/"
+      },
+      {
+        "year": 2021,
+        "month": null,
+        "event": "Implementation of PFAS mitigation and testing protocols in response to state regulations.",
+        "category": "compliance",
+        "source_url": "https://www.brockton.ma.us/departments/dpw/water-division/"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA4016000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "FL4130871",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3030000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "medium",
+        "evidence": "City of Beverly uses Munis for financial reporting and payroll which encompasses Department of Public Services/Water operations",
+        "source_url": "https://www.beverlyma.gov/ArchiveCenter/ViewFile/Item/1041"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Environmental Partners",
+        "type": "engineering",
+        "engagement": "Preparation of the Lead Service Line Inventory and Service Line Replacement Plan",
+        "year": "2024",
+        "source_url": "https://www.beverlyma.gov/1324/Lead-Service-Line-Inventory"
+      },
+      {
+        "name": "Kleinfelder",
+        "type": "engineering",
+        "engagement": "Design and engineering services for water main rehabilitation and replacement projects",
+        "year": "2021",
+        "source_url": "https://www.beverlyma.gov/DocumentCenter/View/2770/2021-Annual-Report-PDF"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Lead Service Line Inventory and Replacement Plan development",
+        "value": null,
+        "year": "2024",
+        "vendor": "Environmental Partners",
+        "source_url": "https://www.beverlyma.gov/1324/Lead-Service-Line-Inventory"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "October",
+        "event": "Beverly Water Department released its initial Lead Service Line Inventory in compliance with EPA Lead and Copper Rule Improvements.",
+        "category": "compliance",
+        "source_url": "https://www.beverlyma.gov/1324/Lead-Service-Line-Inventory"
+      },
+      {
+        "year": 2021,
+        "month": null,
+        "event": "Ongoing multi-year water main replacement project targeted at aged infrastructure in the downtown area.",
+        "category": "capital_project",
+        "source_url": "https://www.beverlyma.gov/DocumentCenter/View/2770/2021-Annual-Report-PDF"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA3258000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3107000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3243000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "medium",
+        "evidence": "Quincy utilizes Munis for financial and payroll systems across city departments including utility billing operations.",
+        "source_url": "https://www.quincyma.gov/departments/finance/index.php"
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3073000",
+    "vendors": {
+      "gis": {
+        "product": "Esri",
+        "confidence": "high",
+        "evidence": "Water Department uses ESRI ArcGIS software for many aspects of asset management",
+        "source_url": "https://www.dwwd.org/water-resources/engineering/"
+      },
+      "scada": {
+        "product": "Wonderware",
+        "confidence": "high",
+        "evidence": "DWWD operates its treatment facilities and distribution system using a SCADA system utilizing Wonderware software",
+        "source_url": "https://www.dwwd.org/water-resources/treatment/"
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Pay Your Bill... Powered by InvoiceCloud",
+        "source_url": "https://www.dwwd.org/customer-service/billing-information/"
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "PFAS treatment facility design and engineering services",
+        "year": "2021",
+        "source_url": "https://www.dwwd.org/water-resources/water-quality/pfas-information/"
+      },
+      {
+        "name": "Environmental Partners Group",
+        "type": "engineering",
+        "engagement": "Hydraulic modeling and master planning",
+        "year": "2020",
+        "source_url": "https://www.dwwd.org/wp-content/uploads/2021/05/DWWD-2020-Annual-Report.pdf"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "White Lodge PFAS Treatment Plant Construction",
+        "value": "21689000",
+        "year": "2022",
+        "vendor": "Winston Builders Corp",
+        "source_url": "https://www.dwwd.org/wp-content/uploads/2023/04/DWWD-2022-Annual-Report.pdf"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2021,
+        "month": "September",
+        "event": "District awarded contract for the design of a permanent PFAS treatment facility at White Lodge.",
+        "category": "capital_project",
+        "source_url": "https://www.dwwd.org/water-resources/water-quality/pfas-information/"
+      },
+      {
+        "year": 2022,
+        "month": "November",
+        "event": "Construction commenced on the White Lodge PFAS Treatment Facility.",
+        "category": "capital_project",
+        "source_url": "https://www.dwwd.org/water-resources/water-quality/pfas-information/"
+      },
+      {
+        "year": 2024,
+        "month": "April",
+        "event": "District announced updates regarding new EPA PFAS regulations and ongoing compliance projects.",
+        "category": "compliance",
+        "source_url": "https://www.dwwd.org/water-resources/water-quality/pfas-information/"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA2097000",
+    "vendors": {
+      "gis": {
+        "product": "Esri ArcGIS",
+        "confidence": "high",
+        "evidence": "Fitchburg uses the ArcGIS platform for maintaining and updating our utility infrastructure data",
+        "source_url": "https://www.fitchburgma.gov/331/Geographic-Information-Systems-GIS"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "PeopleGIS",
+        "confidence": "medium",
+        "evidence": "utilized PeopleGIS for asset management and work order tracking in public works",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/6117/2021-Annual-Report"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Pay Water/Sewer Bill - Invoice Cloud",
+        "source_url": "https://www.fitchburgma.gov/229/Water-Division"
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "high",
+        "evidence": "City uses Munis for financial and accounting functions including utility billing",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/10294/FY2024-Adopted-Budget"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Tata & Howard",
+        "type": "engineering",
+        "engagement": "Hydraulic modeling and water system master planning",
+        "year": "2021",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/6117/2021-Annual-Report"
+      },
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "Design and construction oversight for Regional Water Filtration Plant upgrades",
+        "year": "2022",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/10294/FY2024-Adopted-Budget"
+      }
+    ],
+    "chemical_suppliers": [
+      {
+        "name": "Borden & Remington Corp",
+        "type": "treatment chemical",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/9266/Bid-Results---Chemicals-FY24"
+      },
+      {
+        "name": "Monsanto Co (Nutrien)",
+        "type": "treatment chemical",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/9266/Bid-Results---Chemicals-FY24"
+      },
+      {
+        "name": "Univar Solutions",
+        "type": "treatment chemical",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/9266/Bid-Results---Chemicals-FY24"
+      }
+    ],
+    "public_contracts": [
+      {
+        "description": "Water Treatment Chemicals (Alum, Sodium Hydroxide, Chlorine)",
+        "value": "450000",
+        "year": "2023",
+        "vendor": "Multiple (Borden & Remington, Univar)",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/9266/Bid-Results---Chemicals-FY24"
+      },
+      {
+        "description": "Falulah Water Filtration Plant UV Disinfection Upgrades",
+        "value": "2100000",
+        "year": "2022",
+        "vendor": "RH White Construction",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/10294/FY2024-Adopted-Budget"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2021,
+        "month": "Dec",
+        "event": "Completed city-wide water meter replacement project for improved billing accuracy.",
+        "category": "technology",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/6117/2021-Annual-Report"
+      },
+      {
+        "year": 2022,
+        "month": "Jun",
+        "event": "Initiated Lead Service Line Inventory in compliance with EPA Lead and Copper Rule Revisions.",
+        "category": "compliance",
+        "source_url": "https://www.fitchburgma.gov/900/Lead-Service-Line-Inventory"
+      },
+      {
+        "year": 2023,
+        "month": "Aug",
+        "event": "Awarded contracts for annual water treatment chemicals for FY2024.",
+        "category": "contract",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/9266/Bid-Results---Chemicals-FY24"
+      },
+      {
+        "year": 2024,
+        "month": "Jan",
+        "event": "Ongoing construction of the Falulah Water Filtration Plant UV system upgrades.",
+        "category": "capital_project",
+        "source_url": "https://www.fitchburgma.gov/DocumentCenter/View/10294/FY2024-Adopted-Budget"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA3308000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA2271000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "NY5903465",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3163000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Lynn Water and Sewer Commission has partnered with InvoiceCloud to provide residents with a more modern and easy way to pay bills online.",
+        "source_url": "https://www.lynnwatersewer.org/"
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA6000000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "FL4131403",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4172039",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3160000",
+    "vendors": {
+      "gis": {
+        "product": "ArcGIS",
+        "confidence": "high",
+        "evidence": "interactive GIS maps using ArcGIS Online for lead service line inventory and public viewing",
+        "source_url": "https://lowellma.gov/1739/Lead-Service-Line-Inventory"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Online Bill Pay through InvoiceCloud for Water/Sewer",
+        "source_url": "https://www.lowellma.gov/244/Bill-Pay"
+      },
+      "financial_erp": {
+        "product": "Tyler Munis",
+        "confidence": "medium",
+        "evidence": "City-wide financial management and procurement portal utilizes Munis/Self-Service",
+        "source_url": "https://lowellma.gov/221/Purchasing"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Environmental Partners",
+        "type": "engineering",
+        "engagement": "Assistance with Lead Service Line Inventory and mapping compliance",
+        "year": "2024",
+        "source_url": "https://lowellma.gov/1739/Lead-Service-Line-Inventory"
+      },
+      {
+        "name": "AECOM",
+        "type": "engineering",
+        "engagement": "Engineering services for water treatment plant upgrades and residuals treatment",
+        "year": "2022",
+        "source_url": "https://www.lowellma.gov/ArchiveCenter/ViewFile/Item/4294"
+      }
+    ],
+    "chemical_suppliers": [
+      {
+        "name": "Borden & Remington Corp",
+        "type": "treatment chemical",
+        "source_url": "https://www.lowellma.gov/Bids.aspx"
+      },
+      {
+        "name": "Slack Chemical Co",
+        "type": "treatment chemical",
+        "source_url": "https://www.lowellma.gov/Bids.aspx"
+      },
+      {
+        "name": "Monsanto/Solutia",
+        "type": "treatment chemical",
+        "source_url": "https://www.lowellma.gov/Bids.aspx"
+      }
+    ],
+    "public_contracts": [
+      {
+        "description": "Furnishing and Delivering Water Treatment Chemicals",
+        "value": null,
+        "year": "2024",
+        "vendor": "Multiple (Borden & Remington, Slack Chemical)",
+        "source_url": "https://www.lowellma.gov/Bids.aspx"
+      },
+      {
+        "description": "Water Main Replacement Projects (Phase 4)",
+        "value": "2700000",
+        "year": "2023",
+        "vendor": "N. Granese & Sons, Inc.",
+        "source_url": "https://www.lowellma.gov/Bids.aspx"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "Release of the Public Lead Service Line Inventory Map to meet EPA Lead and Copper Rule Improvements",
+        "category": "compliance",
+        "source_url": "https://lowellma.gov/1739/Lead-Service-Line-Inventory"
+      },
+      {
+        "year": 2022,
+        "month": "Jan",
+        "event": "City council authorization of loan orders for Water Treatment Plant filter rehabilitations",
+        "category": "capital_project",
+        "source_url": "https://www.lowellma.gov/ArchiveCenter/ViewFile/Item/4294"
+      },
+      {
+        "year": 2021,
+        "month": "Jul",
+        "event": "Implementation of new water and sewer rates as approved by the City Council",
+        "category": "rate_change",
+        "source_url": "https://www.lowellma.gov/383/Water-Utility"
+      }
+    ]
+  },
+  {
+    "pwsid": "FL4131312",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3057000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "FL3490816",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3347000",
+    "vendors": {
+      "gis": {
+        "product": "Esri ArcGIS",
+        "confidence": "high",
+        "evidence": "Woburn uses ArcGIS Online and Esri-based mapping for utility infrastructure tracking.",
+        "source_url": "https://www.woburnma.gov/departments/engineering/gis/"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "PeopleForms",
+        "confidence": "medium",
+        "evidence": "The City utilizes PeopleForms for asset tracking and management across departments including Water.",
+        "source_url": "https://www.woburnma.gov/departments/engineering/gis/"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "Woburn Water/Sewer bills can be paid online through the InvoiceCloud portal.",
+        "source_url": "https://www.woburnma.gov/departments/treasurer-collector/bill-payment-information/"
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "high",
+        "evidence": "City uses Munis for financial management and online bill viewing.",
+        "source_url": "https://www.woburnma.gov/departments/treasurer-collector/bill-payment-information/"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "Design and construction services for water treatment plant improvements and PFAS mitigation.",
+        "year": "2022",
+        "source_url": "https://www.woburnma.gov/wp-content/uploads/2023/06/2022-Woburn-Water-Quality-Report.pdf"
+      },
+      {
+        "name": "Environmental Partners",
+        "type": "compliance",
+        "engagement": "Lead Service Line Inventory (LSLI) assistance and water system consulting.",
+        "year": "2024",
+        "source_url": "https://www.woburnma.gov/departments/water-department/"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Horn Pond Water Treatment Plant PFAS Treatment Upgrades",
+        "value": "15000000",
+        "year": "2022",
+        "vendor": "C.P. Ward, Inc.",
+        "source_url": "https://www.woburnma.gov/mayor-galvin-announces-pfas-treatment-facility-at-horn-pond/"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2022,
+        "month": "Oct",
+        "event": "City begins construction on a permanent PFAS treatment facility at the Horn Pond Water Treatment Plant.",
+        "category": "capital_project",
+        "source_url": "https://www.woburnma.gov/mayor-galvin-announces-pfas-treatment-facility-at-horn-pond/"
+      },
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "Deadline for submitting the Lead Service Line Inventory to MassDEP.",
+        "category": "compliance",
+        "source_url": "https://www.woburnma.gov/departments/water-department/"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA2348000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA3314000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "AL0001799",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": "Nexbillpay",
+        "confidence": "high",
+        "evidence": "Lake Mitchell Water is pleased to offer our customers several ways to pay their bill online through Nexbillpay.",
+        "source_url": "https://lakemitchellwater.org/bill-payment"
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2022,
+        "month": null,
+        "event": "Lake Mitchell Water Inc reported a Tier 3 Monitoring Violation for Nitrate [Nitrite] under the Safe Drinking Water Act.",
+        "category": "violation",
+        "source_url": "https://echo.epa.gov/"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA4239000",
+    "vendors": {
+      "gis": {
+        "product": "Esri ArcGIS",
+        "confidence": "high",
+        "evidence": "Town of Plymouth, MA GIS Department utilizes ArcGIS Online for utility mapping including water infrastructure.",
+        "source_url": "https://www.plymouth-ma.gov/359/GIS-Department"
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": "Cityworks",
+        "confidence": "medium",
+        "evidence": "Town of Plymouth uses Cityworks for department-wide asset management and work orders.",
+        "source_url": "https://www.plymouth-ma.gov/DocumentCenter/View/1154/Information-Technology-Strategic-Plan-PDF"
+      },
+      "customer_portal": {
+        "product": "InvoiceCloud",
+        "confidence": "high",
+        "evidence": "The Town of Plymouth uses InvoiceCloud for online water and sewer bill payments.",
+        "source_url": "https://www.plymouth-ma.gov/318/Online-Payments"
+      },
+      "financial_erp": {
+        "product": "Tyler MUNIS",
+        "confidence": "high",
+        "evidence": "Plymouth utilizes Munis for financial management and utility billing functions.",
+        "source_url": "https://www.plymouth-ma.gov/DocumentCenter/View/1154/Information-Technology-Strategic-Plan-PDF"
+      }
+    },
+    "consulting_firms": [
+      {
+        "name": "Environmental Partners",
+        "type": "engineering",
+        "engagement": "Assisting with Water System Master Plan and lead service line inventory compliance.",
+        "year": "2023",
+        "source_url": "https://www.plymouth-ma.gov/1125/Lead-Service-Line-Inventory"
+      },
+      {
+        "name": "Weston & Sampson",
+        "type": "engineering",
+        "engagement": "Design and construction oversight for water main replacements and well station improvements.",
+        "year": "2022",
+        "source_url": "https://www.plymouth-ma.gov/1153/Water-Division"
+      }
+    ],
+    "chemical_suppliers": [],
+    "public_contracts": [
+      {
+        "description": "Foster Lane Well 4 Replacement and Improvements",
+        "value": "3495000",
+        "year": "2023",
+        "vendor": "R.H. White Construction",
+        "source_url": "https://www.plymouth-ma.gov/1153/Water-Division"
+      }
+    ],
+    "source_urls": {},
+    "timeline_events": [
+      {
+        "year": 2024,
+        "month": "Oct",
+        "event": "Utility released its Lead Service Line Inventory to comply with EPA/MassDEP Lead and Copper Rule Improvements.",
+        "category": "compliance",
+        "source_url": "https://www.plymouth-ma.gov/1125/Lead-Service-Line-Inventory"
+      },
+      {
+        "year": 2023,
+        "month": "Jun",
+        "event": "Awarded contract for the Foster Lane Well 4 replacement project to enhance water supply resilience.",
+        "category": "capital_project",
+        "source_url": "https://www.plymouth-ma.gov/1153/Water-Division"
+      },
+      {
+        "year": 2022,
+        "month": "Jan",
+        "event": "Initiated city-wide water meter upgrade project to modernize billing and leak detection.",
+        "category": "technology",
+        "source_url": "https://www.plymouth-ma.gov/1153/Water-Division"
+      }
+    ]
+  },
+  {
+    "pwsid": "MA4261024",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4126000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA1137000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "MA4201000",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  },
+  {
+    "pwsid": "AL0001769",
+    "vendors": {
+      "gis": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "scada": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "asset_management": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "customer_portal": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      },
+      "financial_erp": {
+        "product": null,
+        "confidence": "none",
+        "evidence": "",
+        "source_url": null
+      }
+    },
+    "consulting_firms": [],
+    "chemical_suppliers": [],
+    "public_contracts": [],
+    "source_urls": {},
+    "timeline_events": []
+  }
+]
