@@ -7,15 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      animation: {
-        'fade-in': 'fadeIn 0.3s ease-in-out',
+      colors: {
+        navy: '#1B3A5C',
+        'navy-dark': '#102235',
+        'navy-mid': '#2B5080',
+        'navy-light': '#3D6FA3',
+        tan: '#F5F3EE',
+        'tan-dark': '#EDE9E0',
+        'tan-border': '#D8D2C5',
+        'tan-deep': '#C4BDB0',
       },
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0', transform: 'translateY(4px)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
-        }
-      }
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
     },
   },
   plugins: [],

@@ -1,46 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --bg: #0d0d0d;
-  --card: #141414;
-  --elevated: #1a1a1a;
-  --border: #242424;
-  --text: #e5e5e5;
-  --muted: #737373;
-  --tier1: #ef4444;
-  --tier2: #f97316;
-  --tier3: #eab308;
-  --watch: #22c55e;
-  --accent: #6366f1;
+  --navy: #1B3A5C;
+  --navy-dark: #102235;
+  --navy-mid: #2B5080;
+  --bg: #F5F3EE;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #EDE9E0;
+  --border: #D8D2C5;
+  --text: #1A1714;
+  --text-muted: #6B6560;
+  --text-light: #9C9188;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
-html { scroll-behavior: smooth; }
+* { box-sizing: border-box; }
 
 body {
-  background: var(--bg);
+  background-color: var(--bg);
   color: var(--text);
   font-family: 'Inter', system-ui, sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #444; }
+::-webkit-scrollbar-track { background: var(--bg-subtle); }
+::-webkit-scrollbar-thumb { background: var(--tan-deep, #C4BDB0); border-radius: 3px; }
 
-::selection { background: rgba(99, 102, 241, 0.3); }
+/* Status badges */
+.badge-open    { background: #FEE2E2; color: #991B1B; border: 1px solid #FECACA; }
+.badge-active  { background: #FEF3C7; color: #92400E; border: 1px solid #FDE68A; }
+.badge-resolved{ background: #DCFCE7; color: #166534; border: 1px solid #BBF7D0; }
+.badge-unknown { background: #F3F4F6; color: #374151; border: 1px solid #E5E7EB; }
 
-.score-ring-text {
-  dominant-baseline: central;
-  text-anchor: middle;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
+/* Tier colors */
+.tier-hot      { background: #FEE2E2; color: #991B1B; border-color: #FCA5A5; }
+.tier-warm     { background: #FFF7ED; color: #9A3412; border-color: #FDBA74; }
+.tier-lukewarm { background: #FEFCE8; color: #854D0E; border-color: #FDE047; }
+.tier-watch    { background: #F0FDF4; color: #166534; border-color: #86EFAC; }
+
+/* Signal types */
+.signal-danger   { border-left: 3px solid #EF4444; background: #FFF5F5; }
+.signal-warning  { border-left: 3px solid #F59E0B; background: #FFFBF0; }
+.signal-positive { border-left: 3px solid #10B981; background: #F0FDF9; }
+.signal-info     { border-left: 3px solid #3B82F6; background: #F0F7FF; }
+
+/* Table hover */
+.lead-row:hover { background: #F0EDE6; }
+.lead-row { cursor: pointer; transition: background 0.1s; }
+
+/* Detail section cards */
+.detail-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.detail-card h3 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 16px;
 }

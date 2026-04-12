@@ -1,12 +1,18 @@
+import type { Metadata } from 'next'
 import './globals.css'
+
+export const metadata: Metadata = {
+  title: 'Raybern Prospect Intelligence',
+  description: 'EPA SDWIS water utility lead scoring for Raybern sales team',
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <title>Raybern | Prospect Intelligence</title>
-        <meta name="description" content="Water utility lead intelligence" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </head>
       <body>{children}</body>
     </html>
