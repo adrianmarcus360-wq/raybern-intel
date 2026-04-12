@@ -1,0 +1,2002 @@
+[
+  {
+    "pwsid": "MA3207000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Newton uses the Tyler MUNIS system for billing and financial management across departments, including Water and Sewer.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Newton Water Department utilizes the Sensus FlexNet system and Sensus iPERL meters for its Advanced Metering Infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "James McGonagle",
+        "title": "Commissioner of Public Works",
+        "email": "jmcgonagle@newtonma.gov",
+        "phone": "617-796-1000"
+      },
+      {
+        "name": "Gregory Reed",
+        "title": "Director of Utilities",
+        "email": "greed@newtonma.gov",
+        "phone": "617-796-1640"
+      }
+    ],
+    "recent_news": [
+      "Newton has implemented a multi-year water and sewer rate increase plan to fund significant infrastructure improvements including water main replacements."
+    ],
+    "recent_rfps": [
+      "The city recently sought bids for various water works supplies and fire hydrants to support ongoing maintenance and capital improvement projects."
+    ],
+    "contract_signals": "Newton\u2019s Capital Improvement Plan indicates ongoing budget allocations for the phased replacement of aging water mains and continued meter maintenance.",
+    "tech_notes": "Newton offers a customer portal for water usage monitoring integrated with their AMI system, allowing residents to view hourly consumption data."
+  },
+  {
+    "pwsid": "MA1329000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Westfield utilizes Tyler Technologies' MUNIS system for municipal billing and financial management.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Westfield has implemented the Sensus FlexNet AMI system to transition from manual to automated meter reading.",
+    "additional_contacts": [
+      {
+        "name": "Heather Miller",
+        "title": "Director of Public Works",
+        "email": "h.miller@cityofwestfield.org",
+        "phone": "413-572-6226"
+      },
+      {
+        "name": "Francis Cain",
+        "title": "Water Systems Manager",
+        "email": "f.cain@cityofwestfield.org",
+        "phone": "413-572-6243"
+      }
+    ],
+    "recent_news": [
+      "The city has been managing a multi-year PFAS remediation project including the construction of a new treatment plant at Wells 7 & 8."
+    ],
+    "recent_rfps": [
+      "Recent procurement activity includes bids for water main replacements and upgrades to the granular activated carbon (GAC) filtration systems."
+    ],
+    "contract_signals": "The city maintains a rolling capital improvement plan (CIP) with ongoing allocations for water meter replacements and SCADA system updates.",
+    "tech_notes": "The utility uses SCADA systems for real-time monitoring of well sites and has integrated GIS mapping for infrastructure asset management."
+  },
+  {
+    "pwsid": "MA3176000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Medford uses Tyler Technologies\u2019 MUNIS system for financial and billing functions, including water and sewer billing.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The City recently completed a city-wide upgrade to Sensus iPERL meters and the FlexNet communication network.",
+    "additional_contacts": [
+      {
+        "name": "Timothy J. McGivern",
+        "title": "Commissioner of Public Works",
+        "email": "tmcgivern@medford-ma.gov",
+        "phone": "781-393-2401"
+      },
+      {
+        "name": "Ben Heider",
+        "title": "Water & Sewer Operations Manager",
+        "email": "bheider@medford-ma.gov",
+        "phone": "781-393-2403"
+      }
+    ],
+    "recent_news": [
+      "Medford is undergoing a multi-year lead service line identification and replacement program in compliance with EPA Lead and Copper Rule Revisions.",
+      "The City Council recently approved adjusted water and sewer rates to fund infrastructure improvements and MWRA assessments."
+    ],
+    "recent_rfps": [
+      "Recent procurement activity includes bids for water main rehabilitations and lead service line replacement engineering services."
+    ],
+    "contract_signals": "The city has integrated a customer portal (Sensus Analytics/Customer Portal) following their AMI rollout, suggesting a shift toward digital engagement tools.",
+    "tech_notes": "Medford is a member community of the Massachusetts Water Resources Authority (MWRA), which provides the source water. The utility utilizes GIS mapping for their lead service line inventory publicly available via a web-based dashboard."
+  },
+  {
+    "pwsid": "MA3274000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Somerville uses Tyler Technologies' Munis system for utility billing and financial management.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Somerville has a city-wide Sensus FlexNet system to read water meters remotely.",
+    "additional_contacts": [
+      {
+        "name": "Lucica Hiller",
+        "title": "Director of Water and Sewer",
+        "email": "lhiller@somervillema.gov",
+        "phone": "617-625-6600"
+      },
+      {
+        "name": "Edward Nuzzo",
+        "title": "Water Department General Superintendent",
+        "email": "enuzzo@somervillema.gov",
+        "phone": "617-625-6600"
+      }
+    ],
+    "recent_news": [
+      "The city implemented a new water and sewer rate structure effective July 1, 2024, to fund infrastructure improvements.",
+      "Somerville is actively conducting a city-wide inventory of water service lines to identify lead pipes in compliance with EPA Lead and Copper Rule Improvements."
+    ],
+    "recent_rfps": [
+      "The city recently sought proposals for a modern Asset Management and Work Order software system to replace legacy tracking methods."
+    ],
+    "contract_signals": "FY2025 budget allocations prioritize digital transformation and upgraded GIS integration for the Water and Sewer enterprise fund.",
+    "tech_notes": "The utility utilizes a customer portal (Self-Service) integrated with Tyler MUNIS for bill pay and consumption tracking. Somerville is a member of the MWRA (Massachusetts Water Resources Authority) for wholesale water supply."
+  },
+  {
+    "pwsid": "MA1061000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Chicopee uses Tyler Technologies' Munis Self Service for its Citizen Self Service portal, including water and tax billing.",
+    "ami_system": "Neptune R900/e-CODER",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "References in city procurement and technical specifications mention the use of Neptune R900 belt clips and the Neptune system for meter reading operations.",
+    "additional_contacts": [
+      {
+        "name": "John Case",
+        "title": "Water Superintendent",
+        "email": "jcase@chicopeema.gov",
+        "phone": "413-594-3420"
+      },
+      {
+        "name": "James Blake",
+        "title": "Water Business Manager",
+        "email": "jblake@chicopeema.gov",
+        "phone": "413-594-3420"
+      }
+    ],
+    "recent_news": [
+      "The Chicopee Water Department recently issued its 2023 Water Quality Report confirming compliance with all EPA and MassDEP primary drinking water standards."
+    ],
+    "recent_rfps": [
+      "The city has recently sought bids for various water works supplies, including brass fittings and hydrants, as part of routine infrastructure maintenance."
+    ],
+    "contract_signals": "The city maintains an active Citizen Self Service portal via Tyler Technologies, suggesting a stable, long-term contract for ERP and billing services.",
+    "tech_notes": "The utility utilizes a 'Citizen Self Service' portal for electronic bill presentment and payment. Metering operations involve a mix of drive-by/walk-by data collection using Neptune equipment."
+  },
+  {
+    "pwsid": "MA3165000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Malden uses Tyler Technologies' Munis system for financial and utility billing operations, including a citizen self-service portal for water bills.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Malden utilized a Massachusetts DEP grant to implement a Sensus FlexNet system and radio-read meters for improved leak detection.",
+    "additional_contacts": [
+      {
+        "name": "Bob Knox",
+        "title": "Director of Public Works",
+        "email": "rknox@cityofmalden.org",
+        "phone": "781-397-7160"
+      },
+      {
+        "name": "Maria Luise",
+        "title": "Special Assistant to the Mayor",
+        "email": "mluise@cityofmalden.org",
+        "phone": "781-397-7000"
+      }
+    ],
+    "recent_news": [
+      "Malden has been actively replacing lead service lines as part of an ongoing infrastructure improvement program funded by the MWRA.",
+      "The city implemented a new online payment portal through Tyler Technologies to streamline utility billing and collections."
+    ],
+    "recent_rfps": [
+      "The city recently issued solicitations for professional engineering services related to lead service line identification and replacement design."
+    ],
+    "contract_signals": "Malden's Capital Improvement Plan indicates continued multi-year funding for water meter upgrades and digital infrastructure through 2025.",
+    "tech_notes": "The utility leverages GIS mapping for its lead service line inventory and offers an online portal for residents to check their pipe material. Data from the Sensus AMI system is integrated into the city's customer service workflows for leak notifications."
+  },
+  {
+    "pwsid": "MA3248000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "Revere uses Munis for its financial and billing management systems, including water and sewer billing.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The City of Revere utilized Sensus FlexNet technology for its automated meter reading infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "Donny Desrochers",
+        "title": "Superintendent of Water and Sewer",
+        "email": "ddesrochers@revere.org",
+        "phone": "781-286-8152"
+      },
+      {
+        "name": "Richard Santarino",
+        "title": "Water Meter Operations",
+        "email": "rsantarino@revere.org",
+        "phone": "null"
+      }
+    ],
+    "recent_news": [
+      "The City of Revere implemented a new water and sewer rate structure in 2023 to address infrastructure maintenance and rising MWRA costs."
+    ],
+    "recent_rfps": [
+      "The city has previously issued bids for water meter replacement and advanced metering infrastructure maintenance services."
+    ],
+    "contract_signals": "The City's Capital Improvement Plan includes ongoing allocations for water main replacements and digital meter upgrades.",
+    "tech_notes": "Revere integrates its water billing through a central municipal portal that supports online payments via City Hall Systems. The utility is a member of the Massachusetts Water Resources Authority (MWRA) for its water supply."
+  },
+  {
+    "pwsid": "MA4040000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Braintree utilizes Munis for financial and billing operations, with online payments processed through the Munis Citizen Self Service portal.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Town of Braintree has implemented a Sensus FlexNet system for automated meter reading and infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "James Arsenault",
+        "title": "Director of Public Works",
+        "email": "jarsenault@braintreema.gov",
+        "phone": "781-794-8000"
+      },
+      {
+        "name": "Lou Dutton",
+        "title": "Water & Sewer Superintendent",
+        "email": "ldutton@braintreema.gov",
+        "phone": "781-843-8097"
+      }
+    ],
+    "recent_news": [
+      "The town recently implemented a new water and sewer rate structure to fund a $100 million water treatment plant upgrade project."
+    ],
+    "recent_rfps": [
+      "Braintree recently sought bids for the construction of the new Tri-Town Regional Water Treatment Plant."
+    ],
+    "contract_signals": "The town's capital improvement plan includes ongoing allocations for meter replacements and SCADA system upgrades.",
+    "tech_notes": "Braintree operates a regional dispatch and asset management system integrated with GIS for water and sewer infrastructure tracking."
+  },
+  {
+    "pwsid": "MA3308000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA3160000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA3149000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The city's online payment portal and financial reports reference the use of Tyler Technologies MUNIS for municipal billing and accounting.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "City records and water department notices detail a large-scale deployment of Sensus iPERL meters and the FlexNet communication network.",
+    "additional_contacts": [
+      {
+        "name": "Brian Pe\u00f1a",
+        "title": "Water Commissioner",
+        "email": "bpena@cityoflawrence.com",
+        "phone": "978-620-3310"
+      },
+      {
+        "name": "Nilany De Jesus",
+        "title": "Water Business Manager",
+        "email": "ndejesus@cityoflawrence.com",
+        "phone": "978-620-3110"
+      }
+    ],
+    "recent_news": [
+      "The City of Lawrence has been actively replacing aging lead service lines as part of a multi-year infrastructure modernization initiative.",
+      "Lawrence Water Works recently updated its water rate schedule to fund ongoing capital improvement projects."
+    ],
+    "recent_rfps": [
+      "The city recently issued solicitations for professional engineering services related to water treatment plant upgrades and water main replacements."
+    ],
+    "contract_signals": "The city has allocated significant ARPA and state revolving fund (SRF) dollars toward water infrastructure and digital meter integration through 2025.",
+    "tech_notes": "Lawrence utilizes an ESRI-based GIS system for asset management and mapping of their distribution network. The utility has focused heavily on automating meter reading to reduce estimated billing."
+  },
+  {
+    "pwsid": "MA3128000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City uses Munis for its financial and billing system and Tyler Content Management for its document imaging.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Implementation of a City-wide Sensus FlexNet fixed-base smart water meter reading system.",
+    "additional_contacts": [
+      {
+        "name": "Robert E. Ward",
+        "title": "Deputy Public Works Director",
+        "email": "rward@haverhillwater.com",
+        "phone": "978-374-2382"
+      },
+      {
+        "name": "Mary Ellen Christie",
+        "title": "Water Billing Manager",
+        "email": "mchristie@cityofhaverhill.com",
+        "phone": "978-374-2370"
+      }
+    ],
+    "recent_news": [
+      "The city has been addressing PFAS 'forever chemicals' by implementing a carbon filtration system at the water treatment plant.",
+      "Haverhill recently updated its water and sewer rates effective July 1, 2024, to fund infrastructure improvements."
+    ],
+    "recent_rfps": [
+      "Request for proposals for the rehabilitation of the Kenoza Lake Water Treatment Plant and associated pumping stations."
+    ],
+    "contract_signals": "The city has ongoing capital improvement plans for water main replacements and treatment plant upgrades through 2025.",
+    "tech_notes": "The utility utilizes an ArcGIS-based asset management system for mapping and tracking water infrastructure."
+  },
+  {
+    "pwsid": "MA1008000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Amherst uses Tyler MUNIS for its financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Amherst has historically utilized the Sensus FlexNet system for automated meter reading and infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "Guilford Mooring",
+        "title": "Director of Public Works",
+        "email": "mooringg@amherstma.gov",
+        "phone": "413-259-3050"
+      },
+      {
+        "name": "Amy Rusiecki",
+        "title": "Assistant DPW Director",
+        "email": "rusieckia@amherstma.gov",
+        "phone": "413-259-3050"
+      }
+    ],
+    "recent_news": [
+      "The town recently updated its Water & Sewer Regulations and implemented a new rate structure to address infrastructure aging and conservation goals."
+    ],
+    "recent_rfps": [
+      "The town issued a Request for Qualifications (RFQ) for the design and construction of a new Water Treatment Plant at the Centennial Water Treatment facility."
+    ],
+    "contract_signals": "Budget documents indicate ongoing allocations for the replacement of aging water meters and the upgrading of software modules within the MUNIS system.",
+    "tech_notes": "Amherst maintains a robust GIS division that supports DPW asset management and utility mapping."
+  },
+  {
+    "pwsid": "MA3009000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Andover uses Munis Employee Self Service and Citizen Self Service for utility billing and online payments.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Town of Andover Water Department uses the Sensus FlexNet system... advanced metering infrastructure (AMI).",
+    "additional_contacts": [
+      {
+        "name": "Christopher Cronin",
+        "title": "Director of Public Works",
+        "email": "ccronin@andoverma.gov",
+        "phone": "978-623-8700"
+      },
+      {
+        "name": "Patrick J. Lawlor",
+        "title": "Town Manager",
+        "email": "patrick.lawlor@andoverma.gov",
+        "phone": "978-623-8210"
+      }
+    ],
+    "recent_news": [
+      "The town recently implemented a city-wide water meter replacement program to upgrade all accounts to AMI technology for improved leak detection and billing accuracy."
+    ],
+    "recent_rfps": [
+      "The town issued a bid (IFB No. 004/07-22/100) for Water Meter Replacement and Advanced Metering Infrastructure (AMI) System installation."
+    ],
+    "contract_signals": "The AMI rollout and software integration indicate a transition toward digital-first utility management and proactive customer leak notification.",
+    "tech_notes": "The utility utilizes the Sensus Customer Portal (Customer Portal) allowing residents to monitor real-time usage data and set custom alerts."
+  },
+  {
+    "pwsid": "MA3093000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Everett uses Tyler Technologies\u2019 Munis for financial and billing management.",
+    "ami_system": "Neptune",
+    "ami_system_confidence": "medium",
+    "ami_system_evidence": "References to Neptune radio frequency meter reading technology in city technical specifications and recent meter replacement initiatives.",
+    "additional_contacts": [
+      {
+        "name": "Ernest L. Lariviere",
+        "title": "Superintendent of Water & Sewer",
+        "email": "ernie.lariviere@ci.everett.ma.us",
+        "phone": "617-394-2387"
+      },
+      {
+        "name": "Isaac Deas",
+        "title": "Water & Sewer Dept. Business Manager",
+        "email": "isaac.deas@ci.everett.ma.us",
+        "phone": "617-394-2325"
+      }
+    ],
+    "recent_news": [
+      "The City of Everett recently increased water and sewer rates effective July 1, 2024, to address rising MWRA assessment costs.",
+      "The utility is actively replacing aging water mains and service lines as part of an ongoing Lead Service Line Replacement Program."
+    ],
+    "recent_rfps": [
+      "The city recently solicited bids for Water Meter Infrastructure Upgrades to replace legacy meters with new radio-read compatible units."
+    ],
+    "contract_signals": "Budget documents indicate recurring annual maintenance fees for Tyler Munis and allocations for capital improvements to the water distribution network.",
+    "tech_notes": "The utility is a member of the Massachusetts Water Resources Authority (MWRA) and utilizes Geographic Information Systems (GIS) for infrastructure mapping and asset management."
+  },
+  {
+    "pwsid": "MA4095000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Fall River utilizes Tyler Technologies' Munis system for municipal financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "medium",
+    "ami_system_evidence": "References to Sensus meter infrastructure and radio frequency transmitter replacements in recent capital improvement discussions.",
+    "additional_contacts": [
+      {
+        "name": "Paul Ferland",
+        "title": "Administrator of Community Utilities",
+        "email": "pferland@fallriverma.org",
+        "phone": "508-324-2720"
+      },
+      {
+        "name": "Seth Thomas",
+        "title": "Director of Water Distribution",
+        "email": "sthomas@fallriverma.org",
+        "phone": "508-324-2720"
+      }
+    ],
+    "recent_news": [
+      "Fall River is currently undergoing a multi-year Lead Service Line Replacement program to comply with updated EPA Lead and Copper Rule Revisions.",
+      "The City Council recently approved adjusted water and sewer rates to fund infrastructure upgrades at the regional wastewater treatment plant."
+    ],
+    "recent_rfps": [
+      "The department recently sought bids for Phase 3 of the Lead Service Line Replacement project and associated GIS mapping services."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance payments for Tyler MUNIS and a recurring capital allocation for meter replacement cycles.",
+    "tech_notes": "The utility uses ArcGIS for its service line inventory and public-facing lead map. They maintain a SCADA system for monitoring the Watuppa Pond water source and treatment facility."
+  },
+  {
+    "pwsid": "MA3030001",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "medium",
+    "billing_software_evidence": "Beverly's Treasury and Water Billing departments utilize the city-wide MUNIS system for financial management and billing services.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The City of Beverly has implemented a Sensus FlexNet fixed-base AMI system for reading water meters across the service area.",
+    "additional_contacts": [
+      {
+        "name": "Alan Taubert",
+        "title": "Executive Director",
+        "email": "ataubert@sbwsb.net",
+        "phone": "978-922-2600"
+      },
+      {
+        "name": "James L. Vitale",
+        "title": "Water Operations Manager",
+        "email": "jvitale@beverlyma.gov",
+        "phone": "978-921-6000"
+      }
+    ],
+    "recent_news": [
+      "The Board is undergoing a major multi-year Water Treatment Plant Improvement Project to address aging infrastructure and regulatory compliance."
+    ],
+    "recent_rfps": [
+      "The Board recently issued requests for qualifications for professional engineering services related to treatment plant upgrades and residuals management."
+    ],
+    "contract_signals": "Budget documents indicate ongoing allocations for the maintenance of the Sensus AMI system and integration with city financial software.",
+    "tech_notes": "The Board operates a joint water supply system for Beverly and Salem, utilizing a SCADA system for real-time monitoring of the treatment plant and pump stations."
+  },
+  {
+    "pwsid": "MA3181000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Methuen uses Tyler Technologies' Munis system for financial and billing operations; residents pay via the 'Citizen Self Service' portal which is a Munis module.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The City completed a system-wide upgrade to Sensus iPERL meters and the FlexNet communication network.",
+    "additional_contacts": [
+      {
+        "name": "Joseph Gidari",
+        "title": "Water Department Superintendent",
+        "email": "jgidari@ci.methuen.ma.us",
+        "phone": "978-983-8855"
+      },
+      {
+        "name": "Stephen S.W. Spero",
+        "title": "Director of Public Works",
+        "email": "sspero@ci.methuen.ma.us",
+        "phone": "978-983-8545"
+      }
+    ],
+    "recent_news": [
+      "The city has been implementing a multi-year water meter replacement program to transition all residential and commercial accounts to smart meters.",
+      "Methuen recently addressed water quality concerns regarding PFAS levels to ensure compliance with MassDEP standards."
+    ],
+    "recent_rfps": [
+      "The city recently solicited bids for Water Distribution System Leak Detection Services to reduce non-revenue water."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance and support payments for the Tyler Munis ERP system and Sensus SaaS platform.",
+    "tech_notes": "The utility utilizes the Sensus Customer Portal (Customer Portal) allowing residents to monitor real-time usage and receive leak alerts."
+  },
+  {
+    "pwsid": "MA4351000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Yarmouth uses Tyler Technologies Munis for financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Water Department utilizes the Sensus FlexNet system for automated meter reading.",
+    "additional_contacts": [
+      {
+        "name": "Daniel J. Knapik",
+        "title": "Town Administrator",
+        "email": "dknapik@yarmouth.ma.us",
+        "phone": "508-398-2231"
+      },
+      {
+        "name": "Andrew S. Arp",
+        "title": "Water Superintendent",
+        "email": "aarp@yarmouth.ma.us",
+        "phone": "508-771-7921"
+      },
+      {
+        "name": "Laurie Casolari",
+        "title": "Office Manager",
+        "email": "lcasolari@yarmouth.ma.us",
+        "phone": "508-771-7921"
+      }
+    ],
+    "recent_news": [
+      "The department is implementing a new PFAS treatment facility at Well 1 to meet state drinking water standards."
+    ],
+    "recent_rfps": [
+      "The town recently solicited bids for Water Meter Infrastructure Improvements and continued implementation of the Sensus AMI system."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual licensing fees for Tyler Munis and a multi-year capital plan for meter replacement cycles.",
+    "tech_notes": "The utility utilizes an online customer portal through InvoiceCloud for electronic payments and bill presentment."
+  },
+  {
+    "pwsid": "MA4076004",
+    "billing_software": "Oracle",
+    "billing_software_confidence": "medium",
+    "billing_software_evidence": "Aquaria's online customer portal is powered by Oracle Utilities Customer Self Service.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Aquaria utilizes Sensus iPERL water meters and the FlexNet communication network for remote reading.",
+    "additional_contacts": [
+      {
+        "name": "Junia Lourenco",
+        "title": "Customer Service Manager",
+        "email": "jlourenco@aquariallc.com",
+        "phone": "508-880-5074"
+      },
+      {
+        "name": "Francisco Castillejo",
+        "title": "General Manager",
+        "email": null,
+        "phone": null
+      }
+    ],
+    "recent_news": [
+      "GS Inima assumed full control and operation of the Dighton Desalination Plant which supplies water to the City of Brockton via Aquaria LLC."
+    ],
+    "recent_rfps": [],
+    "contract_signals": "The current water supply contract with the City of Brockton is a long-term agreement extending through 2028.",
+    "tech_notes": "The facility is a high-tech brackish water desalination plant utilizing reverse osmosis technology to provide supplemental water to the South Shore region."
+  },
+  {
+    "pwsid": "MA3057000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA3347000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA3035000",
+    "billing_software": "Oracle",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "BWSC utilizes Oracle Customer Care and Billing (CC&B) for its billing and customer management functions.",
+    "ami_system": "Aclara STAR",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Commission\u2019s Automatic Meter Reading (AMR) system consists of an Aclara Star system.",
+    "additional_contacts": [
+      {
+        "name": "Henry F. Vitale",
+        "title": "Executive Director",
+        "email": null,
+        "phone": "617-989-7000"
+      },
+      {
+        "name": "Nelson Santana",
+        "title": "Director of IT",
+        "email": null,
+        "phone": null
+      },
+      {
+        "name": "John Sullivan",
+        "title": "Chief Engineer",
+        "email": null,
+        "phone": null
+      }
+    ],
+    "recent_news": [
+      "BWSC has been implementing a multi-year Lead Pipe Replacement Assistance Program to identify and replace private lead service lines."
+    ],
+    "recent_rfps": [
+      "BWSC recently issued requests for professional services regarding its wastewater and storm drain system hydraulic modeling and master planning."
+    ],
+    "contract_signals": "The Commission's Capital Improvement Program (CIP) includes recurring allocations for IT infrastructure upgrades and the modernization of GIS and mapping systems.",
+    "tech_notes": "BWSC maintains a robust GIS system integrated with Cityworks for asset management and uses an ESRI-based platform for public outage and construction tracking."
+  },
+  {
+    "pwsid": "MA4244001",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Holbrook uses Tyler MUNIS for utility billing and financial management.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "medium",
+    "ami_system_evidence": "Recent infrastructure reports indicate the implementation of a Sensus FlexNet radio frequency system for automated meter reading.",
+    "additional_contacts": [
+      {
+        "name": "Christopher Pellitteri",
+        "title": "Director of Public Works",
+        "email": "cpellitteri@holbrookmassachusetts.us",
+        "phone": "781-767-1800"
+      },
+      {
+        "name": "William J. Phelan",
+        "title": "Town Administrator",
+        "email": "wphelan@holbrookmassachusetts.us",
+        "phone": null
+      }
+    ],
+    "recent_news": [
+      "The Board is overseeing the construction of a new $60 million Tri-Town Water Treatment Plant to address PFAS levels and aging infrastructure."
+    ],
+    "recent_rfps": [
+      "The Board recently issued requests for qualifications for engineering services related to water main replacements and SCADA system upgrades."
+    ],
+    "contract_signals": "Budget documents show ongoing capital allocations for the Water Enterprise Fund specifically for meter replacement cycles and digital infrastructure.",
+    "tech_notes": "The utility is part of a joint board with Randolph, often sharing high-level infrastructure costs while maintaining separate billing processes at the municipal level."
+  },
+  {
+    "pwsid": "MA4096000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Falmouth uses the Tyler MUNIS system for financial and billing operations across departments including Water.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Falmouth Water Department utilizes Sensus iPERL meters and the FlexNet communication network for its Advanced Metering Infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "Cathal O'Brien",
+        "title": "Water Superintendent",
+        "email": "cobrien@falmouthma.gov",
+        "phone": "508-457-2543"
+      },
+      {
+        "name": "Peter McConarty",
+        "title": "Director of Public Works",
+        "email": "pmcconarty@falmouthma.gov",
+        "phone": "508-457-2543"
+      }
+    ],
+    "recent_news": [
+      "Falmouth has been actively addressing PFAS 'forever chemicals' by implementing new filtration systems at the Crooked Pond Water Treatment Plant.",
+      "The town recently implemented a new water rate structure to encourage conservation and fund infrastructure improvements."
+    ],
+    "recent_rfps": [
+      "The town issued a request for proposals for the construction of a new water filtration facility to remove PFAS contaminants."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance allocations for the Tyler MUNIS ERP system and Sensus meter support services.",
+    "tech_notes": "The utility uses a customer portal linked to the Sensus system to allow residents to monitor hourly water usage. They also utilize ESRI GIS mapping for infrastructure management."
+  },
+  {
+    "pwsid": "MA4293000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Taunton uses the Munis self-service portal for online water/sewer bill payments.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Taunton utilizes Sensus FlexNet for advanced metering infrastructure and provides customers access to the Sensus Customer Portal.",
+    "additional_contacts": [
+      {
+        "name": "Cathal O'Brien",
+        "title": "Water Commissioner",
+        "email": null,
+        "phone": "508-821-1045"
+      },
+      {
+        "name": "Fred Cornaglia",
+        "title": "DPW Commissioner",
+        "email": null,
+        "phone": "508-821-1431"
+      }
+    ],
+    "recent_news": [
+      "The City of Taunton recently implemented an online portal allowing residents to monitor their water consumption via the Sensus system."
+    ],
+    "recent_rfps": [],
+    "contract_signals": "The utility is currently promoting its Sensus Customer Portal, indicating a recent or ongoing rollout of smart metering capabilities.",
+    "tech_notes": "Taunton utilizes a digital GIS system for infrastructure mapping and maintains a public-facing portal for water quality reports and service line inventories."
+  },
+  {
+    "pwsid": "MA3229000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Peabody uses Tyler Technologies MUNIS for its financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "City of Peabody... utilizing Sensus FlexNet technology for automated meter reading.",
+    "additional_contacts": [
+      {
+        "name": "Bill Shalkoski",
+        "title": "Water and Sewer Superintendent",
+        "email": "wshalkoski@peabody-ma.gov",
+        "phone": "978-536-7126"
+      },
+      {
+        "name": "Dante Giamberardino",
+        "title": "Assistant Water and Sewer Superintendent",
+        "email": "dgiamberardino@peabody-ma.gov",
+        "phone": "null"
+      }
+    ],
+    "recent_news": [
+      "The city has been implementing a multi-year Water Meter Replacement Project to upgrade older residential and commercial meters to new Sensus units."
+    ],
+    "recent_rfps": [
+      "The city recently solicited bids for Water Distribution System Improvements and general water works supplies to support ongoing infrastructure upgrades."
+    ],
+    "contract_signals": "The Water Department is in the final stages of a city-wide meter replacement program, suggesting a shift from hardware installation to long-term data management and optimization.",
+    "tech_notes": "The utility utilizes a SCADA system for monitoring pump stations and storage tanks; billing data is integrated with the city's broader Tyler MUNIS ERP system."
+  },
+  {
+    "pwsid": "MA4020002",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "Utility bills are paid through a portal hosted by Town of Barnstable which utilizes Tyler Technologies MUNIS system for municipal billing.",
+    "ami_system": "Badger ORION",
+    "ami_system_confidence": "medium",
+    "ami_system_evidence": "The district's Rules and Regulations reference the installation of radio frequency meter reading equipment and technical specifications consistent with Badger Meter deployments in the region.",
+    "additional_contacts": [
+      {
+        "name": "Craig A. Crocker",
+        "title": "Superintendent",
+        "email": "ccrocker@commwater.com",
+        "phone": "508-428-6691"
+      },
+      {
+        "name": "Samuel S. Wilson",
+        "title": "Assistant Superintendent",
+        "email": "swilson@commwater.com",
+        "phone": "508-428-6691"
+      }
+    ],
+    "recent_news": [
+      "The district has been actively managing PFAS levels and monitoring compliance with the new EPA National Primary Drinking Water Regulation.",
+      "The district implemented updated water rates and service fees effective for the 2024 fiscal cycle."
+    ],
+    "recent_rfps": [
+      "The district recently solicited bids for the construction of a new water filtration plant to address mineral and contaminant removal."
+    ],
+    "contract_signals": "The district's annual budget consistently allocates capital for 'Meter Replacement/Upgrade' programs to maintain the radio read infrastructure.",
+    "tech_notes": "The utility utilizes a SCADA system for remote monitoring of its 19 gravel-packed wells and 3 storage tanks. It coordinates certain administrative billing functions through the Town of Barnstable's financial infrastructure."
+  },
+  {
+    "pwsid": "MA4131000",
+    "billing_software": "Munis",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Hingham uses the Munis Financial System for utility billing and collections.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Weir River Water System utilizes Sensus FlexNet technology for automated meter reading.",
+    "additional_contacts": [
+      {
+        "name": "Russell Tierney",
+        "title": "Managing Director/Superintendent",
+        "email": "tierneyr@hingham-ma.gov",
+        "phone": "781-741-1430"
+      },
+      {
+        "name": "Art Standish",
+        "title": "Operations Manager",
+        "email": "standisha@hingham-ma.gov",
+        "phone": "781-741-1430"
+      }
+    ],
+    "recent_news": [
+      "The system has been undergoing significant infrastructure improvements including water main replacements on Main Street and colonial road areas as part of their capital improvement plan."
+    ],
+    "recent_rfps": [
+      "The system recently issued solicitations for Water Treatment Plant filter media replacement and residuals management services."
+    ],
+    "contract_signals": "The town transitions and ongoing capital improvement budgets indicate periodic procurement for engineering and meter maintenance services.",
+    "tech_notes": "The utility provides customers access to the Sensus Customer Portal (Customer Portal) for real-time water usage monitoring. The system was transitioned from private ownership (Aquarion) to municipal control in 2020."
+  },
+  {
+    "pwsid": "MA3046000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Brookline uses Tyler Technologies' Munis system for its financial and billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Town utilizes the Sensus FlexNet system for automated meter reading (AMR/AMI).",
+    "additional_contacts": [
+      {
+        "name": "Frederick Russell",
+        "title": "Director of Water and Sewer",
+        "email": "frussell@brooklinema.gov",
+        "phone": "617-730-2170"
+      },
+      {
+        "name": "Tom Segear",
+        "title": "Information Technology Director",
+        "email": "tsegear@brooklinema.gov",
+        "phone": "617-730-2311"
+      }
+    ],
+    "recent_news": [
+      "The Division is currently managing a significant lead service line replacement program in compliance with EPA Lead and Copper Rule Revisions."
+    ],
+    "recent_rfps": [
+      "Brookline recently sought proposals for a Water and Sewer Rate Study to evaluate long-term financial stability and rate structures."
+    ],
+    "contract_signals": "The Town has been progressively migrating modules to Tyler SaaS and expanding its use of the Munis Citizen Self Service portal.",
+    "tech_notes": "The utility integrates its Sensus AMI data with a customer portal to provide residents with real-time water usage alerts and leak detection."
+  },
+  {
+    "pwsid": "MA2170000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City uses Munis software to track all financial data, including utility billing and collections.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Department of Public Works utilizes the Sensus FlexNet system for automated water meter reading.",
+    "additional_contacts": [
+      {
+        "name": "Sean M. Divoll",
+        "title": "Commissioner of Public Works",
+        "email": "sdivoll@marlborough-ma.gov",
+        "phone": "508-624-6910"
+      },
+      {
+        "name": "Thomas G. DiPersio, Jr.",
+        "title": "City Engineer",
+        "email": "tdipersio@marlborough-ma.gov",
+        "phone": "508-624-6910"
+      },
+      {
+        "name": "Gerard Scott",
+        "title": "Water/Sewer General Foreman",
+        "email": "gscott@marlborough-ma.gov",
+        "phone": "508-624-6910"
+      }
+    ],
+    "recent_news": [
+      "The city has been implementing lead service line inventory requirements in accordance with EPA's Lead and Copper Rule Improvements (LCRI)."
+    ],
+    "recent_rfps": [
+      "The city recently sought proposals for Water Storage Tank Inspections and maintenance services."
+    ],
+    "contract_signals": "The City\u2019s annual budget includes recurring software maintenance fees for the Munis ERP system used for utility billing.",
+    "tech_notes": "Marlborough utilizes a GIS-based asset management approach for their water distribution infrastructure and maintains a SCADA system for monitoring water storage and pressure zones."
+  },
+  {
+    "pwsid": "MA2153000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Leominster uses Tyler Technologies MUNIS software for its financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Leominster utilizes the Sensus FlexNet system with iPERL water meters for automated meter reading.",
+    "additional_contacts": [
+      {
+        "name": "Iris Rivera",
+        "title": "Water Registrar",
+        "email": "irivera@leominster-ma.gov",
+        "phone": "978-534-7500"
+      },
+      {
+        "name": "Ray Belanger",
+        "title": "Water Distribution Superintendent",
+        "email": "rbelanger@leominster-ma.gov",
+        "phone": "978-534-7596"
+      }
+    ],
+    "recent_news": [
+      "The city has been implementing lead service line inventory and replacement programs in compliance with EPA Lead and Copper Rule Improvements."
+    ],
+    "recent_rfps": [
+      "The city recently issued solicitations for Water Treatment Plant chemical supplies and distribution system maintenance services."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance payments for Tyler MUNIS and a focus on long-term capital improvements for the Fall Brook reservoir and treatment infrastructure.",
+    "tech_notes": "Leominster offers customers a 'Citizen Self Service' portal for online bill pay integrated with their Tyler MUNIS backend. The utility maintains a Supervisory Control and Data Acquisition (SCADA) system for its treatment plants and distribution monitoring."
+  },
+  {
+    "pwsid": "MA3314000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA2348000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA3049000",
+    "billing_software": "PeopleSoft",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "Cambridge uses Oracle's PeopleSoft for its city-wide financial and billing operations, including water and sewer billing.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The City has implemented the Sensus FlexNet system for automated meter reading (AMI) to provide real-time water usage data.",
+    "additional_contacts": [
+      {
+        "name": "Sam Corda",
+        "title": "Managing Director",
+        "email": "scorda@cambridgema.gov",
+        "phone": "617-349-4770"
+      },
+      {
+        "name": "Mark Gallagher",
+        "title": "Director of Water Operations",
+        "email": "mgallagher@cambridgema.gov",
+        "phone": "617-349-4773"
+      },
+      {
+        "name": "Keren Schlomy",
+        "title": "Business Manager",
+        "email": "kschlomy@cambridgema.gov",
+        "phone": "617-349-4775"
+      }
+    ],
+    "recent_news": [
+      "Cambridge recently implemented a 100% switch to 100% renewable electricity for its water treatment plant operations.",
+      "The department is actively managing a multi-year project to address PFAS levels and has switched to GAC filtration."
+    ],
+    "recent_rfps": [
+      "The city recently solicited bids for Water Treatment Chemicals and Laboratory Testing Services."
+    ],
+    "contract_signals": "The department's FY2024 budget includes significant capital allocations for water main replacements and SCADA system upgrades.",
+    "tech_notes": "The utility utilizes a customer portal ('WaterView') powered by the AMI data to help residents track hourly consumption and detect leaks."
+  },
+  {
+    "pwsid": "MA3198000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Natick uses Tyler Technologies' Munis system for financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Natick's automated meter reading system uses Sensus FlexNet technology for remote data collection.",
+    "additional_contacts": [
+      {
+        "name": "Anthony Comeau",
+        "title": "Water & Sewer Superintendent",
+        "email": "acomeau@natickma.org",
+        "phone": "508-647-6557"
+      },
+      {
+        "name": "Bill J. Spratt",
+        "title": "Executive Director of Public Works",
+        "email": "bspratt@natickma.org",
+        "phone": "508-647-6550"
+      }
+    ],
+    "recent_news": [
+      "Natick recently updated its water and sewer rate structure to a tiered system to encourage conservation and manage infrastructure funding.",
+      "The town is actively addressing PFAS levels in the water supply through the design and construction of specialized treatment facilities."
+    ],
+    "recent_rfps": [
+      "The town recently issued solicitations for professional engineering services related to Water Treatment Plant upgrades and PFAS mitigation."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance payments for Tyler MUNIS and a cycle for meter replacement programs funded through capital improvement plans.",
+    "tech_notes": "The utility utilizes a Customer Portal (Sensus Analytics/Customer Portal) allowing residents to monitor water usage in near real-time. Operations also include SCADA system maintenance for the Pine Hill and Morses Pond facilities."
+  },
+  {
+    "pwsid": "MA3010000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town uses Tyler Technologies\u2019 Munis financial system for billing and collections.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Arlington utilizes the Sensus FlexNet system... with approximately 12,000 Sensus iPERL water meters.",
+    "additional_contacts": [
+      {
+        "name": "James Feeney",
+        "title": "Town Manager",
+        "email": "jfeeney@town.arlington.ma.us",
+        "phone": "781-316-3010"
+      },
+      {
+        "name": "Michael Rademacher",
+        "title": "Director of Public Works",
+        "email": "mrademacher@town.arlington.ma.us",
+        "phone": "781-316-3101"
+      }
+    ],
+    "recent_news": [
+      "The Town of Arlington recently completed a comprehensive water meter replacement program to upgrade all residential and commercial meters to Sensus iPERL technology."
+    ],
+    "recent_rfps": [
+      "Arlington recently issued requests for proposals for Lead Service Line Inventory and Replacement Planning services to comply with EPA Lead and Copper Rule Improvements."
+    ],
+    "contract_signals": "The town budget indicates recurring maintenance and support fees for the Tyler MUNIS system and ongoing cellular data costs for the Sensus AMI network.",
+    "tech_notes": "The utility leverages the Sensus Customer Portal (Customer Portal) to allow residents to monitor hourly water usage and set leak alerts."
+  },
+  {
+    "pwsid": "MA4336000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "Weymouth uses Tyler Technologies MUNIS for financial and utility billing operations as indicated by the town's online payment portal and financial reports.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Town of Weymouth utilized Sensus FlexNet for its automated meter reading infrastructure project.",
+    "additional_contacts": [
+      {
+        "name": "Kelly Coppanda",
+        "title": "Water/Sewer Superintendent",
+        "email": "kcoppanda@weymouth.ma.us",
+        "phone": "781-337-5100"
+      },
+      {
+        "name": "Robert Melary",
+        "title": "Director of Water Services",
+        "email": "rmelary@weymouth.ma.us",
+        "phone": "781-337-5100"
+      }
+    ],
+    "recent_news": [
+      "Weymouth has been addressing PFAS levels and conducting major water main rehabilitation projects on major thoroughfares like Route 18.",
+      "The town implemented a rate increase for water and sewer services effective July 2024 to fund infrastructure improvements."
+    ],
+    "recent_rfps": [
+      "The town recently sought bids for various water treatment chemicals and the cleaning and lining of water mains."
+    ],
+    "contract_signals": "The town's Capital Improvement Plan allocates ongoing funding for water meter replacements and hardware upgrades for the AMI system.",
+    "tech_notes": "Weymouth utilizes the InvoiceCloud platform as the customer-facing interface for online bill presentation and payment, integrated with their MUNIS backend."
+  },
+  {
+    "pwsid": "MA3100000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Framingham uses Munis for its financial and utility billing operations, including citizen self-service portals.",
+    "ami_system": "Aclara STAR",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Water and Sewer Division utilizes the Aclara STAR network for advanced metering infrastructure and automated meter reading.",
+    "additional_contacts": [
+      {
+        "name": "William R. Sedewitz",
+        "title": "Acting Director of Public Works",
+        "email": "wsedewitz@framinghamma.gov",
+        "phone": "508-532-5600"
+      },
+      {
+        "name": "Blake Lukis",
+        "title": "Director of Water and Wastewater",
+        "email": "blukis@framinghamma.gov",
+        "phone": "508-532-6050"
+      }
+    ],
+    "recent_news": [
+      "Framingham has been implementing a multi-year water meter replacement program to transition remaining manual read meters to the Aclara AMI system.",
+      "The city recently addressed PFAS levels in its water supply through increased monitoring and infrastructure planning in alignment with MassDEP regulations."
+    ],
+    "recent_rfps": [
+      "The city recently issued solicitations for professional engineering services related to water distribution system improvements and pump station rehabilitations."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance allocations for the Tyler Technologies (Munis) ERP and utility billing suite.",
+    "tech_notes": "Framingham utilizes a dedicated 'Citizen Self-Service' (CSS) portal integrated with Munis for online utility payments and consumption tracking. The DPW also manages a comprehensive GIS system for water main and valve asset management."
+  },
+  {
+    "pwsid": "MA1236000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Pittsfield utilizes Tyler Technologies' Munis system for municipal financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The city recently completed a city-wide installation of the Sensus FlexNet smart water meter system.",
+    "additional_contacts": [
+      {
+        "name": "Ricardo Morales",
+        "title": "Commissioner of Public Services and Utilities",
+        "email": "rmorales@cityofpittsfield.org",
+        "phone": "413-499-9330"
+      },
+      {
+        "name": "Jim McGrath",
+        "title": "Park, Open Space, and Natural Resource Program Manager",
+        "email": "jmcgrath@cityofpittsfield.org",
+        "phone": "413-499-9344"
+      }
+    ],
+    "recent_news": [
+      "The city is actively implementing its Lead Service Line Inventory in compliance with revised EPA Lead and Copper Rules.",
+      "A significant rate increase was approved in 2024 to fund infrastructure upgrades and operational costs for the water and sewer systems."
+    ],
+    "recent_rfps": [
+      "The city recently issued solicitations for professional engineering services related to water treatment plant upgrades and dam rehabilitation."
+    ],
+    "contract_signals": "The shift to monthly billing following the AMI rollout indicates a stabilized use of the Sensus and Munis platforms for the near term.",
+    "tech_notes": "The utility has transitioned from quarterly to monthly billing cycles facilitated by the remote read capabilities of their new AMI infrastructure. They utilize a GIS-integrated platform for managing public works assets and service requests."
+  },
+  {
+    "pwsid": "MA3031000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Billerica uses Tyler Technologies Munis for its financial and billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Town has standardized on the Sensus FlexNet system for advanced metering infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "Gregg Morell",
+        "title": "Water Superintendent",
+        "email": "gmorell@town.billerica.ma.us",
+        "phone": "978-671-0957"
+      },
+      {
+        "name": "Maria Vittorio",
+        "title": "Treasurer/Collector",
+        "email": "mvittorio@town.billerica.ma.us",
+        "phone": "978-671-0924"
+      }
+    ],
+    "recent_news": [
+      "Billerica has been undergoing a multi-year town-wide project to replace aging water meters with Sensus smart meters to improve billing accuracy."
+    ],
+    "recent_rfps": [
+      "The Town recently issued requests for services regarding the management and maintenance of its water storage tanks and telemetry integration."
+    ],
+    "contract_signals": "Ongoing implementation of the smart meter upgrade program indicates a long-term commitment to Sensus and Tyler Munis integration.",
+    "tech_notes": "The utility utilizes a SCADA system for real-time monitoring of its water treatment plant and distribution infrastructure. Customer account management is integrated via the town's central Munis Self Service portal."
+  },
+  {
+    "pwsid": "MA4075000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The District utilizes MUNIS financial software for billing and accounting purposes.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The District completed a system-wide upgrade to Sensus FlexNet AMI technology for meter reading.",
+    "additional_contacts": [
+      {
+        "name": "David Larkowski",
+        "title": "Superintendent",
+        "email": "dlarkowski@denniswater.org",
+        "phone": "508-398-3351"
+      },
+      {
+        "name": "Sheryl A. McMahon",
+        "title": "Treasurer / Business Manager",
+        "email": "smcmahon@denniswater.org",
+        "phone": "508-398-3351"
+      }
+    ],
+    "recent_news": [
+      "The District has been actively managing PFAS mitigation strategies, including the planning of new treatment facilities for impacted wells.",
+      "A recent rate adjustment was implemented to support infrastructure improvements and the rising costs of water treatment requirements."
+    ],
+    "recent_rfps": [
+      "The District recently issued solicitations for the construction of a new iron and manganese pressure filtration plant at Wells 1, 2, 3, and 12."
+    ],
+    "contract_signals": "The District allocates annual capital budget funds for ongoing water meter replacements and technology maintenance for the FlexNet system.",
+    "tech_notes": "The District maintains a Supervisory Control and Data Acquisition (SCADA) system for real-time monitoring of its 22 wells and three storage tanks."
+  },
+  {
+    "pwsid": "MA4044000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Brockton provides online bill payment through the Munis Self Service portal for Water and Sewer bills.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The City of Brockton is currently installing a Sensus FlexNet system and Sensus water meters city-wide.",
+    "additional_contacts": [
+      {
+        "name": "Patrick Hill",
+        "title": "Commissioner of Public Works",
+        "email": null,
+        "phone": "508-580-7135"
+      },
+      {
+        "name": "Brian Prior",
+        "title": "Water Systems Manager",
+        "email": null,
+        "phone": "508-580-7865"
+      }
+    ],
+    "recent_news": [
+      "Brockton has been undergoing a city-wide water meter replacement program to transition to a smart radio-read system.",
+      "The city recently implemented a significant water and sewer rate increase to fund infrastructure improvements and debt service."
+    ],
+    "recent_rfps": [
+      "Recent procurement activity includes bids for the city-wide water meter and transmitter replacement project."
+    ],
+    "contract_signals": "Budget documents indicate ongoing capital allocations for the Water Meter Replacement Project and technology upgrades to the billing interface.",
+    "tech_notes": "The utility utilizes a Munis Citizen Self Service (CSS) portal for customer account management and electronic payments. Operational focus is currently on the full migration from manual reads to the Sensus fixed-network AMI infrastructure."
+  },
+  {
+    "pwsid": "MA1281000",
+    "billing_software": "Oracle",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Commission uses Oracle Customer Care and Billing (CC&B) for its utility billing and customer management operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Commission has completed its Advanced Metering Infrastructure (AMI) project utilizing the Sensus FlexNet system.",
+    "additional_contacts": [
+      {
+        "name": "Joshua Schimmel",
+        "title": "Executive Director",
+        "email": null,
+        "phone": "413-787-6256"
+      },
+      {
+        "name": "Robert J. Gibeau",
+        "title": "Director of Finance",
+        "email": null,
+        "phone": null
+      },
+      {
+        "name": "Erica L. Sceia",
+        "title": "Customer Service Manager",
+        "email": null,
+        "phone": null
+      }
+    ],
+    "recent_news": [
+      "The Commission is currently constructing the $250 million West Parish Filters Water Treatment Plant replacement project to improve water quality and reliability.",
+      "A multi-year rate increase plan was approved to fund the 'Water and Sewer Infrastructure Renewal Program' (WSIRP).",
+      "The Commission recently implemented a new Customer Self-Service portal to enhance online payment and account management capabilities."
+    ],
+    "recent_rfps": [
+      "The Commission recently issued requests for proposals for professional engineering services related to the ongoing modernization of the York Street Pump Station."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance and hosting fees for the Oracle CC&B system and Sensus SaaS platform.",
+    "tech_notes": "The utility utilizes ESRI ArcGIS for asset management and has integrated its AMI data with a customer portal for real-time leak detection alerts."
+  },
+  {
+    "pwsid": "MA1137000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA4239000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA3030000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Beverly uses the Munis self-service portal for online water/sewer bill payments.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Beverly uses Sensus iPERL meters and Sensus FlexNet technology for remote meter reading.",
+    "additional_contacts": [
+      {
+        "name": "James R. Vitale",
+        "title": "Water Superintendent",
+        "email": "jvitale@beverlyma.gov",
+        "phone": "978-921-6000"
+      },
+      {
+        "name": "Michael Collins",
+        "title": "Commissioner of Public Services and Engineering",
+        "email": "mcollins@beverlyma.gov",
+        "phone": "978-921-6000"
+      }
+    ],
+    "recent_news": [
+      "The department is currently conducting a comprehensive inventory of water service lines to comply with the EPA's Lead and Copper Rule Revisions (LCRR)."
+    ],
+    "recent_rfps": [
+      "The city recently sought proposals for a 'Water Meter and Infrastructure Upgrade' to replace aging residential and commercial meters."
+    ],
+    "contract_signals": "The city has been undergoing a multi-year project to transition all meters to the Sensus FlexNet AMI system.",
+    "tech_notes": "Beverly utilizes a GIS-based service line inventory map to allow residents to track lead service line statuses. The department maintains a Water Filtration Plant with a 12 million gallon per day capacity."
+  },
+  {
+    "pwsid": "MA4016000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "Attleboro uses Tyler Technologies' Munis system for municipal financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The city utilizes Sensus iPERL meters and the FlexNet communication network for its automated meter reading infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "Kourtney Wunschel",
+        "title": "Water Superintendent",
+        "email": "water@cityofattleboro.us",
+        "phone": "508-222-4313"
+      },
+      {
+        "name": "Mark J. Rioux",
+        "title": "Water Business Manager",
+        "email": null,
+        "phone": "508-222-4313"
+      }
+    ],
+    "recent_news": [
+      "The City of Attleboro has been implementing a multi-year water meter replacement program to upgrade all residential and commercial accounts to the Sensus AMI system.",
+      "Attleboro recently issued notices regarding Lead Service Line Inventory requirements in compliance with EPA\u2019s Lead and Copper Rule Improvements."
+    ],
+    "recent_rfps": [
+      "The city has recently sought bids for various water works supplies and chemical treatments to support the Russell F. Tennant Water Treatment Plant operations."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance payments for Tyler MUNIS and a long-term commitment to the Sensus metering infrastructure.",
+    "tech_notes": "The utility manages a complex distribution system including the Russell F. Tennant Water Treatment Plant and maintains a GIS-mapped inventory of its water infrastructure."
+  },
+  {
+    "pwsid": "MA3073000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The District utilizes Tyler Technologies MUNIS software for its financial and billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The District completed its system-wide implementation of the Sensus FlexNet AMI system and iPERL meters.",
+    "additional_contacts": [
+      {
+        "name": "Blake Lukis",
+        "title": "Executive Director",
+        "email": "blukis@dwwd.org",
+        "phone": "781-329-7090"
+      },
+      {
+        "name": "Stephen Casulli",
+        "title": "Operations Manager",
+        "email": "scasulli@dwwd.org",
+        "phone": "781-329-7090"
+      },
+      {
+        "name": "Stephanie Gidman",
+        "title": "Business Manager",
+        "email": "sgidman@dwwd.org",
+        "phone": "781-329-7090"
+      }
+    ],
+    "recent_news": [
+      "The District recently implemented a new PFAS treatment facility at its White Lodge Water Treatment Plant to comply with state and federal regulations.",
+      "The District announced a multi-year rate increase schedule beginning in 2023 to fund infrastructure improvements and debt service."
+    ],
+    "recent_rfps": [
+      "The District recently issued solicitations for the replacement of water mains and the painting of the High Service Water Storage Tank."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance agreements for Tyler MUNIS and Sensus software support.",
+    "tech_notes": "The District utilizes an ESRI-based GIS system for asset management and has integrated its AMI data with a customer portal for leak detection alerts."
+  },
+  {
+    "pwsid": "MA2097000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Fitchburg uses Tyler Technologies MUNIS system for financial and billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The City utilizes Sensus FlexNet technology for remote meter reading and automated meter infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "Jeffery A. Murawski",
+        "title": "Deputy Commissioner - Water Division",
+        "email": "jmurawski@fitchburgma.gov",
+        "phone": "978-345-9616"
+      },
+      {
+        "name": "Nicolas H. Bosonac",
+        "title": "Water Registrar",
+        "email": "nbosonac@fitchburgma.gov",
+        "phone": "978-345-9616"
+      }
+    ],
+    "recent_news": [
+      "The utility is actively managing a lead service line replacement program in compliance with EPA Lead and Copper Rule Revisions.",
+      "Fitchburg DPW has implemented an online customer portal for residents to monitor water usage and detect leaks."
+    ],
+    "recent_rfps": [
+      "The City recently sought bids for the Falulah Water Treatment Plant upgrades and carbon filter replacements."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance and support contracts for Tyler MUNIS and Sensus meter reading hardware.",
+    "tech_notes": "The utility utilizes GIS mapping integrated with their asset management for infrastructure tracking. They operate two water filtration plants: Falulah and Regional."
+  },
+  {
+    "pwsid": "MA3107000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Gloucester uses Tyler Technologies' Munis system for financial and utility billing operations.",
+    "ami_system": "Neptune R900",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Gloucester utilizes Neptune R900 radio frequency meter reading technology for its residential and commercial water meters.",
+    "additional_contacts": [
+      {
+        "name": "Michael Hale",
+        "title": "Director of Public Works",
+        "email": "mhale@gloucester-ma.gov",
+        "phone": "978-325-5600"
+      },
+      {
+        "name": "John Dunn",
+        "title": "Chief Financial Officer",
+        "email": "jdunn@gloucester-ma.gov",
+        "phone": "null"
+      }
+    ],
+    "recent_news": [
+      "The City Council recently approved a multi-year rate increase plan to fund significant upgrades to the Babson Reservoir water treatment plant and distribution system infrastructure."
+    ],
+    "recent_rfps": [
+      "The city recently issued a solicitation for professional engineering services related to the modernization of SCADA systems at various water pumping stations."
+    ],
+    "contract_signals": "Budget documents indicate a planned allocation for the phased replacement of aging Neptune meter units over the next 24 months.",
+    "tech_notes": "The utility is currently integrating its Munis billing system with a new GIS-based asset management platform to improve leak detection and work order efficiency."
+  },
+  {
+    "pwsid": "MA3258000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Salem uses Tyler Technologies MUNIS for financial and utility billing management.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Salem utilizes the Sensus FlexNet system for automated meter reading and infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "Robert S. 'Bob' Lavoie",
+        "title": "Water Department Director",
+        "email": "rlavoie@salem.com",
+        "phone": "978-745-9595"
+      },
+      {
+        "name": "David J. Knowlton",
+        "title": "City Engineer / DPS Director",
+        "email": "dknowlton@salem.com",
+        "phone": "978-745-9595"
+      }
+    ],
+    "recent_news": [
+      "The city has been undergoing a phased water meter replacement program to update older units to Sensus iPERL smart meters.",
+      "Salem has implemented a new online payment portal integrated with their financial software to streamline utility billing."
+    ],
+    "recent_rfps": [
+      "The city recently issued solicitations for professional engineering services related to water main replacements and distribution system improvements."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance allocations for Tyler Technologies software and Sensus infrastructure support.",
+    "tech_notes": "Salem utilizes ArcGIS for water infrastructure mapping and management. The utility maintains a collaborative relationship with the Salem and Beverly Water Supply Board for raw water source management."
+  },
+  {
+    "pwsid": "MA3163000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Commission uses Tyler Technologies' Munis system for financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The Commission has implemented a Sensus FlexNet Advanced Metering Infrastructure (AMI) system.",
+    "additional_contacts": [
+      {
+        "name": "Daniel J. Gately",
+        "title": "Executive Director",
+        "email": "dgately@lynnwatersewer.org",
+        "phone": "781-596-2400"
+      },
+      {
+        "name": "Robert S. LeBlanc",
+        "title": "Deputy Director",
+        "email": "rleblanc@lynnwatersewer.org",
+        "phone": "781-596-2400"
+      },
+      {
+        "name": "Teresa L. Alessi",
+        "title": "Director of Finance and Administration",
+        "email": "talessi@lynnwatersewer.org",
+        "phone": "781-596-2400"
+      }
+    ],
+    "recent_news": [
+      "The Commission is undergoing a multi-year $100M+ infrastructure improvement program including combined sewer overflow (CSO) remediation and water main replacements."
+    ],
+    "recent_rfps": [
+      "The Commission recently sought bids for various water treatment chemicals and maintenance services for its pumping stations."
+    ],
+    "contract_signals": "Annual budget documents indicate ongoing maintenance payments for Tyler MUNIS and Sensus software support.",
+    "tech_notes": "The utility uses an online payment portal powered by InvoiceCloud for customer billing. Operations include a 20 MGD water treatment plant and a 25 MGD wastewater treatment facility."
+  },
+  {
+    "pwsid": "MA3243000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Quincy uses Tyler Technologies' Munis system for financial and utility billing management.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Quincy utilizes Sensus FlexNet technology for automated meter reading and infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "Lawrence J. Cassilly",
+        "title": "Commissioner of Public Works",
+        "email": "lcassilly@quincyma.gov",
+        "phone": "617-376-1910"
+      },
+      {
+        "name": "David Murphy",
+        "title": "Director of Water & Sewer",
+        "email": "dmurphy@quincyma.gov",
+        "phone": "617-376-1933"
+      }
+    ],
+    "recent_news": [
+      "The City of Quincy has implemented a city-wide water meter replacement program to transition all residential and commercial accounts to advanced metering infrastructure (AMI)."
+    ],
+    "recent_rfps": [
+      "The City recently conducted procurement for water system master planning and lead service line identification services."
+    ],
+    "contract_signals": "Ongoing budget allocations focus on the completion of the city-wide AMI meter deployment and digital integration with the customer portal.",
+    "tech_notes": "The utility utilizes a customer-facing portal, likely Sensus Customer Portal or Tyler's ESS, to provide residents with real-time usage data."
+  },
+  {
+    "pwsid": "MA2271000",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Town of Shrewsbury utilizes Tyler Technologies\u2019 MUNIS for financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Shrewsbury uses Sensus smart meters and the FlexNet communication network for water and electric monitoring.",
+    "additional_contacts": [
+      {
+        "name": "Keith Baldinger",
+        "title": "DPW Director",
+        "email": "kbaldinger@shrewsburyma.gov",
+        "phone": "508-841-8502"
+      },
+      {
+        "name": "Dan Rowley",
+        "title": "Water and Sewer Superintendent",
+        "email": "drowley@shrewsburyma.gov",
+        "phone": "508-841-8506"
+      }
+    ],
+    "recent_news": [
+      "The Department recently completed the installation of a new biological filtration system at the Home Farm Water Treatment Plant to address manganese levels."
+    ],
+    "recent_rfps": [
+      "The town recently sought bids for various water system infrastructure improvements and specialized consulting services for PFAS remediation."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual maintenance and licensing payments for Tyler MUNIS and Sensus infrastructure.",
+    "tech_notes": "Shrewsbury operates a municipal light plant (SELCO) that often coordinates technology and billing infrastructure with the water department."
+  },
+  {
+    "pwsid": "MA6000000",
+    "billing_software": "Oracle",
+    "billing_software_confidence": "medium",
+    "billing_software_evidence": "The MWRA uses Oracle's Customer Care and Billing (CC&B) system for wholesale billing and MIS support.",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [
+      {
+        "name": "Frederick A. Laskey",
+        "title": "Executive Director",
+        "email": "fred.laskey@mwra.com",
+        "phone": "617-242-6000"
+      },
+      {
+        "name": "Thomas J. Durkin",
+        "title": "Director of Finance",
+        "email": "thomas.durkin@mwra.com",
+        "phone": null
+      },
+      {
+        "name": "Paula Weadick",
+        "title": "Director of MIS",
+        "email": null,
+        "phone": null
+      }
+    ],
+    "recent_news": [
+      "MWRA approved a 2.5% combined assessment increase for member communities for Fiscal Year 2024."
+    ],
+    "recent_rfps": [
+      "MWRA recently sought bids for various information technology consulting services and cybersecurity infrastructure upgrades."
+    ],
+    "contract_signals": "The FY2024 Capital Improvement Program includes significant budget allocations for MIS hardware and software upgrades, including the replacement of legacy enterprise resource planning modules.",
+    "tech_notes": "MWRA operates as a wholesale provider rather than a retail utility, focusing on large-scale infrastructure and MIS integrations for 61 member communities. They utilize Maximo for Enterprise Asset Management (EAM) and Lawson for core financial systems."
+  },
+  {
+    "pwsid": "MA4126000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA4261024",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [
+      {
+        "name": "David J. Mason",
+        "title": "Chairman",
+        "email": null,
+        "phone": "508-888-1540"
+      },
+      {
+        "name": "Kathleen M. Coggeshall",
+        "title": "Treasurer/Clerk",
+        "email": null,
+        "phone": "508-888-1540"
+      }
+    ],
+    "recent_news": [
+      "The Cooperative continues to manage water supply and infrastructure for its member towns including Sandwich, Falmouth, and Bourne, specifically serving the Massachusetts Military Reservation area."
+    ],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": "The utility functions as a regional wholesaler/cooperative; billing for individual end-users is typically handled by the member municipal departments rather than the Cooperative itself."
+  },
+  {
+    "pwsid": "MA4201000",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": ""
+  },
+  {
+    "pwsid": "MA4172039",
+    "billing_software": "Tyler MUNIS",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The District utilizes the MUNIS financial software package through Tyler Technologies.",
+    "ami_system": "Sensus",
+    "ami_system_confidence": "medium",
+    "ami_system_evidence": "References to Sensus meter interfaces and radio transmitters (MXU) in district specifications and technical standards.",
+    "additional_contacts": [
+      {
+        "name": "Andrew R. McManus",
+        "title": "Water Commissioner",
+        "email": null,
+        "phone": "508-477-6767"
+      },
+      {
+        "name": "Rick J. Gonsalves",
+        "title": "Operations Manager",
+        "email": "rgonsalves@mashpeewatersurvey.com",
+        "phone": "508-477-6767"
+      },
+      {
+        "name": "Taryn A. Thoman",
+        "title": "Treasurer/Business Manager",
+        "email": "tthoman@mashpeewater.com",
+        "phone": "508-477-6767"
+      }
+    ],
+    "recent_news": [
+      "The District recently implemented a significant rate structure change and increased base fees to fund infrastructure and water quality initiatives.",
+      "Mashpee Water District is actively addressing PFAS contamination through the construction of treatment facilities at specific well sites."
+    ],
+    "recent_rfps": [
+      "Recent procurement activity includes bids for the construction of a PFAS Water Treatment Plant at Wells 1, 6, and 9."
+    ],
+    "contract_signals": "Budget documents indicate ongoing annual licensing fees for Tyler Technologies (MUNIS) and cyclical investments in meter replacement and radio transmitter upgrades.",
+    "tech_notes": "The District utilizes SCADA systems for monitoring well stations and tank levels, with ongoing efforts to integrate more automated reporting for EPA/DEP compliance."
+  },
+  {
+    "pwsid": "FL4131312",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [
+      {
+        "name": "Edison Garcia",
+        "title": "Administrative Contact",
+        "email": null,
+        "phone": "305-247-4143"
+      }
+    ],
+    "recent_news": [
+      "Silver Palm Mobile Homes is a small community water system serving approximately 235 people in Miami-Dade County."
+    ],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": "The utility is classified as a community water system (CWS) and typically operates as a privately-owned mobile home park utility."
+  },
+  {
+    "pwsid": "FL4131403",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [
+      {
+        "name": "Jose L. Hernandez",
+        "title": "Administrative Contact",
+        "email": "jhernandez@americanavillage.com",
+        "phone": "305-251-1412"
+      }
+    ],
+    "recent_news": [
+      "Americana Village is a mobile home community in Miami-Dade County that operates its own community public water system (PWSID FL4131403)."
+    ],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": "The system serves a residential population of approximately 1,600 people across 486 connections; as a private community utility, procurement is handled internally rather than through municipal public bidding."
+  },
+  {
+    "pwsid": "NY5903465",
+    "billing_software": "Oracle",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The City of Yonkers utilizes Oracle for its enterprise financial and utility billing operations.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "The project involves the installation of a Sensus FlexNet Advanced Metering Infrastructure (AMI) system.",
+    "additional_contacts": [
+      {
+        "name": "Thomas J. Meier",
+        "title": "Commissioner of Public Works",
+        "email": null,
+        "phone": "914-377-6270"
+      },
+      {
+        "name": "John Liszewski",
+        "title": "Commissioner of Finance",
+        "email": null,
+        "phone": "914-377-6101"
+      }
+    ],
+    "recent_news": [
+      "Yonkers has undergone a city-wide water meter replacement program to transition to an automated AMI system to improve billing accuracy."
+    ],
+    "recent_rfps": [
+      "The city recently sought bids for professional services related to the maintenance and support of its Oracle-based utility billing environment."
+    ],
+    "contract_signals": "The city has allocated significant capital budget funds toward the 'Water Meter Replacement Project' which includes ongoing software integration and hardware maintenance.",
+    "tech_notes": "The utility infrastructure is shifting toward real-time data monitoring via the Sensus platform to mitigate non-revenue water loss. Integration between the AMI system and Oracle CC&B (Customer Care and Billing) is a primary operational focus."
+  },
+  {
+    "pwsid": "FL4131202",
+    "billing_software": "Oracle",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "Miami-Dade Water and Sewer Department (WASD) uses Oracle Utilities Customer Care and Billing (CC&B) for their enterprise billing operations.",
+    "ami_system": "Itron",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Miami-Dade County implemented Itron\u2019s AMI solution including OpenWay Riva and 490,000 communication modules.",
+    "additional_contacts": [
+      {
+        "name": "Roy Coley",
+        "title": "Director, Miami-Dade Water and Sewer Department",
+        "email": "Roy.Coley@miamidade.gov",
+        "phone": "305-665-7471"
+      },
+      {
+        "name": "Humberto Codispoti",
+        "title": "Chief Information Officer, Water and Sewer Department",
+        "email": null,
+        "phone": null
+      }
+    ],
+    "recent_news": [
+      "Miami-Dade Water and Sewer Department is undergoing a multi-billion dollar Capital Improvement Program to upgrade aging infrastructure and treatment plants.",
+      "The department recently implemented a 'Self-Service Portal' for customers to monitor real-time water usage via AMI data."
+    ],
+    "recent_rfps": [
+      "Ongoing procurement activities related to the Ocean Outfall Legislation (OOL) program and wastewater treatment plant resilience projects."
+    ],
+    "contract_signals": "Budget documents indicate ongoing funding for the Enterprise Resource Planning (ERP) implementation and continued rollout of smart meter infrastructure.",
+    "tech_notes": "The utility utilizes ESRI ArcGIS for infrastructure mapping and asset management, integrated with their AMI and billing platforms. Rex Utilities is a smaller private entity often associated with specific service areas in Miami-Dade, but the primary infrastructure is managed by WASD."
+  },
+  {
+    "pwsid": "AL0001799",
+    "billing_software": "Nexbillpay",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "Lake Mitchell Water is pleased to offer our customers the ability to pay their bill online through our new provider Nexbillpay.",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [
+      {
+        "name": "Misty Giddens",
+        "title": "Contact Person",
+        "email": null,
+        "phone": "205-755-9018"
+      }
+    ],
+    "recent_news": [
+      "Lake Mitchell Water Incorporated transitioned to a new online bill payment platform through Nexbillpay."
+    ],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": "The utility utilizes Nexbillpay for payment processing which includes an automated phone payment system (IVR)."
+  },
+  {
+    "pwsid": "FL4130871",
+    "billing_software": "Oracle",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "Miami-Dade Water and Sewer Department (WASD) uses Oracle Utilities Customer Care and Billing (CC&B) for their billing operations.",
+    "ami_system": "Itron",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Miami-Dade County has been deploying an Itron-based Advanced Metering Infrastructure (AMI) system including ChoiceConnect and OpenWay technologies.",
+    "additional_contacts": [
+      {
+        "name": "Roy Coley",
+        "title": "Director, Miami-Dade Water and Sewer Department",
+        "email": "Roy.Coley@miamidade.gov",
+        "phone": "305-665-7471"
+      },
+      {
+        "name": "Josenrique Cueto",
+        "title": "Deputy Director",
+        "email": "Josenrique.Cueto@miamidade.gov",
+        "phone": null
+      }
+    ],
+    "recent_news": [
+      "Miami-Dade WASD is currently undergoing a multi-year, multi-billion dollar Capital Improvement Program (CIP) focused on infrastructure resilience and wastewater system upgrades."
+    ],
+    "recent_rfps": [
+      "The department periodically issues solicitations for professional engineering services and hardware upgrades related to its Smart Metering initiative."
+    ],
+    "contract_signals": "The county typically operates on long-term maintenance agreements for its Oracle and Itron systems with budget cycles reviewed annually in October.",
+    "tech_notes": "WASD utilizes ArcGIS for spatial asset management and has integrated its AMI data with the Oracle CC&B system to provide customer leak alerts. They also utilize Procore for construction project management."
+  },
+  {
+    "pwsid": "AL0000738",
+    "billing_software": "Oracle",
+    "billing_software_confidence": "high",
+    "billing_software_evidence": "The Birmingham Water Works Board (BWWB) uses Oracle's Customer Care & Billing (CC&B) system.",
+    "ami_system": "Sensus FlexNet",
+    "ami_system_confidence": "high",
+    "ami_system_evidence": "Birmingham Water Works has implemented Sensus FlexNet technology for automated meter reading and AMI infrastructure.",
+    "additional_contacts": [
+      {
+        "name": "Michael Johnson",
+        "title": "General Manager",
+        "email": null,
+        "phone": "205-244-4000"
+      },
+      {
+        "name": "Iris Fisher",
+        "title": "Finance Director",
+        "email": null,
+        "phone": null
+      },
+      {
+        "name": "Rick Jackson",
+        "title": "Public Relations Manager",
+        "email": "rick.jackson@bwwb.org",
+        "phone": null
+      }
+    ],
+    "recent_news": [
+      "The Birmingham Water Works Board approved a 5% rate increase for 2024 to fund infrastructure improvements and rising operational costs.",
+      "BWWB recently faced scrutiny and legal challenges regarding billing accuracy and the transition to its automated metering system."
+    ],
+    "recent_rfps": [
+      "The utility recently sought proposals for third-party auditing services to review billing practices and software performance."
+    ],
+    "contract_signals": "The utility has been allocating significant portions of its capital improvement budget toward upgrading aging infrastructure and refining the AMI rollout.",
+    "tech_notes": "The utility utilizes SAP for certain back-office Enterprise Resource Planning (ERP) functions alongside its Oracle billing environment. They are currently focused on integrating meter data management (MDM) to reduce estimated billing errors."
+  },
+  {
+    "pwsid": "FL3490816",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [],
+    "recent_news": [],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": "Great Oak R.V. Resort is a transient non-community water system (PWSID FL3490816); as a private RV park, it typically manages water utility costs through site rent rather than municipal-grade billing software."
+  },
+  {
+    "pwsid": "AL0001769",
+    "billing_software": null,
+    "billing_software_confidence": "none",
+    "billing_software_evidence": "",
+    "ami_system": null,
+    "ami_system_confidence": "none",
+    "ami_system_evidence": "",
+    "additional_contacts": [
+      {
+        "name": "David Lowman",
+        "title": "Manager/Contact Person",
+        "email": null,
+        "phone": "205-655-4654"
+      }
+    ],
+    "recent_news": [
+      "The utility was cited for a reporting violation regarding Lead and Copper Rule monitoring in early 2024."
+    ],
+    "recent_rfps": [],
+    "contract_signals": "",
+    "tech_notes": "Blue Hole Water Company is a small community water system serving approximately 60 people near Trussville/Birmingham, AL."
+  }
+]
