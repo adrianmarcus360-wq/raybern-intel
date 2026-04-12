@@ -1,0 +1,3872 @@
+[
+  {
+    "pwsid": "MA3176000",
+    "name": "Medford Water Dept. (Mwra)",
+    "city": "Medford",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 61700,
+    "connections": 15073,
+    "source_water": "SWP",
+    "admin_name": "Scott Brinch",
+    "email": "SBRINCH@MEDFORD-MA.GOV",
+    "phone": "7813932502",
+    "address": "85 GEORGE P. HASSETT DR MEDFORD MA",
+    "violation_count": 11,
+    "lead_score": 71,
+    "tier": {
+      "key": "Tier 1",
+      "label": "Hot Lead",
+      "color": "#ef4444",
+      "description": "Unresolved violations + health risk \u2014 active regulatory pressure right now"
+    },
+    "signals": [
+      "\ud83d\udd34 2 OPEN violations (unresolved)",
+      "\ud83d\udd34 4 health-based violation(s) \u2014 MCL/TT (3yr)",
+      "\ud83d\udfe0 11 total violations on record",
+      "\u2705 Pop 61,700 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(781) 393-2502",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 2,
+      "health_based": 4,
+      "total_violations": 11,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "2 unresolved EPA violations \u2014 regulatory action risk"
+      },
+      {
+        "type": "danger",
+        "text": "4 health-based violations in the last 3 years (MCL/Treatment Technique)"
+      },
+      {
+        "type": "warning",
+        "text": "11 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 61,700 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "2 open EPA violations at Medford Water Dept. (Mwra) \u2014 compliance support",
+      "body": "Hi Scott,\n\nI noticed Medford Water Dept. (Mwra) currently has 2 unresolved EPA violations, including 4 health-based violations in the past 3 years.\n\nWe work specifically with surface water (regional) utilities serving populations like Medford's 61,700 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3207000",
+    "name": "Newton Water Dept. (Mwra)",
+    "city": "Newton",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 88415,
+    "connections": 24143,
+    "source_water": "SWP",
+    "admin_name": "Douglas R Valovcin",
+    "email": "DVALOVCIN@NEWTONMA.GOV",
+    "phone": "6177961640",
+    "address": "1000 COMMONWEALTH AVE NEWTON MA",
+    "violation_count": 9,
+    "lead_score": 61,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udd34 2 OPEN violations (unresolved)",
+      "\ud83d\udfe1 2 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 9 total violations on record",
+      "\u2705 Pop 88,415 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(617) 796-1640",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 2,
+      "health_based": 0,
+      "total_violations": 9,
+      "recent_violations": 0,
+      "monitoring_gaps": 2
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "2 unresolved EPA violations \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "2 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "9 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 88,415 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "2 open EPA violations at Newton Water Dept. (Mwra) \u2014 compliance support",
+      "body": "Hi Douglas,\n\nI noticed Newton Water Dept. (Mwra) currently has 2 unresolved EPA violations.\n\nWe work specifically with surface water (regional) utilities serving populations like Newton's 88,415 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA1329000",
+    "name": "Westfield Dpwwater Division",
+    "city": "Westfield",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 41094,
+    "connections": 11563,
+    "source_water": "SW",
+    "admin_name": "Heather N Stayton",
+    "email": "H.STAYTON@CITYOFWESTFIELD.ORG",
+    "phone": "4135726243",
+    "address": "28 SACKETT STREET WESTFIELD MA",
+    "violation_count": 24,
+    "lead_score": 58,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 violation(s) in last 12 months",
+      "\ud83d\udd34 1 health-based violation(s) \u2014 MCL/TT (3yr)",
+      "\ud83d\udfe0 24 total violations on record",
+      "\u2705 Pop 41,094 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(413) 572-6243",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 1,
+      "total_violations": 24,
+      "recent_violations": 1,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "1 new violation in the past 12 months"
+      },
+      {
+        "type": "danger",
+        "text": "1 health-based violation in the last 3 years (MCL/Treatment Technique)"
+      },
+      {
+        "type": "warning",
+        "text": "24 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 41,094 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "Recent EPA violations at Westfield Dpwwater Division \u2014 how we can help",
+      "body": "Hi Heather,\n\nI came across Westfield Dpwwater Division in EPA's SDWIS database \u2014 1 new violation in the last 12 months, 24 total on record.\n\nWe work specifically with surface water utilities serving populations like Westfield's 41,094 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3274000",
+    "name": "Somerville Water Dept. (Mwra)",
+    "city": "Somerville",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 81045,
+    "connections": 15109,
+    "source_water": "SWP",
+    "admin_name": "Carlos Perez",
+    "email": "CPEREZ@SOMERVILLEMA.GOV",
+    "phone": "6176256600",
+    "address": "17 FRANEY ROAD SOMERVILLE MA",
+    "violation_count": 8,
+    "lead_score": 57,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udd34 2 OPEN violations (unresolved)",
+      "\ud83d\udfe0 8 total violations on record",
+      "\u2705 Pop 81,045 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (5.4x)"
+    ],
+    "phone_formatted": "(617) 625-6600",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 2,
+      "health_based": 0,
+      "total_violations": 8,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "2 unresolved EPA violations \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "8 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 81,045 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "2 open EPA violations at Somerville Water Dept. (Mwra) \u2014 compliance support",
+      "body": "Hi Carlos,\n\nI noticed Somerville Water Dept. (Mwra) currently has 2 unresolved EPA violations.\n\nWe work specifically with surface water (regional) utilities serving populations like Somerville's 81,045 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3165000",
+    "name": "Malden Water Division (Mwra)",
+    "city": "Malden",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 66263,
+    "connections": 11855,
+    "source_water": "SWP",
+    "admin_name": "Mike Neville",
+    "email": "MNEVILLE@CITYOFMALDEN.ORG",
+    "phone": "7818707258",
+    "address": "215 PLEASANT STREET MALDEN MA",
+    "violation_count": 10,
+    "lead_score": 57,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udd34 3 OPEN violations (unresolved)",
+      "\ud83d\udfe0 10 total violations on record",
+      "\u2705 Pop 66,263 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (5.6x)"
+    ],
+    "phone_formatted": "(781) 870-7258",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 3,
+      "health_based": 0,
+      "total_violations": 10,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "3 unresolved EPA violations \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "10 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 66,263 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "3 open EPA violations at Malden Water Division (Mwra) \u2014 compliance support",
+      "body": "Hi Mike,\n\nI noticed Malden Water Division (Mwra) currently has 3 unresolved EPA violations.\n\nWe work specifically with surface water (regional) utilities serving populations like Malden's 66,263 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4040000",
+    "name": "Braintree Water And Sewer Dept.",
+    "city": "Braintree",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 39143,
+    "connections": 12167,
+    "source_water": "SW",
+    "admin_name": "Louis R Dutton",
+    "email": "LDUTTON@BRAINTREEMA.GOV",
+    "phone": "7818439205",
+    "address": "85 QUINCY AVENUE BRAINTREE MA",
+    "violation_count": 10,
+    "lead_score": 55,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe0 1 violation(s) in last 12 months",
+      "\ud83d\udfe0 10 total violations on record",
+      "\u2705 Pop 39,143 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(781) 843-9205",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 10,
+      "recent_violations": 1,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "1 new violation in the past 12 months"
+      },
+      {
+        "type": "warning",
+        "text": "10 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 39,143 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Braintree Water And Sewer Dept. \u2014 compliance support",
+      "body": "Hi Louis,\n\nI noticed Braintree Water And Sewer Dept. currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water utilities serving populations like Braintree's 39,143 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA1061000",
+    "name": "Chicopee Water Dept (Mwra)",
+    "city": "Chicopee",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 55560,
+    "connections": 17605,
+    "source_water": "SWP",
+    "admin_name": "Michael  P Beliveau",
+    "email": "MBELIVEAU@CHICOPEEMA.GOV",
+    "phone": "4135943420",
+    "address": "115 BASKIN DRIVE CHICOPEE MA",
+    "violation_count": 17,
+    "lead_score": 53,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udd34 4 OPEN violations (unresolved)",
+      "\ud83d\udfe0 17 total violations on record",
+      "\u2705 Pop 55,560 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(413) 594-3420",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 4,
+      "health_based": 0,
+      "total_violations": 17,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "4 unresolved EPA violations \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "17 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 55,560 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "4 open EPA violations at Chicopee Water Dept (Mwra) \u2014 compliance support",
+      "body": "Hi Michael,\n\nI noticed Chicopee Water Dept (Mwra) currently has 4 unresolved EPA violations.\n\nWe work specifically with surface water (regional) utilities serving populations like Chicopee's 55,560 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3248000",
+    "name": "Revere Water Division (Mwra)",
+    "city": "Revere",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 62186,
+    "connections": 12198,
+    "source_water": "SWP",
+    "admin_name": "Christopher B Ciaramella",
+    "email": "CCIARAMELLA@REVERE.ORG",
+    "phone": "7812868149",
+    "address": "319 CHARGER STREET REVERE MA",
+    "violation_count": 7,
+    "lead_score": 52,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udd34 2 OPEN violations (unresolved)",
+      "\ud83d\udfe1 7 total violations on record",
+      "\u2705 Pop 62,186 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (5.1x)"
+    ],
+    "phone_formatted": "(781) 286-8149",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 2,
+      "health_based": 0,
+      "total_violations": 7,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "2 unresolved EPA violations \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "7 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 62,186 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "2 open EPA violations at Revere Water Division (Mwra) \u2014 compliance support",
+      "body": "Hi Christopher,\n\nI noticed Revere Water Division (Mwra) currently has 2 unresolved EPA violations.\n\nWe work specifically with surface water (regional) utilities serving populations like Revere's 62,186 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3128000",
+    "name": "Haverhill Water Dept",
+    "city": "Haverhill",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 63235,
+    "connections": 17996,
+    "source_water": "SW",
+    "admin_name": "Robert E Ward",
+    "email": "rward@haverhillwater.com",
+    "phone": "9783742385",
+    "address": "131 AMESBURY ROAD HAVERHILL MA",
+    "violation_count": 40,
+    "lead_score": 51,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe1 38 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 40 total violations on record",
+      "\u2705 Pop 63,235 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 374-2385",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 40,
+      "recent_violations": 0,
+      "monitoring_gaps": 38
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "38 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "40 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 63,235 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Haverhill Water Dept \u2014 compliance support",
+      "body": "Hi Robert,\n\nI noticed Haverhill Water Dept currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water utilities serving populations like Haverhill's 63,235 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3308000",
+    "name": "Waltham Water Department",
+    "city": "Waltham",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 65218,
+    "connections": 14042,
+    "source_water": "SWP",
+    "admin_name": "Michael Chiasson",
+    "email": "MCHIASSON@CITY.WALTHAM.MA.US",
+    "phone": "7813143820",
+    "address": "167 LEXINGTON STREET WALTHAM MA",
+    "violation_count": 7,
+    "lead_score": 50,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe1 1 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe1 7 total violations on record",
+      "\u2705 Pop 65,218 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (4.6x)"
+    ],
+    "phone_formatted": "(781) 314-3820",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 7,
+      "recent_violations": 0,
+      "monitoring_gaps": 1
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "1 monitoring & reporting gap \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "7 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 65,218 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Waltham Water Department \u2014 compliance support",
+      "body": "Hi Michael,\n\nI noticed Waltham Water Department currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water (regional) utilities serving populations like Waltham's 65,218 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3149000",
+    "name": "Lawrence Water Works",
+    "city": "Lawrence",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 88877,
+    "connections": 12754,
+    "source_water": "SW",
+    "admin_name": "William  C Hale",
+    "email": "WHALE@CITYOFLAWRENCE.COM",
+    "phone": "9786203321",
+    "address": "400 WATER STREET LAWRENCE MA",
+    "violation_count": 9,
+    "lead_score": 47,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe0 9 total violations on record",
+      "\u2705 Pop 88,877 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (7.0x)"
+    ],
+    "phone_formatted": "(978) 620-3321",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 9,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "9 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 88,877 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Lawrence Water Works \u2014 compliance support",
+      "body": "Hi William,\n\nI noticed Lawrence Water Works currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water utilities serving populations like Lawrence's 88,877 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3160000",
+    "name": "Lowell Regional Water Utility",
+    "city": "Lowell",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 115000,
+    "connections": 25956,
+    "source_water": "SW",
+    "admin_name": "Nikolas L Powers",
+    "email": "NPowers@lowellma.gov",
+    "phone": "9786744240",
+    "address": "815 PAWTUCKET BLVD LOWELL MA",
+    "violation_count": 11,
+    "lead_score": 45,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe1 1 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 11 total violations on record",
+      "\ud83d\udcca Large system: 115,000 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 674-4240",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 11,
+      "recent_violations": 0,
+      "monitoring_gaps": 1
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "1 monitoring & reporting gap \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "11 total violations on EPA record"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Lowell Regional Water Utility \u2014 compliance support",
+      "body": "Hi Nikolas,\n\nI noticed Lowell Regional Water Utility currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water utilities serving populations like Lowell's 115,000 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA1008000",
+    "name": "Amherst Dpw  Water Division",
+    "city": "Amherst",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 39263,
+    "connections": 6425,
+    "source_water": "SW",
+    "admin_name": "Guilford Mooring",
+    "email": "mooringg@amherstma.gov",
+    "phone": "4132593050",
+    "address": "586 SOUTH PLEASANT ST AMHERST MA",
+    "violation_count": 6,
+    "lead_score": 45,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udd34 3 health-based violation(s) \u2014 MCL/TT (3yr)",
+      "\ud83d\udfe1 6 total violations on record",
+      "\u2705 Pop 39,263 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (6.1x)"
+    ],
+    "phone_formatted": "(413) 259-3050",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 3,
+      "total_violations": 6,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "3 health-based violations in the last 3 years (MCL/Treatment Technique)"
+      },
+      {
+        "type": "warning",
+        "text": "6 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 39,263 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Amherst Dpw  Water Division \u2014 worth a conversation",
+      "body": "Hi Guilford,\n\nI came across Amherst Dpw  Water Division in EPA's SDWIS database \u2014 6 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Amherst's 39,263 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4095000",
+    "name": "Fall River Water Department",
+    "city": "Fall River",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 94000,
+    "connections": 22125,
+    "source_water": "SW",
+    "admin_name": "Paul Ferland",
+    "email": "PFERLAND@FALLRIVERMA.GOV",
+    "phone": "5083242723",
+    "address": "1831 BEDFORD ST FALL RIVER MA",
+    "violation_count": 43,
+    "lead_score": 43,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe0 43 total violations on record",
+      "\u2705 Pop 94,000 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(508) 324-2723",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 43,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "43 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 94,000 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Fall River Water Department \u2014 compliance support",
+      "body": "Hi Paul,\n\nI noticed Fall River Water Department currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water utilities serving populations like Fall River's 94,000 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3009000",
+    "name": "Andover Water Dept",
+    "city": "Andover",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 36569,
+    "connections": 10110,
+    "source_water": "SW",
+    "admin_name": "Brian Pena",
+    "email": "BRIAN.PENA@ANDOVERMA.US",
+    "phone": "9786238870",
+    "address": "397 LOWELL ST ANDOVER MA",
+    "violation_count": 9,
+    "lead_score": 43,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe0 9 total violations on record",
+      "\u2705 Pop 36,569 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 623-8870",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 9,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "9 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 36,569 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Andover Water Dept \u2014 compliance support",
+      "body": "Hi Brian,\n\nI noticed Andover Water Dept currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water utilities serving populations like Andover's 36,569 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3093000",
+    "name": "Everett Water Dept. (Mwra)",
+    "city": "Everett",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 49075,
+    "connections": 8243,
+    "source_water": "SWP",
+    "admin_name": "Ralph J Renzulli",
+    "email": "RALPH.RENZULLI@CI.EVERETT.MA.US",
+    "phone": "6173942327",
+    "address": "19 NORMAN STREET EVERETT MA",
+    "violation_count": 7,
+    "lead_score": 42,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe1 7 total violations on record",
+      "\u2705 Pop 49,075 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (6.0x)"
+    ],
+    "phone_formatted": "(617) 394-2327",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 7,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "7 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 49,075 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Everett Water Dept. (Mwra) \u2014 compliance support",
+      "body": "Hi Ralph,\n\nI noticed Everett Water Dept. (Mwra) currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water (regional) utilities serving populations like Everett's 49,075 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3181000",
+    "name": "Methuen Water Dept",
+    "city": "Methuen",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 53059,
+    "connections": 15069,
+    "source_water": "SW",
+    "admin_name": "Thomas J Lannan",
+    "email": "TJLANNAN@CI.METHUEN.MA.US",
+    "phone": "9789838845",
+    "address": "25 BURNHAM RD METHUEN MA",
+    "violation_count": 3,
+    "lead_score": 38,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe1 3 total violations on record",
+      "\u2705 Pop 53,059 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 983-8845",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 3,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "3 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 53,059 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Methuen Water Dept \u2014 compliance support",
+      "body": "Hi Thomas,\n\nI noticed Methuen Water Dept currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water utilities serving populations like Methuen's 53,059 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4351000",
+    "name": "Yarmouth Water Department",
+    "city": "West Yarmouth",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 38900,
+    "connections": 16357,
+    "source_water": "GW",
+    "admin_name": "Laurie Ruszala",
+    "email": "LRUSZALA@YARMOUTH.MA.US",
+    "phone": "5087717921",
+    "address": "99 BUCK ISLAND RD WEST YARMOUTH MA",
+    "violation_count": 11,
+    "lead_score": 37,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe0 11 total violations on record",
+      "\u2705 Pop 38,900 \u2014 ideal Raybern client size"
+    ],
+    "phone_formatted": "(508) 771-7921",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 11,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "11 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 38,900 \u2014 ideal client size for Raybern"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Yarmouth Water Department \u2014 compliance support",
+      "body": "Hi Laurie,\n\nI noticed Yarmouth Water Department currently has 1 unresolved EPA violation.\n\nWe work specifically with groundwater utilities serving populations like West Yarmouth's 38,900 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4076004",
+    "name": "Inima Usa / Aquaria Llc",
+    "city": "North Dighton",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 105643,
+    "connections": 1,
+    "source_water": "SW",
+    "admin_name": "Nancy Wald",
+    "email": "NPWH2O@GMAIL.COM",
+    "phone": "5088800099",
+    "address": "PO BOX 1000 NORTH DIGHTON MA",
+    "violation_count": 39,
+    "lead_score": 34,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 38 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 39 total violations on record",
+      "\ud83d\udcca Large system: 105,643 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (105643.0x)"
+    ],
+    "phone_formatted": "(508) 880-0099",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 39,
+      "recent_violations": 0,
+      "monitoring_gaps": 38
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "38 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "39 total violations on EPA record"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Inima Usa / Aquaria Llc \u2014 worth a conversation",
+      "body": "Hi Nancy,\n\nI came across Inima Usa / Aquaria Llc in EPA's SDWIS database \u2014 39 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like North Dighton's 105,643 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3030001",
+    "name": "Salem And Beverly Water Supply Board",
+    "city": "Beverly",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 90330,
+    "connections": 2,
+    "source_water": "SW",
+    "admin_name": "Bradley E Perron",
+    "email": "BPERRON@SBWSB.GOV",
+    "phone": "9789222600",
+    "address": "50 ARLINGTON AVE BEVERLY MA",
+    "violation_count": 29,
+    "lead_score": 32,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 29 total violations on record",
+      "\u2705 Pop 90,330 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (45165.0x)"
+    ],
+    "phone_formatted": "(978) 922-2600",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 29,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "29 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 90,330 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Salem And Beverly Water Supply Board \u2014 worth a conversation",
+      "body": "Hi Bradley,\n\nI came across Salem And Beverly Water Supply Board in EPA's SDWIS database \u2014 29 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Beverly's 90,330 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4244001",
+    "name": "Randolph/Holbrook Joint Water Board",
+    "city": "Holbrook",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 45767,
+    "connections": 2,
+    "source_water": "SW",
+    "admin_name": "Paul Hennesy",
+    "email": "PHENNESSY@HOLBROOKMASSACHUSETTS.US",
+    "phone": "7819610911",
+    "address": "50 NORTH FRANKLIN ST HOLBROOK MA",
+    "violation_count": 10,
+    "lead_score": 32,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 10 total violations on record",
+      "\u2705 Pop 45,767 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (22883.5x)"
+    ],
+    "phone_formatted": "(781) 961-0911",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 10,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "10 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 45,767 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Randolph/Holbrook Joint Water Board \u2014 worth a conversation",
+      "body": "Hi Paul,\n\nI came across Randolph/Holbrook Joint Water Board in EPA's SDWIS database \u2014 10 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Holbrook's 45,767 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3057000",
+    "name": "Chelsea Water Dept. (Mwra)",
+    "city": "Chelsea",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 38319,
+    "connections": 5100,
+    "source_water": "SWP",
+    "admin_name": "Christopher Barrett",
+    "email": "CBARRETT@CHELSEAMA.GOV",
+    "phone": "6174664200",
+    "address": "500 BROADWAY SUITE 310 CHELSEA MA",
+    "violation_count": 10,
+    "lead_score": 32,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 10 total violations on record",
+      "\u2705 Pop 38,319 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (7.5x)"
+    ],
+    "phone_formatted": "(617) 466-4200",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 10,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "10 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 38,319 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Chelsea Water Dept. (Mwra) \u2014 worth a conversation",
+      "body": "Hi Christopher,\n\nI came across Chelsea Water Dept. (Mwra) in EPA's SDWIS database \u2014 10 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Chelsea's 38,319 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3035000",
+    "name": "Boston Water And Sewer Commission (Mwra)",
+    "city": "Boston",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 675647,
+    "connections": 88360,
+    "source_water": "SWP",
+    "admin_name": "John P Sullivan",
+    "email": "sullivanjp@bwsc.org",
+    "phone": "6179897000",
+    "address": "980 HARRISON AVE BOSTON MA",
+    "violation_count": 1,
+    "lead_score": 31,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udcca Large system: 675,647 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (7.6x)"
+    ],
+    "phone_formatted": "(617) 989-7000",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Boston Water And Sewer Commission (Mwra) \u2014 compliance support",
+      "body": "Hi John,\n\nI noticed Boston Water And Sewer Commission (Mwra) currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water (regional) utilities serving populations like Boston's 675,647 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3347000",
+    "name": "Woburn Water Dept.",
+    "city": "Woburn",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 40876,
+    "connections": 11832,
+    "source_water": "SWP",
+    "admin_name": "John F Duran  Iii",
+    "email": "jduran@cityofwoburn.com",
+    "phone": "7818975990",
+    "address": "50 NORTH WARREN STREET WOBURN MA",
+    "violation_count": 6,
+    "lead_score": 31,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 2 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe1 6 total violations on record",
+      "\u2705 Pop 40,876 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(781) 897-5990",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 6,
+      "recent_violations": 0,
+      "monitoring_gaps": 2
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "2 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "6 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 40,876 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Woburn Water Dept. \u2014 worth a conversation",
+      "body": "Hi John,\n\nI came across Woburn Water Dept. in EPA's SDWIS database \u2014 6 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Woburn's 40,876 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4020002",
+    "name": "Centerville Osterville Marstons Mills Wd",
+    "city": "Osterville",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 50000,
+    "connections": 12384,
+    "source_water": "GW",
+    "admin_name": "Craig A Crocker",
+    "email": "CCROCKER@COMMFIREDISTRICT.COM",
+    "phone": "5084286691",
+    "address": "P.O. BOX 369 OSTERVILLE MA",
+    "violation_count": 78,
+    "lead_score": 30,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 78 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 78 total violations on record",
+      "\u2705 Pop 50,000 \u2014 ideal Raybern client size"
+    ],
+    "phone_formatted": "(508) 428-6691",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 78,
+      "recent_violations": 0,
+      "monitoring_gaps": 78
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "78 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "78 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 50,000 \u2014 ideal client size for Raybern"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Centerville Osterville Marstons Mills Wd \u2014 worth a conversation",
+      "body": "Hi Craig,\n\nI came across Centerville Osterville Marstons Mills Wd in EPA's SDWIS database \u2014 78 violations on record. I wanted to reach out directly.\n\nWe work specifically with groundwater utilities serving populations like Osterville's 50,000 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4096000",
+    "name": "Falmouth Water Dept",
+    "city": "Falmouth",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 97551,
+    "connections": 21920,
+    "source_water": "SW",
+    "admin_name": "Matthew P Lanen",
+    "email": "MATT.LANEN@FALMOUTHMA.GOV",
+    "phone": "5084572543",
+    "address": "416 GIFFORD ST FALMOUTH MA",
+    "violation_count": 9,
+    "lead_score": 28,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 9 total violations on record",
+      "\u2705 Pop 97,551 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(508) 457-2543",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 9,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "9 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 97,551 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Falmouth Water Dept \u2014 worth a conversation",
+      "body": "Hi Matthew,\n\nI came across Falmouth Water Dept in EPA's SDWIS database \u2014 9 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Falmouth's 97,551 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4293000",
+    "name": "Taunton Water Division",
+    "city": "Taunton",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 62165,
+    "connections": 16803,
+    "source_water": "SW",
+    "admin_name": "Michael Arruda",
+    "email": "MARRUDA@TAUNTON-MA.GOV",
+    "phone": "5088211045",
+    "address": "90 INGELL STREET TAUNTON MA",
+    "violation_count": 40,
+    "lead_score": 28,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 40 total violations on record",
+      "\u2705 Pop 62,165 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(508) 821-1045",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 40,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "40 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 62,165 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Taunton Water Division \u2014 worth a conversation",
+      "body": "Hi Michael,\n\nI came across Taunton Water Division in EPA's SDWIS database \u2014 40 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Taunton's 62,165 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3229000",
+    "name": "Peabody Water Dept.",
+    "city": "West Peabody",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 54481,
+    "connections": 14075,
+    "source_water": "SW",
+    "admin_name": "Sandra  Howland",
+    "email": "SANDRA.HOWLAND@PEABODY-MA.GOV",
+    "phone": "9785360600",
+    "address": "50 FARM AVE WEST PEABODY MA",
+    "violation_count": 33,
+    "lead_score": 28,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 33 total violations on record",
+      "\u2705 Pop 54,481 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 536-0600",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 33,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "33 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 54,481 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Peabody Water Dept. \u2014 worth a conversation",
+      "body": "Hi Sandra,\n\nI came across Peabody Water Dept. in EPA's SDWIS database \u2014 33 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like West Peabody's 54,481 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4131000",
+    "name": "Weir River Water System",
+    "city": "Hingham",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 45339,
+    "connections": 12755,
+    "source_water": "SW",
+    "admin_name": "Russell E Tierney",
+    "email": "TIERNEYR@HINGHAM-MA.GOV",
+    "phone": "7818042304",
+    "address": "25 BARE COVE PARK DRIVE HINGHAM MA",
+    "violation_count": 38,
+    "lead_score": 28,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 38 total violations on record",
+      "\u2705 Pop 45,339 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(781) 804-2304",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 38,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "38 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 45,339 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Weir River Water System \u2014 worth a conversation",
+      "body": "Hi Russell,\n\nI came across Weir River Water System in EPA's SDWIS database \u2014 38 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Hingham's 45,339 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA2170000",
+    "name": "Marlborough Dpw  Water Div. (Mwra)",
+    "city": "Marlborough",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 41799,
+    "connections": 10920,
+    "source_water": "SWP",
+    "admin_name": "Matthew J Santella",
+    "email": "MSANTELLA@MARLBOROUGH-MA.GOV",
+    "phone": "5086246910",
+    "address": "135 NEIL STREET MARLBOROUGH MA",
+    "violation_count": 8,
+    "lead_score": 28,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 8 total violations on record",
+      "\u2705 Pop 41,799 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(508) 624-6910",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 8,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "8 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 41,799 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Marlborough Dpw  Water Div. (Mwra) \u2014 worth a conversation",
+      "body": "Hi Matthew,\n\nI came across Marlborough Dpw  Water Div. (Mwra) in EPA's SDWIS database \u2014 8 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Marlborough's 41,799 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA2153000",
+    "name": "Leominster Water Division",
+    "city": "Leominster",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 41683,
+    "connections": 13553,
+    "source_water": "SW",
+    "admin_name": "Mark F Piermarini",
+    "email": "MPIERMARINI@DPW.LEOMINSTER-MA.GOV",
+    "phone": "9785347590",
+    "address": "109 GRAHAM ST LEOMINSTER MA",
+    "violation_count": 11,
+    "lead_score": 28,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 11 total violations on record",
+      "\u2705 Pop 41,683 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 534-7590",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 11,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "11 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 41,683 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Leominster Water Division \u2014 worth a conversation",
+      "body": "Hi Mark,\n\nI came across Leominster Water Division in EPA's SDWIS database \u2014 11 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Leominster's 41,683 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3046000",
+    "name": "Brookline Water And Sewer Division",
+    "city": "Brookline",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 63191,
+    "connections": 9036,
+    "source_water": "SWP",
+    "admin_name": "James W Hersey",
+    "email": "JHERSEY@BROOKLINEMA.GOV",
+    "phone": "6177302170",
+    "address": "333 WASHINGTON ST BROOKLINE MA",
+    "violation_count": 4,
+    "lead_score": 27,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 4 total violations on record",
+      "\u2705 Pop 63,191 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (7.0x)"
+    ],
+    "phone_formatted": "(617) 730-2170",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 4,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "4 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 63,191 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Brookline Water And Sewer Division \u2014 worth a conversation",
+      "body": "Hi James,\n\nI came across Brookline Water And Sewer Division in EPA's SDWIS database \u2014 4 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Brookline's 63,191 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3198000",
+    "name": "Natick Water And Sewer Division",
+    "city": "Natick",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 37006,
+    "connections": 11142,
+    "source_water": "GW",
+    "admin_name": "Anthony A Comeau",
+    "email": "ACOMEAU@NATICKMA.ORG",
+    "phone": "5086476557",
+    "address": "75 WEST ST NATICK MA",
+    "violation_count": 2,
+    "lead_score": 27,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\u2705 Pop 37,006 \u2014 ideal Raybern client size"
+    ],
+    "phone_formatted": "(508) 647-6557",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 37,006 \u2014 ideal client size for Raybern"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Natick Water And Sewer Division \u2014 compliance support",
+      "body": "Hi Anthony,\n\nI noticed Natick Water And Sewer Division currently has 1 unresolved EPA violation.\n\nWe work specifically with groundwater utilities serving populations like Natick's 37,006 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3314000",
+    "name": "Watertown Water Dept. (Mwra)",
+    "city": "Watertown",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 35329,
+    "connections": 7662,
+    "source_water": "SWP",
+    "admin_name": "Matthew E Baker",
+    "email": "MBAKER@WATERTOWN-MA.GOV",
+    "phone": "6179726420",
+    "address": "124 ORCHARD ST WATERTOWN MA",
+    "violation_count": 5,
+    "lead_score": 27,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 5 total violations on record",
+      "\u2705 Pop 35,329 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (4.6x)"
+    ],
+    "phone_formatted": "(617) 972-6420",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 5,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "5 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 35,329 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Watertown Water Dept. (Mwra) \u2014 worth a conversation",
+      "body": "Hi Matthew,\n\nI came across Watertown Water Dept. (Mwra) in EPA's SDWIS database \u2014 5 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Watertown's 35,329 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA2348000",
+    "name": "Worcester Dpwp, Water Supply Division",
+    "city": "Worcester",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 206518,
+    "connections": 43205,
+    "source_water": "SW",
+    "admin_name": "Jonathan P Gervais",
+    "email": "GERVAISJP@WORCESTERMA.GOV",
+    "phone": "5089291300",
+    "address": "18 EAST WORCESTER ST WORCESTER MA",
+    "violation_count": 13,
+    "lead_score": 26,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 13 total violations on record",
+      "\ud83d\udcca Large system: 206,518 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (4.8x)"
+    ],
+    "phone_formatted": "(508) 929-1300",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 13,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "13 total violations on EPA record"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Worcester Dpwp, Water Supply Division \u2014 worth a conversation",
+      "body": "Hi Jonathan,\n\nI came across Worcester Dpwp, Water Supply Division in EPA's SDWIS database \u2014 13 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Worcester's 206,518 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3049000",
+    "name": "Cambridge Water Department",
+    "city": "Cambridge",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 118214,
+    "connections": 15063,
+    "source_water": "SW",
+    "admin_name": "Julie A Greenwood-Torelli",
+    "email": "JGREENWOOD@CAMBRIDGEMA.GOV",
+    "phone": "6173494770",
+    "address": "250 FRESH POND PKWY CAMBRIDGE MA",
+    "violation_count": 78,
+    "lead_score": 26,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 78 total violations on record",
+      "\ud83d\udcca Large system: 118,214 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (7.8x)"
+    ],
+    "phone_formatted": "(617) 349-4770",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 78,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "78 total violations on EPA record"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Cambridge Water Department \u2014 worth a conversation",
+      "body": "Hi Julie,\n\nI came across Cambridge Water Department in EPA's SDWIS database \u2014 78 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Cambridge's 118,214 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3100000",
+    "name": "Framingham Water Dept. (Mwra)",
+    "city": "Framingham",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 72362,
+    "connections": 18112,
+    "source_water": "SWP",
+    "admin_name": "Michael W Ricchiazzi",
+    "email": "MWR@FRAMINGHAMMA.GOV",
+    "phone": "5085326050",
+    "address": "100 WESTERN AVE FRAMINGHAM MA",
+    "violation_count": 3,
+    "lead_score": 23,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 3 total violations on record",
+      "\u2705 Pop 72,362 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(508) 532-6050",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 3,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "3 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 72,362 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Framingham Water Dept. (Mwra) \u2014 worth a conversation",
+      "body": "Hi Michael,\n\nI came across Framingham Water Dept. (Mwra) in EPA's SDWIS database \u2014 3 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Framingham's 72,362 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4336000",
+    "name": "Weymouth Water Department",
+    "city": "Weymouth",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 57613,
+    "connections": 16773,
+    "source_water": "SW",
+    "admin_name": "Braydon Marot",
+    "email": "BMAROT@WEYMOUTH.MA.US",
+    "phone": "7813375100",
+    "address": "120 WINTER STREET WEYMOUTH MA",
+    "violation_count": 4,
+    "lead_score": 23,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 4 total violations on record",
+      "\u2705 Pop 57,613 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(781) 337-5100",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 4,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "4 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 57,613 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Weymouth Water Department \u2014 worth a conversation",
+      "body": "Hi Braydon,\n\nI came across Weymouth Water Department in EPA's SDWIS database \u2014 4 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Weymouth's 57,613 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3010000",
+    "name": "Arlington Water Dept. (Mwra)",
+    "city": "Arlington",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 46308,
+    "connections": 12751,
+    "source_water": "SWP",
+    "admin_name": "Michael Rademacher",
+    "email": "mrademacher@town.arlington.ma.us",
+    "phone": "7813163310",
+    "address": "51 GROVE STREET ARLINGTON MA",
+    "violation_count": 7,
+    "lead_score": 23,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 7 total violations on record",
+      "\u2705 Pop 46,308 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(781) 316-3310",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 7,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "7 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 46,308 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Arlington Water Dept. (Mwra) \u2014 worth a conversation",
+      "body": "Hi Michael,\n\nI came across Arlington Water Dept. (Mwra) in EPA's SDWIS database \u2014 7 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Arlington's 46,308 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA1236000",
+    "name": "Pittsfield Dpu Water Dept",
+    "city": "Pittsfield",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 43927,
+    "connections": 15574,
+    "source_water": "SW",
+    "admin_name": "Jason G Murphy",
+    "email": "JGMURPHY@CITYOFPITTSFIELD.ORG",
+    "phone": "4134999330",
+    "address": "70 ALLEN STREET PITTSFIELD MA",
+    "violation_count": 4,
+    "lead_score": 23,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 4 total violations on record",
+      "\u2705 Pop 43,927 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(413) 499-9330",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 4,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "4 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 43,927 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Pittsfield Dpu Water Dept \u2014 worth a conversation",
+      "body": "Hi Jason,\n\nI came across Pittsfield Dpu Water Dept in EPA's SDWIS database \u2014 4 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Pittsfield's 43,927 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3031000",
+    "name": "Billerica Water Works",
+    "city": "Billerica",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 42119,
+    "connections": 13758,
+    "source_water": "SW",
+    "admin_name": "Todd A Melanson",
+    "email": "TMELANSON@TOWN.BILLERICA.MA.US",
+    "phone": "9786710957",
+    "address": "270 TREBLE COVE RD BILLERICA MA",
+    "violation_count": 7,
+    "lead_score": 23,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 7 total violations on record",
+      "\u2705 Pop 42,119 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 671-0957",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 7,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "7 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 42,119 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Billerica Water Works \u2014 worth a conversation",
+      "body": "Hi Todd,\n\nI came across Billerica Water Works in EPA's SDWIS database \u2014 7 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Billerica's 42,119 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA1281000",
+    "name": "Springfield Water And Sewer Commission",
+    "city": "Springfield",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 167954,
+    "connections": 43265,
+    "source_water": "SW",
+    "admin_name": "Joshua Schimmel",
+    "email": "JOSH.SCHIMMEL@WATERANDSEWER.ORG",
+    "phone": "4133103500",
+    "address": "PO BOX 995 SPRINGFIELD MA",
+    "violation_count": 55,
+    "lead_score": 22,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 55 total violations on record",
+      "\ud83d\udcca Large system: 167,954 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(413) 310-3500",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 55,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "55 total violations on EPA record"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Springfield Water And Sewer Commission \u2014 worth a conversation",
+      "body": "Hi Joshua,\n\nI came across Springfield Water And Sewer Commission in EPA's SDWIS database \u2014 55 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Springfield's 167,954 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4044000",
+    "name": "Brockton Water Department",
+    "city": "Brockton",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 105643,
+    "connections": 24478,
+    "source_water": "SW",
+    "admin_name": "Michael D Sessine",
+    "email": "MICHAEL.SESSINE@VEOLIAWATERNA.COM",
+    "phone": "5085807825",
+    "address": "45 SCHOOL ST, CITY HALL, 3RD FLOOR, DPW BROCKTON MA",
+    "violation_count": 8,
+    "lead_score": 22,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 8 total violations on record",
+      "\ud83d\udcca Large system: 105,643 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(508) 580-7825",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 8,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "8 total violations on EPA record"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Brockton Water Department \u2014 worth a conversation",
+      "body": "Hi Michael,\n\nI came across Brockton Water Department in EPA's SDWIS database \u2014 8 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Brockton's 105,643 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4075000",
+    "name": "Dennis Water District",
+    "city": "South Dennis",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 65000,
+    "connections": 14576,
+    "source_water": "GW",
+    "admin_name": "David A Larkowski",
+    "email": "dlarkowski@denniswater.org",
+    "phone": "5083983351",
+    "address": "P.O. BOX 2000 SOUTH DENNIS MA",
+    "violation_count": 38,
+    "lead_score": 22,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 38 total violations on record",
+      "\u2705 Pop 65,000 \u2014 ideal Raybern client size"
+    ],
+    "phone_formatted": "(508) 398-3351",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 38,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "38 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 65,000 \u2014 ideal client size for Raybern"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Dennis Water District \u2014 worth a conversation",
+      "body": "Hi David,\n\nI came across Dennis Water District in EPA's SDWIS database \u2014 38 violations on record. I wanted to reach out directly.\n\nWe work specifically with groundwater utilities serving populations like South Dennis's 65,000 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4239000",
+    "name": "Plymouth Water Department",
+    "city": "Plymouth",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 46799,
+    "connections": 14952,
+    "source_water": "GW",
+    "admin_name": "Peter Gordon",
+    "email": "PGORDON@PLYMOUTH-MA.GOV",
+    "phone": "5088304162",
+    "address": "169 CAMELOT DRIVE PLYMOUTH MA",
+    "violation_count": 8,
+    "lead_score": 22,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 8 total violations on record",
+      "\u2705 Pop 46,799 \u2014 ideal Raybern client size"
+    ],
+    "phone_formatted": "(508) 830-4162",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 8,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "8 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 46,799 \u2014 ideal client size for Raybern"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Plymouth Water Department \u2014 worth a conversation",
+      "body": "Hi Peter,\n\nI came across Plymouth Water Department in EPA's SDWIS database \u2014 8 violations on record. I wanted to reach out directly.\n\nWe work specifically with groundwater utilities serving populations like Plymouth's 46,799 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA1137000",
+    "name": "Holyoke Water Works",
+    "city": "Holyoke",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 37838,
+    "connections": 8181,
+    "source_water": "SW",
+    "admin_name": "Matthew J Smith",
+    "email": "SMITHM@HOLYOKE.ORG",
+    "phone": "4135360442",
+    "address": "MAIN OFFICE - 20 COMMERCIAL ST HOLYOKE MA",
+    "violation_count": 0,
+    "lead_score": 22,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\u2705 Pop 37,838 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (4.6x)"
+    ],
+    "phone_formatted": "(413) 536-0442",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 37,838 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Holyoke Water Works \u2014 worth a conversation",
+      "body": "Hi Matthew,\n\nI came across Holyoke Water Works in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Holyoke's 37,838 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3030000",
+    "name": "Beverly Water Dept",
+    "city": "Beverly",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 47461,
+    "connections": 11506,
+    "source_water": "SWP",
+    "admin_name": "Michael P Collins",
+    "email": "MCOLLINS@BEVERLYMA.GOV",
+    "phone": "9789216053",
+    "address": "148 PARK ST BEVERLY MA",
+    "violation_count": 0,
+    "lead_score": 18,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\u2705 Pop 47,461 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 921-6053",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 47,461 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Beverly Water Dept \u2014 worth a conversation",
+      "body": "Hi Michael,\n\nI came across Beverly Water Dept in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Beverly's 47,461 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4016000",
+    "name": "Attleboro Water Dept",
+    "city": "Attleboro",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 46654,
+    "connections": 14729,
+    "source_water": "SW",
+    "admin_name": "Dennis Morton",
+    "email": "dmorton@cityofattleboro.us",
+    "phone": "7742031850",
+    "address": "1296 WEST ST ATTLEBORO MA",
+    "violation_count": 2,
+    "lead_score": 18,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\u2705 Pop 46,654 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(774) 203-1850",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 46,654 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Attleboro Water Dept \u2014 worth a conversation",
+      "body": "Hi Dennis,\n\nI came across Attleboro Water Dept in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Attleboro's 46,654 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3258000",
+    "name": "Salem Water Department",
+    "city": "Salem",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 44480,
+    "connections": 10070,
+    "source_water": "SWP",
+    "admin_name": "Giovanna Z Recinos",
+    "email": "GRECINOS@SALEM.COM",
+    "phone": "9786195673",
+    "address": "98 WASHINGTON ST SALEM MA",
+    "violation_count": 0,
+    "lead_score": 18,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\u2705 Pop 44,480 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 619-5673",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 44,480 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Salem Water Department \u2014 worth a conversation",
+      "body": "Hi Giovanna,\n\nI came across Salem Water Department in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Salem's 44,480 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA2097000",
+    "name": "Fitchburg Dpw  Division Of Water Supply",
+    "city": "Fitchburg",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 41946,
+    "connections": 11151,
+    "source_water": "SW",
+    "admin_name": "John M Deline",
+    "email": "JDELINE@FITCHBURGMA.GOV",
+    "phone": "9783459616",
+    "address": "1200 RINDGE ROAD FITCHBURG MA",
+    "violation_count": 2,
+    "lead_score": 18,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\u2705 Pop 41,946 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 345-9616",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 41,946 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Fitchburg Dpw  Division Of Water Supply \u2014 worth a conversation",
+      "body": "Hi John,\n\nI came across Fitchburg Dpw  Division Of Water Supply in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Fitchburg's 41,946 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3073000",
+    "name": "Dedham Westwood Water Dist.",
+    "city": "Dedham",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 41630,
+    "connections": 13313,
+    "source_water": "SWP",
+    "admin_name": "Blake D Lukis",
+    "email": "BLUKIS@DWWD.ORG",
+    "phone": "7813297090",
+    "address": "50 ELM STREET DEDHAM MA",
+    "violation_count": 1,
+    "lead_score": 18,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\u2705 Pop 41,630 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(781) 329-7090",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 41,630 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Dedham Westwood Water Dist. \u2014 worth a conversation",
+      "body": "Hi Blake,\n\nI came across Dedham Westwood Water Dist. in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Dedham's 41,630 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3107000",
+    "name": "Gloucester Public Utility Division",
+    "city": "Gloucester",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 37440,
+    "connections": 15141,
+    "source_water": "SW",
+    "admin_name": "Shavaun Callahan",
+    "email": "SCALLAHAN@GLOUCESTER-MA.GOV",
+    "phone": "9783255680",
+    "address": "ENGINEERING DEPT. GLOUCESTER MA",
+    "violation_count": 2,
+    "lead_score": 18,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\u2705 Pop 37,440 \u2014 ideal Raybern client size",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(978) 325-5680",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 37,440 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Gloucester Public Utility Division \u2014 worth a conversation",
+      "body": "Hi Shavaun,\n\nI came across Gloucester Public Utility Division in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Gloucester's 37,440 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3243000",
+    "name": "Quincy Water Dept. (Mwra)",
+    "city": "Quincy",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 106000,
+    "connections": 23750,
+    "source_water": "SWP",
+    "admin_name": "Mark C Vialpando",
+    "email": "MVIALPANDO@QUINCYMA.GOV",
+    "phone": "6173761910",
+    "address": "55 SEA ST QUINCY MA",
+    "violation_count": 3,
+    "lead_score": 17,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\ud83d\udfe1 3 total violations on record",
+      "\ud83d\udcca Large system: 106,000 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(617) 376-1910",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 3,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "3 total violations on EPA record"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Quincy Water Dept. (Mwra) \u2014 worth a conversation",
+      "body": "Hi Mark,\n\nI came across Quincy Water Dept. (Mwra) in EPA's SDWIS database \u2014 3 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Quincy's 106,000 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA2271000",
+    "name": "Shrewsbury Water Department",
+    "city": "Shrewsbury",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 38325,
+    "connections": 11896,
+    "source_water": "GW",
+    "admin_name": "Timothy J Maroney",
+    "email": "TMARONEY@SHREWSBURYMA.GOV",
+    "phone": "5088418506",
+    "address": "100 MAPLE AVE SHREWSBURY MA",
+    "violation_count": 4,
+    "lead_score": 17,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\ud83d\udfe1 4 total violations on record",
+      "\u2705 Pop 38,325 \u2014 ideal Raybern client size"
+    ],
+    "phone_formatted": "(508) 841-8506",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 4,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "4 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 38,325 \u2014 ideal client size for Raybern"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Shrewsbury Water Department \u2014 worth a conversation",
+      "body": "Hi Timothy,\n\nI came across Shrewsbury Water Department in EPA's SDWIS database \u2014 4 violations on record. I wanted to reach out directly.\n\nWe work specifically with groundwater utilities serving populations like Shrewsbury's 38,325 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA6000000",
+    "name": "Mwra",
+    "city": "Chelsea",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 2660000,
+    "connections": 217,
+    "source_water": "SW",
+    "admin_name": "Valerie Moran",
+    "email": "VALERIE.MORAN@MWRA.COM",
+    "phone": "6172426000",
+    "address": "2 GRIFFIN WAY CHELSEA MA",
+    "violation_count": 0,
+    "lead_score": 16,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\ud83d\udcca Large system: 2,660,000 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (12258.1x)"
+    ],
+    "phone_formatted": "(617) 242-6000",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Mwra \u2014 worth a conversation",
+      "body": "Hi Valerie,\n\nI came across Mwra in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Chelsea's 2,660,000 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA3163000",
+    "name": "Lynn Water And Sewer Comm",
+    "city": "Lynn",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 101253,
+    "connections": 21169,
+    "source_water": "SW",
+    "admin_name": "Matthew Comeu",
+    "email": "mcomeau@lynnwatersewer.org",
+    "phone": "7815955200",
+    "address": "390 PARKLAND AVE LYNN MA",
+    "violation_count": 0,
+    "lead_score": 16,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\ud83d\udcca Large system: 101,253 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (4.8x)"
+    ],
+    "phone_formatted": "(781) 595-5200",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Lynn Water And Sewer Comm \u2014 worth a conversation",
+      "body": "Hi Matthew,\n\nI came across Lynn Water And Sewer Comm in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like Lynn's 101,253 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4261024",
+    "name": "Upper Cape Regional Water Cooperative",
+    "city": "Sandwich",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 56250,
+    "connections": 6,
+    "source_water": "GW",
+    "admin_name": "Daniel H Mahoney",
+    "email": "DMAHONEY@TOWNOFSANDWICH.NET",
+    "phone": "5088882775",
+    "address": "C/O SANDWICH WATER DISTRICT SANDWICH MA",
+    "violation_count": 0,
+    "lead_score": 16,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\u2705 Pop 56,250 \u2014 ideal Raybern client size",
+      "\ud83d\udca1 High pop/connection ratio (9375.0x)"
+    ],
+    "phone_formatted": "(508) 888-2775",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 56,250 \u2014 ideal client size for Raybern"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Upper Cape Regional Water Cooperative \u2014 worth a conversation",
+      "body": "Hi Daniel,\n\nI came across Upper Cape Regional Water Cooperative in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with groundwater utilities serving populations like Sandwich's 56,250 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4201000",
+    "name": "City Of New Bedford Dpi",
+    "city": "New Bedford",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 101079,
+    "connections": 23962,
+    "source_water": "SW",
+    "admin_name": "Jamie  Ponte",
+    "email": "jamie.ponte@newbedford-ma.gov",
+    "phone": "5089791550",
+    "address": "1105 SHAWMUT AVE NEW BEDFORD MA",
+    "violation_count": 0,
+    "lead_score": 12,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\ud83d\udcca Large system: 101,079 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(508) 979-1550",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for City Of New Bedford Dpi \u2014 worth a conversation",
+      "body": "Hi Jamie,\n\nI came across City Of New Bedford Dpi in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water utilities serving populations like New Bedford's 101,079 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4126000",
+    "name": "Harwich Water Department",
+    "city": "Harwich",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 39144,
+    "connections": 10154,
+    "source_water": "GW",
+    "admin_name": "Jason Trepanier",
+    "email": "JASON.TREPANIER@HARWICH-MA.GOV",
+    "phone": "5084320304",
+    "address": "196 CHATHAM RD HARWICH MA",
+    "violation_count": 0,
+    "lead_score": 12,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\u2705 Pop 39,144 \u2014 ideal Raybern client size"
+    ],
+    "phone_formatted": "(508) 432-0304",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 39,144 \u2014 ideal client size for Raybern"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Harwich Water Department \u2014 worth a conversation",
+      "body": "Hi Jason,\n\nI came across Harwich Water Department in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with groundwater utilities serving populations like Harwich's 39,144 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "MA4172039",
+    "name": "Mashpee Water District",
+    "city": "Mashpee",
+    "state": "MA",
+    "target_group": "Massachusetts",
+    "population": 36922,
+    "connections": 10261,
+    "source_water": "GW",
+    "admin_name": "Michael Fredericks",
+    "email": "MASHPEE.MWD@VERIZON.NET",
+    "phone": "5084776767",
+    "address": "79 INDUSTRIAL DR MASHPEE MA",
+    "violation_count": 0,
+    "lead_score": 12,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\u2705 Pop 36,922 \u2014 ideal Raybern client size"
+    ],
+    "phone_formatted": "(508) 477-6767",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "positive",
+        "text": "Population of 36,922 \u2014 ideal client size for Raybern"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Mashpee Water District \u2014 worth a conversation",
+      "body": "Hi Michael,\n\nI came across Mashpee Water District in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with groundwater utilities serving populations like Mashpee's 36,922 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "NY5903465",
+    "name": "Yonkers City",
+    "city": "Yonkers",
+    "state": "NY",
+    "target_group": "Yonkers, NY",
+    "population": 211569,
+    "connections": 30000,
+    "source_water": "SWP",
+    "admin_name": "Meier, Thomas G.",
+    "email": "thomas.meier@yonkersny.gov",
+    "phone": "914-377-6270",
+    "address": "Department of Public Works - City Hall YONKERS NY",
+    "violation_count": 2,
+    "lead_score": 16,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\ud83d\udcca Large system: 211,569 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity",
+      "\ud83d\udca1 High pop/connection ratio (7.1x)"
+    ],
+    "phone_formatted": "(914) 377-6270",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      },
+      {
+        "type": "info",
+        "text": "High people-per-meter ratio \u2014 dense service area, complex billing"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Yonkers City \u2014 worth a conversation",
+      "body": "Hi Meier,,\n\nI came across Yonkers City in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Yonkers's 211,569 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "FL4131202",
+    "name": "Mdwasa/Rex Utilities",
+    "city": "Miami",
+    "state": "FL",
+    "target_group": "Miami, FL",
+    "population": 45200,
+    "connections": 12700,
+    "source_water": "GW",
+    "admin_name": "Mwasd",
+    "email": null,
+    "phone": "305-888-2522",
+    "address": "3071 SW 38 AVE MIAMI FL",
+    "violation_count": 23,
+    "lead_score": 55,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udd34 2 OPEN violations (unresolved)",
+      "\ud83d\udfe1 6 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 23 total violations on record",
+      "\u2705 Pop 45,200 \u2014 ideal Raybern client size"
+    ],
+    "phone_formatted": "(305) 888-2522",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 2,
+      "health_based": 0,
+      "total_violations": 23,
+      "recent_violations": 0,
+      "monitoring_gaps": 6
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "2 unresolved EPA violations \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "6 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "23 total violations on EPA record"
+      },
+      {
+        "type": "positive",
+        "text": "Population of 45,200 \u2014 ideal client size for Raybern"
+      }
+    ],
+    "email_draft": {
+      "subject": "2 open EPA violations at Mdwasa/Rex Utilities \u2014 compliance support",
+      "body": "Hi Mwasd,\n\nI noticed Mdwasa/Rex Utilities currently has 2 unresolved EPA violations.\n\nWe work specifically with groundwater utilities serving populations like Miami's 45,200 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "FL4131403",
+    "name": "Americana Village",
+    "city": "Miami",
+    "state": "FL",
+    "target_group": "Miami, FL",
+    "population": 2100,
+    "connections": 525,
+    "source_water": "GW",
+    "admin_name": "Arthur Jimenez",
+    "email": null,
+    "phone": "305-300-6960",
+    "address": "19800 SW 180 AVE #602 MIAMI FL",
+    "violation_count": 108,
+    "lead_score": 47,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udd34 2 OPEN violations (unresolved)",
+      "\ud83d\udfe1 52 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 108 total violations on record",
+      "\ud83d\udcca Small system: 2,100 served"
+    ],
+    "phone_formatted": "(305) 300-6960",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 2,
+      "health_based": 0,
+      "total_violations": 108,
+      "recent_violations": 0,
+      "monitoring_gaps": 52
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "2 unresolved EPA violations \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "52 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "108 total violations on EPA record"
+      }
+    ],
+    "email_draft": {
+      "subject": "2 open EPA violations at Americana Village \u2014 compliance support",
+      "body": "Hi Arthur,\n\nI noticed Americana Village currently has 2 unresolved EPA violations.\n\nWe work specifically with groundwater utilities serving populations like Miami's 2,100 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "FL4131312",
+    "name": "Silver Palm Mobile Homes",
+    "city": "Miami",
+    "state": "FL",
+    "target_group": "Miami, FL",
+    "population": 250,
+    "connections": 75,
+    "source_water": "GW",
+    "admin_name": "Chris Speer",
+    "email": null,
+    "phone": "702-929-6226",
+    "address": "17350 SW 232 STREET MIAMI FL",
+    "violation_count": 8,
+    "lead_score": 33,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe1 6 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 8 total violations on record"
+    ],
+    "phone_formatted": "(702) 929-6226",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 8,
+      "recent_violations": 0,
+      "monitoring_gaps": 6
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "6 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "8 total violations on EPA record"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Silver Palm Mobile Homes \u2014 compliance support",
+      "body": "Hi Chris,\n\nI noticed Silver Palm Mobile Homes currently has 1 unresolved EPA violation.\n\nWe work specifically with groundwater utilities serving populations like Miami's 250 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "FL3490816",
+    "name": "Great Oak R.V. Resort",
+    "city": "Miami",
+    "state": "FL",
+    "target_group": "Miami, FL",
+    "population": 300,
+    "connections": 196,
+    "source_water": "GW",
+    "admin_name": "Alex Fals",
+    "email": null,
+    "phone": "358-807-0058",
+    "address": "3191 GRAND AVENUE #331774 MIAMI FL",
+    "violation_count": 59,
+    "lead_score": 30,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe0 2 violation(s) in last 12 months",
+      "\ud83d\udfe1 17 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 59 total violations on record"
+    ],
+    "phone_formatted": "(358) 807-0058",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 59,
+      "recent_violations": 2,
+      "monitoring_gaps": 17
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "2 new violations in the past 12 months"
+      },
+      {
+        "type": "warning",
+        "text": "17 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "59 total violations on EPA record"
+      }
+    ],
+    "email_draft": {
+      "subject": "Recent EPA violations at Great Oak R.V. Resort \u2014 how we can help",
+      "body": "Hi Alex,\n\nI came across Great Oak R.V. Resort in EPA's SDWIS database \u2014 2 new violations in the last 12 months, 59 total on record.\n\nWe work specifically with groundwater utilities serving populations like Miami's 300 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "FL4130871",
+    "name": "Mdwasa - Main System",
+    "city": "Miami",
+    "state": "FL",
+    "target_group": "Miami, FL",
+    "population": 2377460,
+    "connections": 560000,
+    "source_water": "GW",
+    "admin_name": "Mdwasd, Roy Coley",
+    "email": null,
+    "phone": "786-552-8112",
+    "address": "3071 SW 38 AVENUE MIAMI FL",
+    "violation_count": 48,
+    "lead_score": 24,
+    "tier": {
+      "key": "Tier 3",
+      "label": "Lukewarm",
+      "color": "#eab308",
+      "description": "Moderate history \u2014 worth nurturing, lower immediate pain"
+    },
+    "signals": [
+      "\ud83d\udfe1 26 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe0 48 total violations on record",
+      "\ud83d\udcca Large system: 2,377,460 served"
+    ],
+    "phone_formatted": "(786) 552-8112",
+    "source_water_label": "Groundwater",
+    "source_water_description": "Sourced from wells \u2014 generally simpler treatment, but contamination risk is costly",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 48,
+      "recent_violations": 0,
+      "monitoring_gaps": 26
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "26 monitoring & reporting gaps \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "48 total violations on EPA record"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Mdwasa - Main System \u2014 worth a conversation",
+      "body": "Hi Mdwasd,,\n\nI came across Mdwasa - Main System in EPA's SDWIS database \u2014 48 violations on record. I wanted to reach out directly.\n\nWe work specifically with groundwater utilities serving populations like Miami's 2,377,460 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "AL0000738",
+    "name": "Central Alabama Water System",
+    "city": "Birmingham",
+    "state": "AL",
+    "target_group": "Birmingham, AL",
+    "population": 585000,
+    "connections": 285263,
+    "source_water": "SW",
+    "admin_name": "Underwood, Mac",
+    "email": "Mac.Underwood@bwwb.org",
+    "phone": "205-244-4000",
+    "address": "None BIRMINGHAM AL",
+    "violation_count": 3,
+    "lead_score": 40,
+    "tier": {
+      "key": "Tier 2",
+      "label": "Warm Lead",
+      "color": "#f97316",
+      "description": "Multiple violations or recent issues \u2014 strong compliance consulting fit"
+    },
+    "signals": [
+      "\ud83d\udfe0 1 OPEN violation (unresolved)",
+      "\ud83d\udfe1 1 monitoring/reporting gap(s) (3yr)",
+      "\ud83d\udfe1 3 total violations on record",
+      "\ud83d\udcca Large system: 585,000 served",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(205) 244-4000",
+    "source_water_label": "Surface Water",
+    "source_water_description": "Drawn from rivers or lakes \u2014 requires complex treatment and detailed regulatory reporting",
+    "parsed_signals": {
+      "open_violations": 1,
+      "health_based": 0,
+      "total_violations": 3,
+      "recent_violations": 0,
+      "monitoring_gaps": 1
+    },
+    "clean_signals": [
+      {
+        "type": "danger",
+        "text": "1 unresolved EPA violation \u2014 regulatory action risk"
+      },
+      {
+        "type": "warning",
+        "text": "1 monitoring & reporting gap \u2014 documentation risk"
+      },
+      {
+        "type": "warning",
+        "text": "3 total violations on EPA record"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "1 open EPA violation at Central Alabama Water System \u2014 compliance support",
+      "body": "Hi Underwood,,\n\nI noticed Central Alabama Water System currently has 1 unresolved EPA violation.\n\nWe work specifically with surface water utilities serving populations like Birmingham's 585,000 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "AL0001799",
+    "name": "Lake Mitchell Water Incorporated",
+    "city": "Birmingham",
+    "state": "AL",
+    "target_group": "Birmingham, AL",
+    "population": 429,
+    "connections": 143,
+    "source_water": "SWP",
+    "admin_name": "Honea Sr, W. Jeff",
+    "email": "jeff@morrisonhonea.com",
+    "phone": "251-380-7332",
+    "address": "347 HIGHLAND VIEW DRIVE BIRMINGHAM AL",
+    "violation_count": 20,
+    "lead_score": 16,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\ud83d\udfe0 20 total violations on record",
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(251) 380-7332",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 20,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "warning",
+        "text": "20 total violations on EPA record"
+      },
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Lake Mitchell Water Incorporated \u2014 worth a conversation",
+      "body": "Hi Honea,\n\nI came across Lake Mitchell Water Incorporated in EPA's SDWIS database \u2014 20 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Birmingham's 429 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  },
+  {
+    "pwsid": "AL0001769",
+    "name": "Blue Hole Water Company Inc., The",
+    "city": "Birmingham",
+    "state": "AL",
+    "target_group": "Birmingham, AL",
+    "population": 246,
+    "connections": 82,
+    "source_water": "SWP",
+    "admin_name": "Walraven, Mike",
+    "email": "mike@eosutilityservices.com",
+    "phone": "205-396-3170",
+    "address": "None BIRMINGHAM AL",
+    "violation_count": 0,
+    "lead_score": 6,
+    "tier": {
+      "key": "Watch",
+      "label": "Watch List",
+      "color": "#22c55e",
+      "description": "Clean record but size/type fits Raybern profile \u2014 long-term pipeline"
+    },
+    "signals": [
+      "\ud83d\udcca Surface water \u2014 higher treatment & billing complexity"
+    ],
+    "phone_formatted": "(205) 396-3170",
+    "source_water_label": "Surface Water (Regional)",
+    "source_water_description": "Purchased from a regional authority like MWRA \u2014 dependent on upstream compliance",
+    "parsed_signals": {
+      "open_violations": 0,
+      "health_based": 0,
+      "total_violations": 0,
+      "recent_violations": 0,
+      "monitoring_gaps": 0
+    },
+    "clean_signals": [
+      {
+        "type": "info",
+        "text": "Surface water source \u2014 higher treatment complexity and billing volume"
+      }
+    ],
+    "email_draft": {
+      "subject": "EPA compliance profile for Blue Hole Water Company Inc., The \u2014 worth a conversation",
+      "body": "Hi Walraven,,\n\nI came across Blue Hole Water Company Inc., The in EPA's SDWIS database \u2014 0 violations on record. I wanted to reach out directly.\n\nWe work specifically with surface water (regional) utilities serving populations like Birmingham's 246 residents \u2014 helping compliance teams close out open violations, handle regulator correspondence, and implement documentation fixes without adding headcount.\n\nMost of our clients go from open violations to full resolution in 60\u201390 days. We own the process end-to-end: audit, corrective action plans, agency communication, and monitoring protocols.\n\nWould a 20-minute call this week make sense? I can work around your schedule.\n\nBest,\n[Your Name]\nRaybern\n[phone] | raybern.com"
+    }
+  }
+]
