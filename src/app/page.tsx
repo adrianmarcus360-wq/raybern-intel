@@ -47,6 +47,7 @@ export default function HomePage() {
   const router = useRouter()
   const [search, setSearch] = useState('')
   const [stateFilter, setStateFilter] = useState('All')
+  const [view, setView] = useState<'prospects' | 'workflow'>('prospects')
   const [tierFilter, setTierFilter] = useState('All')
   const [billingFilter, setBillingFilter] = useState('All')
   const [amiFilter, setAmiFilter] = useState('All')
@@ -154,25 +155,39 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg)' }}>
-      <header style={{ background: 'var(--navy)', borderBottom: '1px solid #0D1E30' }}>
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg flex items-center justify-center text-white font-bold text-sm"
-              style={{ background: '#2B5080' }}>R</div>
-            <div>
-              <div className="text-white font-semibold text-base leading-tight">Raybern Prospect Intelligence</div>
-              <div className="text-xs" style={{ color: '#7EA4C4' }}>EPA SDWIS · Tech Stack · Vendors · Decision Makers · {leads.length} utilities</div>
-            </div>
+      <div className="max-w-7xl mx-auto px-6 py-6">
+
+        {/* Intelligence sub-tabs */}
+        <div className="flex items-center justify-between mb-5 border-b pb-0" style={{ borderColor: 'var(--border)' }}>
+          <div className="flex gap-1">
+            {[
+              { key: 'prospects', label: '📋 Prospects', sub: `${leads.length} utilities` },
+              { key: 'workflow',  label: '🗺 How It Works', sub: 'Example walkthrough' },
+            ].map(t => (
+              <button key={t.key} onClick={() => setView(t.key as any)}
+                className="flex items-center gap-2 px-4 py-2.5 text-sm font-medium transition-colors"
+                style={{
+                  color: view === t.key ? 'var(--navy)' : 'var(--text-muted)',
+                  borderBottom: view === t.key ? '2px solid var(--navy)' : '2px solid transparent',
+                  marginBottom: '-1px',
+                }}>
+                {t.label}
+                <span className="text-xs hidden md:inline" style={{ color: 'var(--text-light)' }}>/ {t.sub}</span>
+              </button>
+            ))}
           </div>
           <button onClick={exportCSV}
-            className="text-sm px-4 py-2 rounded-lg font-medium border"
-            style={{ background: '#2B5080', borderColor: '#3D6FA3', color: '#D9E4EF' }}>
+            className="text-sm px-4 py-1.5 rounded-lg font-medium border mb-1"
+            style={{ background: 'white', borderColor: 'var(--border)', color: 'var(--navy)' }}>
             ↓ Export CSV
           </button>
         </div>
-      </header>
 
-      <div className="max-w-7xl mx-auto px-6 py-6">
+        {/* ── WORKFLOW VIEW ─────────────────────────────────────────────── */}
+        {view === 'workflow' && <WorkflowView onOpenProspects={() => setView('prospects')} />}
+
+        {/* ── PROSPECTS VIEW ────────────────────────────────────────────── */}
+        {view === 'prospects' && <>
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-6 gap-3 mb-5">
           {[
@@ -371,7 +386,190 @@ export default function HomePage() {
         <div className="mt-3 text-xs text-center" style={{ color: 'var(--text-light)' }}>
           Sortable: Score · Utility · Population · AMI System · Violations · Tier · Click any row for full profile
         </div>
+        </>}
       </div>
     </div>
   )
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// WORKFLOW VIEW — Example walkthrough from raw data to first message sent
+// ─────────────────────────────────────────────────────────────────────────────
+
+function WorkflowView({ onOpenProspects }: { onOpenProspects: () => void }) {
+  const [step, setStep] = useState(0)
+
+  const STEPS = [
+    {
+      label: 'The Data',
+      icon: '📊',
+      headline: 'We start with what\'s public and provable',
+      narrative: `Everything in this platform starts with the EPA's federal water system database (SDWIS) — updated quarterly, publicly accessible, 100% verified. We pulled every public water utility in Massachusetts, Florida, Alabama, and New York: 69 utilities total. For each one, we now have violation history, compliance status, population served, geographic data, and their federal system ID (PWSID).
+
+From there, we layered in technology research: state procurement databases confirmed billing platforms, AMI system contracts, and vendor relationships. Web research filled in gaps — job postings that mention "Tyler MUNIS administrator", press releases naming Sensus FlexNet deployments, council meeting minutes discussing meter upgrade budgets.
+
+Every data point in this system has a confidence badge. Verified means it came from a federal database or signed public contract. High means it came from the utility's own website or CCR. Medium means it was inferred from web research. You always know what you can say directly and what to hold back.`,
+      sources: ['EPA SDWIS (verified)', 'State procurement portals (verified)', 'Utility websites + CCRs (high)', 'Web research (medium)'],
+      callout: { label: '69 utilities', detail: '44 confirmed Tyler MUNIS · 44 Sensus FlexNet AMI' },
+    },
+    {
+      label: 'The Opportunity',
+      icon: '🎯',
+      headline: 'Here\'s what the data tells us — and why it matters',
+      narrative: `Of the 69 utilities, 44 run Tyler MUNIS — the same billing platform Raybern already has a documented case study with (the KKW engagement). That's not a coincidence or a guess; it's confirmed via public procurement contracts.
+
+The MUNIS pattern is specific: its module interdependencies create billing failures that are invisible to internal utility staff. They look like data entry errors or one-off exceptions. They're actually systemic. The utility doesn't know that until someone looks under the hood — which is exactly what Raybern does.
+
+On top of the MUNIS pattern, 21 of these utilities are Tier 1 — meaning they have both the tech match AND active EPA violations. Open violations are the urgency signal. A utility with 36 open violations and a MUNIS billing system isn't just a prospect; they're a utility where something is likely wrong that nobody has diagnosed yet.
+
+This is the opportunity. Not "we think we can help them" — "we have data that shows a documented failure pattern in their exact system, and they have active compliance issues that make finding the root cause time-sensitive."`,
+      sources: ['Tyler MUNIS procurement contracts', 'EPA SDWIS open violation data', 'KKW case study pattern (internal)'],
+      callout: { label: '21 Tier 1 leads', detail: 'MUNIS + active violations = pre-qualified opportunity' },
+    },
+    {
+      label: 'The Leads',
+      icon: '👥',
+      headline: 'Specific people at specific utilities, ranked by opportunity',
+      narrative: `Each utility profile in this platform includes the full decision maker tree: the Water Superintendent or Director of Public Works (operational decision-maker), the Finance Director (budget authority), and the City Manager or Mayor (executive sponsor). Names, emails, and phone numbers where publicly available.
+
+The scoring system weights four factors: violation severity and count, tech stack match (MUNIS gets +20 points, Sensus +15), population size (larger systems have more complexity and more budget), and open enforcement actions (the highest urgency signal). A Tier 1 lead is a utility scoring 70+ with at least one active violation.
+
+Take Brockton Water Authority in Massachusetts as an example: 97,000 population, confirmed Tyler MUNIS billing, Sensus FlexNet AMI, 54 total violations with 36 currently open. Lead score: 89. The Water Superintendent is the right first contact. We know their name. We know their system. We know their compliance history. We know which violation types map to billing workflow failures.
+
+That's not a cold call — that's a warm diagnostic conversation.`,
+      sources: ['Municipal websites + CCRs (decision maker names)', 'EPA SDWIS (violation data)', 'State contracts (billing/AMI confirmation)'],
+      callout: { label: 'Tier 1 example', detail: 'Brockton, MA — Score 89 · 36 open violations · MUNIS + Sensus' },
+    },
+    {
+      label: 'The Approach',
+      icon: '✉️',
+      headline: 'How to start the conversation — what to say and what not to say',
+      narrative: `The outreach rule here is simple: only reference what's Verified or High confidence. If something came from web research (Medium), it informs who we're targeting and how we frame the call — but we don't say "we know you're on MUNIS" unless it came from a public procurement contract.
+
+Instead, the framing is: "We've worked extensively with Tyler-based billing environments and have identified a pattern of systemic billing failures that utilities using similar configurations rarely catch internally." That's true, accurate, and doesn't expose our research method. If they're on MUNIS, they'll immediately recognize themselves in that description. If not, it still opens a conversation.
+
+Each lead profile includes a pre-written 3-touch email sequence: a positioning intro that references their violation history (which is 100% public and Verified), a follow-up that provides context on what Raybern found in a similar utility's system, and a final soft offer for the free alignment session — "no agenda, just clarity on what's happening."
+
+The goal of touch 1 is not to sell. It's to get a reply. The goal of touch 3 is the alignment session. The alignment session is where Raybern's value becomes undeniable.`,
+      sources: ['Confidence badge system (internal rule)', 'Pre-written sequences (per-lead)'],
+      callout: { label: 'Touch 1 goal', detail: 'Not a sale — a reply. The conversation sells itself.' },
+    },
+    {
+      label: 'The Workflow',
+      icon: '⚙️',
+      headline: 'How the team actually uses this tool, start to finish',
+      narrative: `Step 1: Open Intelligence → sort by Score (default). Tier 1 leads are at the top. Start there.
+
+Step 2: Click into a lead profile. Review the score breakdown to understand why this lead ranked high — is it violations? MUNIS match? Enforcement action? That context shapes the first line of the email.
+
+Step 3: Review the violation definitions. Each violation type in the profile maps to a plain-English explanation of what it likely means operationally (e.g., "TCR = bacteria monitoring tests weren't run on schedule" → "this is a reporting workflow problem, which is the kind of thing MUNIS module misconfigurations produce").
+
+Step 4: Review the decision maker tree. Identify the Water Superintendent or Director — they're the first contact. Note anyone in Finance or City management for CC or future touches.
+
+Step 5: Use the pre-written email sequence as a starting point. The positioning headline and touch 1 draft are already written to their specific system. Adjust the opening line to reference the most specific Verified fact about that utility.
+
+Step 6: Mark the lead as "Outreach Sent" in the status tracker. The tracker persists across sessions — so the team always knows what stage each lead is at.
+
+Step 7: Log responses in HubSpot (once connected). As the newsletter builds a subscriber list and the webinar brings attendees, cross-reference: did any Tier 1 leads sign up for the webinar? Those are the warmest hand-raisers in the funnel.
+
+That's the full loop: data → scoring → profile → outreach → newsletter → webinar → alignment session.`,
+      sources: ['All modules: Intelligence + Newsletter + Webinars'],
+      callout: { label: 'Full loop', detail: 'Intelligence → Newsletter → Webinar → Alignment Session → Client' },
+    },
+  ]
+
+  const current = STEPS[step]
+
+  return (
+    <div className="max-w-3xl">
+
+      {/* Title */}
+      <div className="mb-6">
+        <h2 className="text-lg font-bold" style={{ color: 'var(--navy)' }}>How It Works</h2>
+        <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>
+          A narrative walkthrough of the Intelligence module — from raw public data to the first conversation with a prospect.
+        </p>
+      </div>
+
+      {/* Step nav */}
+      <div className="flex gap-1 mb-6 overflow-x-auto pb-1">
+        {STEPS.map((s, i) => (
+          <button key={i} onClick={() => setStep(i)}
+            className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-semibold whitespace-nowrap border transition-all"
+            style={{
+              background: step === i ? 'var(--navy)' : 'white',
+              color: step === i ? 'white' : 'var(--text-muted)',
+              borderColor: step === i ? 'var(--navy)' : 'var(--border)',
+            }}>
+            <span>{s.icon}</span>
+            <span>{i + 1}. {s.label}</span>
+          </button>
+        ))}
+      </div>
+
+      {/* Step content */}
+      <div className="detail-card">
+        <div className="flex items-start gap-3 mb-4">
+          <div className="text-3xl">{current.icon}</div>
+          <div>
+            <div className="text-xs font-bold uppercase tracking-wide mb-1" style={{ color: 'var(--text-muted)' }}>
+              Step {step + 1} of {STEPS.length}
+            </div>
+            <h3 className="text-base font-bold !mb-0" style={{ color: 'var(--navy)' }}>{current.headline}</h3>
+          </div>
+        </div>
+
+        {/* Callout */}
+        <div className="mb-4 rounded-lg p-3 border" style={{ background: '#EFF6FF', borderColor: '#BFDBFE' }}>
+          <span className="font-bold text-sm" style={{ color: 'var(--navy)' }}>{current.callout.label}  </span>
+          <span className="text-sm" style={{ color: '#1E3A5F' }}>{current.callout.detail}</span>
+        </div>
+
+        {/* Narrative */}
+        <div className="space-y-3">
+          {current.narrative.split('\n\n').map((para, i) => (
+            <p key={i} className="text-sm leading-relaxed" style={{ color: 'var(--text-dark)' }}>{para}</p>
+          ))}
+        </div>
+
+        {/* Sources used */}
+        <div className="mt-5 pt-4 border-t" style={{ borderColor: 'var(--border)' }}>
+          <div className="text-xs font-bold uppercase tracking-wide mb-2" style={{ color: 'var(--text-muted)' }}>Sources powering this step</div>
+          <div className="flex flex-wrap gap-2">
+            {current.sources.map(s => (
+              <span key={s} className="text-xs px-2 py-1 rounded-full border"
+                style={{ background: 'var(--bg)', borderColor: 'var(--border)', color: 'var(--text-muted)' }}>
+                {s}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Step navigation */}
+      <div className="flex justify-between mt-4">
+        <button onClick={() => setStep(s => Math.max(0, s - 1))}
+          disabled={step === 0}
+          className="text-sm px-4 py-2 rounded-lg font-medium border disabled:opacity-30"
+          style={{ background: 'white', borderColor: 'var(--border)', color: 'var(--navy)' }}>
+          ← Previous
+        </button>
+        {step < STEPS.length - 1 ? (
+          <button onClick={() => setStep(s => s + 1)}
+            className="text-sm px-4 py-2 rounded-lg font-medium text-white"
+            style={{ background: 'var(--navy)' }}>
+            Next →
+          </button>
+        ) : (
+          <button onClick={() => onOpenProspects()}
+            className="text-sm px-4 py-2 rounded-lg font-medium text-white"
+            style={{ background: '#16A34A' }}>
+            Open Prospects →
+          </button>
+        )}
+      </div>
+
+    </div>
+  )
+}
+

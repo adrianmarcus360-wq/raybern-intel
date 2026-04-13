@@ -6,6 +6,7 @@ const NAV = [
   { href: '/',           label: '🎯 Intelligence',  sub: 'Prospects & Outreach' },
   { href: '/webinars',   label: '🎙 Webinars',       sub: 'Events & Pipeline' },
   { href: '/newsletter', label: '📬 Newsletter',     sub: 'Compliance Digest' },
+  { href: '/sources',    label: '📚 Sources',        sub: 'Data & Methodology' },
 ]
 
 export function NavBar() {
