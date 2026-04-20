@@ -51,8 +51,18 @@ const SM = {
 } as const
 
 export default function WebinarsPage() {
-  const [tab,setTab]=useState<'builder'|'invites'|'assets'|'tools'>('builder')
-  const [cfg,setCfg]=useState<PanelCfg>({topic:'',date:'',host_name:'',host_title:'',platform:'',goal_outcome:'',linkedin_event_url:'',registration_link:'',capacity:''})
+  const [tab,setTab]=useState<'content'|'builder'|'invites'|'assets'|'tools'>('content')
+  const [cfg,setCfg]=useState<PanelCfg>({
+    topic:'Off the Record: What Utility Leaders Are Actually Dealing With Right Now',
+    date:'2026-05-18',
+    host_name:'Adrian Marcus',
+    host_title:'Founder, Raybern Consulting',
+    platform:'riverside',
+    goal_outcome:'Generate 3–5 alignment session calls; establish thought leadership; produce 4 LinkedIn clips + 1 newsletter recap',
+    linkedin_event_url:'',
+    registration_link:'',
+    capacity:'50',
+  })
   const [panelists,setPanelists]=useState<Panelist[]>([])
   const [addingP,setAddingP]=useState(false)
   const [newP,setNewP]=useState({name:'',title:'',company:'',linkedin:'',bio:'',notes:''})
@@ -98,10 +108,11 @@ export default function WebinarsPage() {
 
         <div className='flex gap-1 mb-6 border-b' style={{borderColor:'var(--border)'}}>
           {[
-            {k:'builder',label:'🎙 Panel Builder',   sub:'Setup & Panelists'},
-            {k:'invites',label:'👥 Invite Strategy', sub:LEADS.length+' leads'},
-            {k:'assets', label:'📋 Campaign Assets', sub:'Content & Phases'},
-            {k:'tools',  label:'🔧 Tools & Setup',   sub:'What to configure'},
+            {k:'content',label:'📣 Promotion & Flow', sub:'Posts, messages, agenda'},
+            {k:'builder',label:'🎙 Panel Builder',    sub:'Setup & Panelists'},
+            {k:'invites',label:'👥 Invite Strategy',  sub:LEADS.length+' leads'},
+            {k:'assets', label:'📋 Campaign Assets',  sub:'Content & Phases'},
+            {k:'tools',  label:'🔧 Tools & Setup',    sub:'What to configure'},
           ].map(t=>(
             <button key={t.k} onClick={()=>setTab(t.k as any)}
               className='px-4 py-2.5 text-sm font-medium whitespace-nowrap'
@@ -112,6 +123,7 @@ export default function WebinarsPage() {
           ))}
         </div>
 
+        {tab==='content' && <ContentTab cp={cp} copied={copied} regLink={cfg.registration_link} />}
         {tab==='builder' && <BuilderTab cfg={cfg} upd={upd} panelists={panelists} setPanelists={setPanelists} addingP={addingP} setAddingP={setAddingP} newP={newP} setNewP={setNewP} addPanelist={addPanelist} expandedP={expandedP} setExpandedP={setExpandedP} copied={copied} cp={cp} confirmed={confirmed} invited={invited} ready={ready} PM={PM} />}
         {tab==='invites' && <InvitesTab cfg={cfg} invSt={invSt} setInvSt={setInvSt} tierF={tierF} setTierF={setTierF} srch={srch} setSrch={setSrch} filtLeads={filtLeads} copied={copied} cp={cp} SM={SM} />}
         {tab==='assets' && <CampaignAssetsView topic={cfg.topic} />}
@@ -711,6 +723,241 @@ function ToolsSetupView() {
           </div>
         ))}
       </div>
+    </div>
+  )
+}
+
+// ── CONTENT TAB ──────────────────────────────────────────────────────────────
+const WEBINAR_DATE='May 18, 2026'
+const REG_PLACEHOLDER='[registration link]'
+
+const RUNOFSHOW=[
+  {time:'0:00–5:00',title:'Welcome & Framing',desc:'Host opens: "This isn\'t a webinar in the traditional sense. No decks, no pitches. We pulled together a few people who\'ve been in the trenches of water utility compliance and we\'re just going to talk." Quick housekeeping: recording on, Q&A open throughout, chat is live.'},
+  {time:'5:00–15:00',title:'The Landscape — Data Segment',desc:'Host walks through 3–4 national data points from EPA public records: how many active health-based violations are open nationally, which regions are seeing the most new enforcement activity, most common violation categories in 2025–2026, and what the compliance timeline pressure looks like for small-to-mid systems. Not a sales pitch — just "here\'s what the data says."'},
+  {time:'15:00–40:00',title:'Panel Conversation',desc:'Three panelists. Facilitated, candid. Key questions:\n• "What\'s the thing nobody talks about publicly but everyone\'s dealing with privately?"\n• "Where do most systems actually break down — is it budget, staffing, tools, or something else?"\n• "What would you tell a utility director who just got their first significant violation?"\n• "What does \'getting ahead of it\' actually look like in practice?"\nLet them disagree. That\'s what makes it credible.'},
+  {time:'40:00–55:00',title:'Live Q&A',desc:'Open the floor. Host facilitates. Panel answers. Pull from the chat.'},
+  {time:'55:00–60:00',title:'Close + CTA',desc:'Host: "If any of what we talked about today hits close to home for your system, we do a free alignment session — 30 minutes, we just look at what you\'re actually dealing with, no agenda, no pitch. Link is in the chat." Drop the registration/booking link in chat. Done.'},
+]
+
+const LI_POSTS=[
+  {
+    date:'April 21',
+    days:'27 days out',
+    label:'Awareness',
+    color:'#6366F1',
+    bg:'#EEF2FF',
+    body:`Right now, there are over 14,000 active health-based violations across public water systems in the United States.
+
+Most of them aren't from negligence. They're from systems that are understaffed, under-resourced, and trying to keep up with rules that keep changing.
+
+We work in this space every day. The gap between what's required and what's actually possible is real — and it's worth talking about.`,
+  },
+  {
+    date:'April 25',
+    days:'23 days out',
+    label:'Insight',
+    color:'#0891B2',
+    bg:'#ECFEFF',
+    body:`The water systems getting ahead of compliance challenges have one thing in common:
+
+They don't wait for a violation to start asking the right questions.
+
+The systems that struggle? They're not bad operators. They're just reactive — and the regulatory environment doesn't reward reactive.
+
+There's a conversation worth having about what proactive actually looks like for a municipal water system. We're planning to have it.`,
+  },
+  {
+    date:'April 28',
+    days:'20 days out',
+    label:'Announcement',
+    color:'#059669',
+    bg:'#ECFDF5',
+    body:`We're hosting a conversation on ${WEBINAR_DATE} that we've wanted to have for a while.
+
+No slides. No vendor pitches. No consultants telling you what to do.
+
+Just a panel of people who have actually worked inside water utilities — talking honestly about what's happening, what's hard, and what's working.
+
+If you're in the utility space, this one's for you.
+
+📅 ${WEBINAR_DATE} | Details + registration: ${REG_PLACEHOLDER}`,
+  },
+  {
+    date:'May 4',
+    days:'14 days out',
+    label:'Panel Credibility',
+    color:'#D97706',
+    bg:'#FFFBEB',
+    body:`The people joining us on ${WEBINAR_DATE} have managed compliance programs, dealt with enforcement actions, and built systems that actually work at the ground level.
+
+They're not here to sell you anything. They're here because this conversation matters and it's not happening enough in public.
+
+Two weeks out. Spots are limited to keep it tight.
+
+Register: ${REG_PLACEHOLDER}`,
+  },
+  {
+    date:'May 11',
+    days:'7 days out',
+    label:'One Week Out',
+    color:'#7C3AED',
+    bg:'#F5F3FF',
+    body:`One week from today.
+
+We're going to talk about what EPA violation data actually tells us about where utilities are struggling right now — and then let the panel take it from there.
+
+If you work in, manage, or support public water systems, come hear what insiders are seeing.
+
+${WEBINAR_DATE} | Free | Limited seats
+Register: ${REG_PLACEHOLDER}`,
+  },
+  {
+    date:'May 17',
+    days:'1 day out',
+    label:'Final Push',
+    color:'#DC2626',
+    bg:'#FEF2F2',
+    body:`Tomorrow.
+
+If you haven't registered yet and you work in the water utility space — this is the one.
+
+Candid panel. Real data. No pitch.
+
+${REG_PLACEHOLDER}`,
+  },
+]
+
+const OUTREACH_SUBJECT=`Thought you'd want to be in this room`
+const OUTREACH_BODY=`Hi [First Name],
+
+We've been doing a deep dive on compliance trends across water systems in [State] and [System Name] came up in our data — [brief observation, e.g. "your system has had active violations in the DBP category recently" or "you've been navigating a busy stretch on the regulatory side"].
+
+We're hosting a small, invite-only conversation on ${WEBINAR_DATE} — a panel of utility insiders talking honestly about what's actually happening in compliance right now. No pitch, no consultants, no fluff. Just people who've been in it.
+
+Given what we're seeing in your market, I thought you'd want to be in the room.
+
+Here's the link if you want to grab a spot: ${REG_PLACEHOLDER}
+
+Either way — happy to connect.
+
+[Your Name]
+Raybern Consulting`
+
+const TEAM_SHARE=[
+  `"This is the kind of conversation I wanted access to years ago."`,
+  `"We're keeping it small and keeping it real. Come if this is your world."`,
+  `"No pitch. Just people who know the space being honest about what's going on."`,
+]
+
+function CopyBtn({text,id,cp,copied}:{text:string,id:string,cp:any,copied:string|null}) {
+  return (
+    <button
+      onClick={()=>cp(text,id)}
+      className='flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border transition-all'
+      style={copied===id
+        ?{background:'#ECFDF5',color:'#065F46',borderColor:'#A7F3D0'}
+        :{background:'white',color:'#374151',borderColor:'#D1D5DB'}}>
+      {copied===id?'✓ Copied':'Copy'}
+    </button>
+  )
+}
+
+function ContentTab({cp,copied,regLink}:{cp:any,copied:string|null,regLink:string}) {
+  const [openSection,setOpenSection]=useState<string|null>('posts')
+  const resolve=(s:string)=>regLink?s.replace(new RegExp('[registration link]'.split('').map(c=>'[]'.includes(c)?'\\'+c:c).join(''), 'g'),regLink):s
+
+  const Section=({id,title,sub,children}:{id:string,title:string,sub:string,children:React.ReactNode})=>(
+    <div className='rounded-xl border mb-4 overflow-hidden' style={{borderColor:'var(--border)'}}>
+      <button
+        className='w-full flex items-center justify-between px-5 py-4 text-left'
+        style={{background:'var(--card)'}}
+        onClick={()=>setOpenSection(openSection===id?null:id)}>
+        <div>
+          <div className='font-semibold' style={{color:'var(--navy)'}}>{title}</div>
+          <div className='text-xs mt-0.5' style={{color:'var(--text-muted)'}}>{sub}</div>
+        </div>
+        <span className='text-lg' style={{color:'var(--text-muted)'}}>{openSection===id?'▲':'▼'}</span>
+      </button>
+      {openSection===id&&<div className='border-t px-5 py-4' style={{borderColor:'var(--border)'}}>{children}</div>}
+    </div>
+  )
+
+  return (
+    <div>
+      {!regLink&&(
+        <div className='mb-5 px-4 py-3 rounded-lg border text-sm' style={{background:'#FFFBEB',borderColor:'#FDE68A',color:'#92400E'}}>
+          💡 Add your registration link in Panel Builder → "Registration link" to auto-fill it across all posts and messages below.
+        </div>
+      )}
+
+      <Section id='agenda' title='🗓 Webinar Run-of-Show' sub={`60 minutes · ${WEBINAR_DATE}`}>
+        <div className='space-y-3'>
+          {RUNOFSHOW.map((s,i)=>(
+            <div key={i} className='rounded-lg border p-4' style={{borderColor:'var(--border)',background:'#F9FAFB'}}>
+              <div className='flex items-start justify-between gap-3 mb-2 flex-wrap'>
+                <div className='flex items-center gap-3'>
+                  <span className='text-xs font-bold px-2.5 py-1 rounded-full' style={{background:'var(--navy)',color:'white'}}>{s.time}</span>
+                  <span className='font-semibold text-sm' style={{color:'var(--navy)'}}>{s.title}</span>
+                </div>
+                <CopyBtn text={s.time+' — '+s.title+'\n'+s.desc} id={'ros-'+i} cp={cp} copied={copied} />
+              </div>
+              <p className='text-sm whitespace-pre-line' style={{color:'var(--text-dark)'}}>{s.desc}</p>
+            </div>
+          ))}
+          <div className='flex justify-end mt-2'>
+            <CopyBtn
+              text={RUNOFSHOW.map(s=>s.time+' — '+s.title+'\n'+s.desc).join('\n\n')}
+              id='ros-all' cp={cp} copied={copied}
+            />
+          </div>
+        </div>
+      </Section>
+
+      <Section id='posts' title='💼 LinkedIn Posts — Publishing Schedule' sub='6 posts · April 21 → May 17'>
+        <div className='space-y-4'>
+          {LI_POSTS.map((p,i)=>(
+            <div key={i} className='rounded-xl border overflow-hidden' style={{borderColor:'var(--border)'}}>
+              <div className='flex items-center justify-between px-4 py-3 flex-wrap gap-2'
+                style={{background:p.bg,borderBottom:'1px solid var(--border)'}}>
+                <div className='flex items-center gap-3'>
+                  <span className='text-xs font-bold px-2.5 py-1 rounded-full' style={{background:p.color,color:'white'}}>{p.label}</span>
+                  <span className='font-semibold text-sm' style={{color:'var(--navy)'}}>{p.date}</span>
+                  <span className='text-xs' style={{color:'var(--text-muted)'}}>{p.days}</span>
+                </div>
+                <CopyBtn text={resolve(p.body)} id={'post-'+i} cp={cp} copied={copied} />
+              </div>
+              <div className='px-4 py-4'>
+                <pre className='text-sm whitespace-pre-wrap font-sans' style={{color:'var(--text-dark)'}}>{resolve(p.body)}</pre>
+              </div>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      <Section id='outreach' title='✉️ Direct Outreach Message' sub='1:1 personalized — use with Invite Strategy tab'>
+        <div className='mb-3 flex items-center justify-between flex-wrap gap-3'>
+          <div className='text-sm' style={{color:'var(--text-muted)'}}>Replace the bracketed fields before sending. Each message should reference something specific from the lead profile.</div>
+          <CopyBtn text={'Subject: '+OUTREACH_SUBJECT+'\n\n'+resolve(OUTREACH_BODY)} id='outreach' cp={cp} copied={copied} />
+        </div>
+        <div className='rounded-lg border p-4' style={{borderColor:'var(--border)',background:'#F9FAFB'}}>
+          <div className='text-xs font-bold mb-3 uppercase tracking-wide' style={{color:'var(--text-muted)'}}>Subject: {OUTREACH_SUBJECT}</div>
+          <pre className='text-sm whitespace-pre-wrap font-sans' style={{color:'var(--text-dark)'}}>{resolve(OUTREACH_BODY)}</pre>
+        </div>
+        <div className='mt-3 p-3 rounded-lg border text-xs' style={{background:'#EFF6FF',borderColor:'#BFDBFE',color:'#1E40AF'}}>
+          <strong>Personalization tips:</strong> [State] = lead state · [System Name] = utility name from Invite Strategy tab · [brief observation] = reference their open violations or compliance category from the lead profile — but only what you can confirm. Don't assume vendor or system specifics unless verified.
+        </div>
+      </Section>
+
+      <Section id='team' title='🔁 Team Share Copy' sub='3 variants — for when team members share the company posts'>
+        <div className='space-y-3'>
+          {TEAM_SHARE.map((line,i)=>(
+            <div key={i} className='flex items-center justify-between gap-4 rounded-lg border px-4 py-3' style={{borderColor:'var(--border)',background:'#F9FAFB'}}>
+              <p className='text-sm italic' style={{color:'var(--text-dark)'}}>{line}</p>
+              <CopyBtn text={line} id={'team-'+i} cp={cp} copied={copied} />
+            </div>
+          ))}
+        </div>
+      </Section>
     </div>
   )
 }
