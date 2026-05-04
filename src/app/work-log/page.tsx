@@ -106,7 +106,7 @@ export default function WorkLogPage() {
         <div className='mb-7'>
           <h1 className='text-xl font-bold mb-1' style={{ color: 'var(--navy)' }}>Work Log</h1>
           <p className='text-sm' style={{ color: 'var(--text-muted)' }}>
-            Documented work sessions across all Raybern growth initiatives — {ENTRIES.length} entries across {[...new Set(ENTRIES.map(e => e.work_date))].length} days.
+            Work I've done across research, strategy, design, content, and platform build — {ENTRIES.length} entries across {[...new Set(ENTRIES.map(e => e.work_date))].length} days.
           </p>
         </div>
 
