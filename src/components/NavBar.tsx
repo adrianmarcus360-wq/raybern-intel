@@ -7,6 +7,7 @@ const NAV = [
   { href: '/webinars',   label: '🎙 Webinars',       sub: 'Events & Pipeline' },
   { href: '/newsletter', label: '📬 Newsletter',     sub: 'Compliance Digest' },
   { href: '/work-log',   label: '📋 Work Log',       sub: 'Documented Sessions' },
+  { href: '/checklist',  label: '✅ Checklist',      sub: 'Initiative Tracker' },
   { href: '/sources',    label: '📚 Sources',        sub: 'Data & Methodology' },
 ]
 
